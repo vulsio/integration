@@ -15,8 +15,12 @@
   SQLite3Path = "/data/vulsctl/docker/go-exploitdb.sqlite3"
 
 [metasploit]
-  type = "sqlite3"
+  Type = "sqlite3"
   SQLite3Path = "/data/vulsctl/docker/go-msfdb.sqlite3"
+
+[kevuln]
+  Type = "sqlite3"
+  SQLite3Path = "/data/vulsctl/docker/go-kev.sqlite3"
 
 [default]
 

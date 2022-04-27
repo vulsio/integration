@@ -1,6 +1,6 @@
 [cveDict]
-Type = "redis"
-Url = "redis://127.0.0.1/3"
+  Type = "redis"
+  Url = "redis://127.0.0.1/3"
 
 [ovalDict]
   Type = "redis"
@@ -17,6 +17,10 @@ Url = "redis://127.0.0.1/3"
 [metasploit]
   Type = "redis"
   Url = "redis://127.0.0.1/5"
+
+[kevuln]
+  Type = "redis"
+  Url = "redis://127.0.0.1/6"
 
 [default]
 
