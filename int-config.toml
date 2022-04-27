@@ -80,6 +80,10 @@ lockfiles = ["./integration/data/lockfile/Cargo.lock"]
 
 [servers.gomod]
 type = "pseudo"
+lockfiles = ["./integration/data/lockfile/go.mod"]
+
+[servers.gosum]
+type = "pseudo"
 lockfiles = ["./integration/data/lockfile/go.sum"]
 
 [servers.gobinary]
