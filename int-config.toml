@@ -22,6 +22,10 @@
   Type = "sqlite3"
   SQLite3Path = "/data/vulsctl/docker/go-kev.sqlite3"
 
+[cti]
+  Type = "sqlite3"
+  SQLite3Path = "/data/vulsctl/docker/go-cti.sqlite3"
+
 [default]
 
 [servers]
@@ -78,6 +82,10 @@ lockfiles = ["./integration/data/lockfile/package-lock.json"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/yarn.lock"]
 
+[servers.pnpm]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pnpm-lock.yaml"]
+
 [servers.cargo]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/Cargo.lock"]
@@ -109,4 +117,8 @@ lockfiles = ["./integration/data/lockfile/packages.lock.json"]
 [servers.nuget-config]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/packages.config"]
+
+[servers.dotnet-deps]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
 

@@ -22,6 +22,10 @@
   Type = "redis"
   Url = "redis://127.0.0.1/6"
 
+[cti]
+  Type = "redis"
+  Url = "redis://127.0.0.1/7"
+
 [default]
 
 [servers]
@@ -79,6 +83,10 @@ lockfiles = ["./integration/data/lockfile/package-lock.json"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/yarn.lock"]
 
+[servers.pnpm]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pnpm-lock.yaml"]
+
 [servers.cargo]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/Cargo.lock"]
@@ -111,3 +119,6 @@ lockfiles = ["./integration/data/lockfile/packages.lock.json"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/packages.config"]
 
+[servers.dotnet-deps]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
