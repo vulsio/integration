@@ -111,6 +111,10 @@ lockfiles = ["./integration/data/lockfile/test.jar"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/pom.xml"]
 
+[servers.gradle]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/gradle.lockfile"]
+
 [servers.nuget-lock]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/packages.lock.json"]
