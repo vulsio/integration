@@ -126,3 +126,6 @@ lockfiles = ["./integration/data/lockfile/packages.config"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
 
+[servers.conan]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/conan.lock"]
