@@ -126,3 +126,7 @@ lockfiles = ["./integration/data/lockfile/packages.config"]
 [servers.dotnet-deps]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
+
+[servers.conan]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/conan.lock"]
