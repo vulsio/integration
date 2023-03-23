@@ -1,0 +1,713 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "localhost",
+    "family": "windows",
+    "release": "Windows 10 Version 21H2 for x64-based Systems",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "scannedAt": "2023-03-23T17:21:50.8458783+09:00",
+    "scanMode": "fast mode",
+    "scannedVersion": "v0.23.0",
+    "scannedRevision": "build-20230323_171329_2f72b5d9",
+    "scannedBy": "NOTE",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.145.8.50",
+        "192.168.56.1",
+        "192.168.0.205"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support will be end in 3 months. EOL date: 2023-06-13"
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "10.0.19044.2364",
+        "rebootRequired": false
+    },
+    "packages": {
+        "7-Zip 19.00 (x64 edition)": {
+            "name": "7-Zip 19.00 (x64 edition)",
+            "version": "19.0.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Cisco AnyConnect Secure Mobility Client": {
+            "name": "Cisco AnyConnect Secure Mobility Client",
+            "version": "4.10.06079",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "DB Browser for SQLite": {
+            "name": "DB Browser for SQLite",
+            "version": "3.12.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "DefaultPackMSI": {
+            "name": "DefaultPackMSI",
+            "version": "4.6.2.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Dynamic Application Loader Host Interface Service": {
+            "name": "Dynamic Application Loader Host Interface Service",
+            "version": "1.0.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "ESET Endpoint Security": {
+            "name": "ESET Endpoint Security",
+            "version": "7.3.2044.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "ESET Management Agent": {
+            "name": "ESET Management Agent",
+            "version": "9.1.1298.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Git": {
+            "name": "Git",
+            "version": "2.35.1.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Go Programming Language amd64 go1.18.3": {
+            "name": "Go Programming Language amd64 go1.18.3",
+            "version": "1.18.3",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Google Chrome": {
+            "name": "Google Chrome",
+            "version": "111.0.5563.65",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Google Update Helper": {
+            "name": "Google Update Helper",
+            "version": "1.3.36.51",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Google 日本語入力": {
+            "name": "Google 日本語入力",
+            "version": "2.28.4650.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "HP PC Hardware Diagnostics UEFI": {
+            "name": "HP PC Hardware Diagnostics UEFI",
+            "version": "8.3.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "HP Performance Advisor": {
+            "name": "HP Performance Advisor",
+            "version": "2.1.5423",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "HP System Default Settings": {
+            "name": "HP System Default Settings",
+            "version": "1.4.14.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "ISS_Drivers_x64": {
+            "name": "ISS_Drivers_x64",
+            "version": "3.10.100.4132",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) Chipset Device Software": {
+            "name": "Intel(R) Chipset Device Software",
+            "version": "10.1.18508.8239",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) Dynamic Tuning": {
+            "name": "Intel(R) Dynamic Tuning",
+            "version": "8.7.10200.12510",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) Icls": {
+            "name": "Intel(R) Icls",
+            "version": "1.0.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) LMS": {
+            "name": "Intel(R) LMS",
+            "version": "1.0.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) Management Engine Components": {
+            "name": "Intel(R) Management Engine Components",
+            "version": "2033.15.0.1769",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Intel(R) Management Engine Driver": {
+            "name": "Intel(R) Management Engine Driver",
+            "version": "1.0.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "IntelR Integrated Sensor Solution": {
+            "name": "IntelR Integrated Sensor Solution",
+            "version": "3.10.100.4132",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "LanScope Cat MR": {
+            "name": "LanScope Cat MR",
+            "version": "",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft .NET Core Host - 3.1.18 (x64)": {
+            "name": "Microsoft .NET Core Host - 3.1.18 (x64)",
+            "version": "24.72.30314",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft .NET Core Host FX Resolver - 3.1.18 (x64)": {
+            "name": "Microsoft .NET Core Host FX Resolver - 3.1.18 (x64)",
+            "version": "24.72.30314",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft .NET Core Runtime - 3.1.18 (x64)": {
+            "name": "Microsoft .NET Core Runtime - 3.1.18 (x64)",
+            "version": "3.1.18.30314",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft 365 Apps for enterprise - ja-jp": {
+            "name": "Microsoft 365 Apps for enterprise - ja-jp",
+            "version": "16.0.15601.20538",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Edge": {
+            "name": "Microsoft Edge",
+            "version": "111.0.1661.41",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Edge Update": {
+            "name": "Microsoft Edge Update",
+            "version": "1.3.173.49",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Edge WebView2 Runtime": {
+            "name": "Microsoft Edge WebView2 Runtime",
+            "version": "110.0.1587.69",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft OneDrive": {
+            "name": "Microsoft OneDrive",
+            "version": "23.038.0219.0001",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Search in Bing": {
+            "name": "Microsoft Search in Bing",
+            "version": "2.0.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Teams": {
+            "name": "Microsoft Teams",
+            "version": "1.3.00.26064",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visio - ja-jp": {
+            "name": "Microsoft Visio - ja-jp",
+            "version": "16.0.15601.20538",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visual C++ 2005 Redistributable": {
+            "name": "Microsoft Visual C++ 2005 Redistributable",
+            "version": "8.0.56336",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visual C++ 2015-2022 Redistributable (x64) -": {
+            "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) -",
+            "version": "14.34.31931.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.3": {
+            "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.3",
+            "version": "14.34.31931",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.34.3": {
+            "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.34.3",
+            "version": "14.34.31931",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Microsoft Visual Studio Code Insiders (User)": {
+            "name": "Microsoft Visual Studio Code Insiders (User)",
+            "version": "1.76.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Mozilla Firefox (x64 ja)": {
+            "name": "Mozilla Firefox (x64 ja)",
+            "version": "110.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Mozilla Maintenance Service": {
+            "name": "Mozilla Maintenance Service",
+            "version": "93.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Office 16 Click-to-Run Extensibility Component": {
+            "name": "Office 16 Click-to-Run Extensibility Component",
+            "version": "16.0.15601.20378",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Office 16 Click-to-Run Extensibility Component 64-bit R": {
+            "name": "Office 16 Click-to-Run Extensibility Component 64-bit R",
+            "version": "16.0.15601.20378",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Office 16 Click-to-Run Licensing Component": {
+            "name": "Office 16 Click-to-Run Licensing Component",
+            "version": "16.0.15601.20538",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Office 16 Click-to-Run Localization Component": {
+            "name": "Office 16 Click-to-Run Localization Component",
+            "version": "16.0.15601.20378",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "OpenSSH": {
+            "name": "OpenSSH",
+            "version": "9.1.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Oracle Database 11g Express Edition": {
+            "name": "Oracle Database 11g Express Edition",
+            "version": "11.2.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Oracle VM VirtualBox 7.0.4": {
+            "name": "Oracle VM VirtualBox 7.0.4",
+            "version": "7.0.4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "PW4B Option Service 01": {
+            "name": "PW4B Option Service 01",
+            "version": "1.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "PerfectWatch for BitLocker Client": {
+            "name": "PerfectWatch for BitLocker Client",
+            "version": "1.0.3011",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Realtek USB Audio": {
+            "name": "Realtek USB Audio",
+            "version": "6.3.9600.250",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Slack": {
+            "name": "Slack",
+            "version": "4.29.149",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Teams Machine-Wide Installer": {
+            "name": "Teams Machine-Wide Installer",
+            "version": "1.3.0.26064",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "Zoom": {
+            "name": "Zoom",
+            "version": "5.10.4 (5035)",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "5011487",
+            "5020872",
+            "5014671",
+            "5005699",
+            "5010793",
+            "5010342",
+            "5020372",
+            "5007253",
+            "5014023",
+            "5017380",
+            "5011543",
+            "5012599",
+            "5014699",
+            "5015807",
+            "5016616",
+            "5020030",
+            "5003791",
+            "5017500",
+            "5008212",
+            "5014666",
+            "5020953",
+            "5022728",
+            "5010415",
+            "5020435",
+            "5007401",
+            "5014032",
+            "5014035",
+            "5015895",
+            "5016705",
+            "5019959",
+            "5021233",
+            "5015878",
+            "4562830",
+            "5011651",
+            "5009596",
+            "5013942",
+            "5015020",
+            "5012170",
+            "5011831",
+            "5016139",
+            "5016688",
+            "5017308",
+            "5022834",
+            "5021088",
+            "5009543",
+            "5018410",
+            "5018482"
+        ],
+        "unapplied": [
+            "5022282",
+            "5019275",
+            "5022906",
+            "5023696",
+            "5022834"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\user\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\Users\\user\\vuls\\results",
+            "default": {},
+            "servers": {
+                "localhost": {
+                    "serverName": "localhost",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {
+                        "cabPath": "C:\\Users\\user\\Vuls\\wsusscn2.cab"
+                    }
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\cve.sqlite3",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "ovalDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\oval.sqlite3",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\gost.sqlite3",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\go-exploitdb.sqlite3",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\go-msfdb.sqlite3",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\go-kev.sqlite3",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\user\\Vuls\\DB\\go-cti.sqlite3",
+                "DebugSQL": false
+            }
+        },
+        "report": {
+            "logJSON": false,
+            "default": {},
+            "cveDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            }
+        }
+    }
+}
