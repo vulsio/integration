@@ -2,9 +2,9 @@
     "jsonVersion": 4,
     "lang": "",
     "serverUUID": "",
-    "serverName": "debian_10",
+    "serverName": "debian_11",
     "family": "debian",
-    "release": "10",
+    "release": "11",
     "container": {
         "containerID": "",
         "name": "",
@@ -19,7 +19,7 @@
     "ipv4Addrs": [
         "192.168.0.175"
     ],
-    "scannedAt": "2023-04-20T13:07:25.007901241+09:00",
+    "scannedAt": "2023-04-20T12:16:16.885460682+09:00",
     "scanMode": "fast mode",
     "scannedVersion": "v0.23.0",
     "scannedRevision": "build-20230420_120936_fb904f0",
@@ -45,8 +45,8 @@
     "warnings": [],
     "scannedCves": {},
     "runningKernel": {
-        "release": "4.19.0-21-amd64",
-        "version": "4.19.249-2",
+        "release": "5.10.0-8-amd64",
+        "version": "5.10.46-4",
         "rebootRequired": false
     },
     "packages": {
@@ -61,7 +61,7 @@
         },
         "apparmor": {
             "name": "apparmor",
-            "version": "2.13.2-10",
+            "version": "2.13.6-10",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -70,7 +70,7 @@
         },
         "apt": {
             "name": "apt",
-            "version": "1.8.2.3",
+            "version": "2.2.4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -79,7 +79,7 @@
         },
         "apt-listchanges": {
             "name": "apt-listchanges",
-            "version": "3.19",
+            "version": "3.24",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -88,7 +88,43 @@
         },
         "apt-utils": {
             "name": "apt-utils",
-            "version": "1.8.2.3",
+            "version": "2.2.4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "autoconf": {
+            "name": "autoconf",
+            "version": "2.69-14",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "automake": {
+            "name": "automake",
+            "version": "1:1.16.3-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "autopoint": {
+            "name": "autopoint",
+            "version": "0.21-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "autotools-dev": {
+            "name": "autotools-dev",
+            "version": "20180224.1+nmu1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -97,7 +133,7 @@
         },
         "base-files": {
             "name": "base-files",
-            "version": "10.3+deb10u13",
+            "version": "11.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -106,7 +142,7 @@
         },
         "base-passwd": {
             "name": "base-passwd",
-            "version": "3.5.46",
+            "version": "3.5.51",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -115,7 +151,7 @@
         },
         "bash": {
             "name": "bash",
-            "version": "5.0-4",
+            "version": "5.1-2+b3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -124,7 +160,7 @@
         },
         "bash-completion": {
             "name": "bash-completion",
-            "version": "1:2.8-6",
+            "version": "1:2.11-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -133,7 +169,7 @@
         },
         "bind9-dnsutils": {
             "name": "bind9-dnsutils",
-            "version": "1:9.16.27-1~deb11u1~bpo10+1",
+            "version": "1:9.16.15-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -142,7 +178,7 @@
         },
         "bind9-host": {
             "name": "bind9-host",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+            "version": "1:9.16.15-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -151,7 +187,34 @@
         },
         "bind9-libs": {
             "name": "bind9-libs",
-            "version": "1:9.16.27-1~deb11u1~bpo10+1",
+            "version": "1:9.16.15-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "binutils": {
+            "name": "binutils",
+            "version": "2.35.2-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "binutils-common": {
+            "name": "binutils-common",
+            "version": "2.35.2-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "binutils-x86-64-linux-gnu": {
+            "name": "binutils-x86-64-linux-gnu",
+            "version": "2.35.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -160,16 +223,16 @@
         },
         "bsd-mailx": {
             "name": "bsd-mailx",
-            "version": "8.1.2-0.20180807cvs-1",
+            "version": "8.1.2-0.20180807cvs-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "bsdmainutils": {
-            "name": "bsdmainutils",
-            "version": "11.1.2+b1",
+        "bsdextrautils": {
+            "name": "bsdextrautils",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -178,7 +241,16 @@
         },
         "bsdutils": {
             "name": "bsdutils",
-            "version": "1:2.33.1-0.1",
+            "version": "1:2.36.1-8",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "build-essential": {
+            "name": "build-essential",
+            "version": "12.9",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -187,7 +259,7 @@
         },
         "bzip2": {
             "name": "bzip2",
-            "version": "1.0.6-9.2~deb10u1",
+            "version": "1.0.8-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -196,7 +268,7 @@
         },
         "ca-certificates": {
             "name": "ca-certificates",
-            "version": "20200601~deb10u2",
+            "version": "20210119",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -205,7 +277,7 @@
         },
         "chrony": {
             "name": "chrony",
-            "version": "3.4-4+deb10u2",
+            "version": "4.0-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -214,7 +286,7 @@
         },
         "cloud-guest-utils": {
             "name": "cloud-guest-utils",
-            "version": "0.29-1",
+            "version": "0.31-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -223,7 +295,7 @@
         },
         "cloud-image-utils": {
             "name": "cloud-image-utils",
-            "version": "0.29-1",
+            "version": "0.31-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -232,7 +304,7 @@
         },
         "cloud-initramfs-growroot": {
             "name": "cloud-initramfs-growroot",
-            "version": "0.18.debian7",
+            "version": "0.18.debian8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -241,7 +313,7 @@
         },
         "cloud-utils": {
             "name": "cloud-utils",
-            "version": "0.29-1",
+            "version": "0.31-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -250,7 +322,7 @@
         },
         "coreutils": {
             "name": "coreutils",
-            "version": "8.30-3",
+            "version": "8.32-4+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -259,7 +331,25 @@
         },
         "cpio": {
             "name": "cpio",
-            "version": "2.12+dfsg-9",
+            "version": "2.13+dfsg-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "cpp": {
+            "name": "cpp",
+            "version": "4:10.2.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "cpp-10": {
+            "name": "cpp-10",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -268,7 +358,7 @@
         },
         "cron": {
             "name": "cron",
-            "version": "3.0pl1-134+deb10u1",
+            "version": "3.0pl1-137",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -277,7 +367,7 @@
         },
         "curl": {
             "name": "curl",
-            "version": "7.64.0-4+deb10u3",
+            "version": "7.74.0-1.3+deb11u7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -286,7 +376,7 @@
         },
         "dash": {
             "name": "dash",
-            "version": "0.5.10.2-5",
+            "version": "0.5.11+git20200708+dd9ef66-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -295,7 +385,7 @@
         },
         "dbus": {
             "name": "dbus",
-            "version": "1.12.20-0+deb10u1",
+            "version": "1.12.20-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -304,7 +394,7 @@
         },
         "dctrl-tools": {
             "name": "dctrl-tools",
-            "version": "2.24-3",
+            "version": "2.24-3+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -313,7 +403,7 @@
         },
         "debconf": {
             "name": "debconf",
-            "version": "1.5.71+deb10u1",
+            "version": "1.5.77",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -322,7 +412,16 @@
         },
         "debconf-i18n": {
             "name": "debconf-i18n",
-            "version": "1.5.71+deb10u1",
+            "version": "1.5.77",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "debhelper": {
+            "name": "debhelper",
+            "version": "13.3.4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -331,7 +430,7 @@
         },
         "debian-archive-keyring": {
             "name": "debian-archive-keyring",
-            "version": "2019.1+deb10u1",
+            "version": "2021.1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -340,7 +439,7 @@
         },
         "debian-faq": {
             "name": "debian-faq",
-            "version": "9.0",
+            "version": "10.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -349,7 +448,7 @@
         },
         "debian-goodies": {
             "name": "debian-goodies",
-            "version": "0.84",
+            "version": "0.87",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -358,7 +457,25 @@
         },
         "debianutils": {
             "name": "debianutils",
-            "version": "4.8.6.1",
+            "version": "4.11.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "dh-autoreconf": {
+            "name": "dh-autoreconf",
+            "version": "20",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "dh-strip-nondeterminism": {
+            "name": "dh-strip-nondeterminism",
+            "version": "1.12.0-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -367,7 +484,7 @@
         },
         "diffutils": {
             "name": "diffutils",
-            "version": "1:3.7-3",
+            "version": "1:3.7-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -376,7 +493,7 @@
         },
         "dirmngr": {
             "name": "dirmngr",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -385,7 +502,7 @@
         },
         "distro-info-data": {
             "name": "distro-info-data",
-            "version": "0.41+deb10u5",
+            "version": "0.51",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -394,7 +511,7 @@
         },
         "dmidecode": {
             "name": "dmidecode",
-            "version": "3.2-1",
+            "version": "3.3-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -403,7 +520,7 @@
         },
         "dmsetup": {
             "name": "dmsetup",
-            "version": "2:1.02.155-3",
+            "version": "2:1.02.175-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -412,7 +529,7 @@
         },
         "doc-debian": {
             "name": "doc-debian",
-            "version": "6.4",
+            "version": "6.5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -421,7 +538,25 @@
         },
         "dpkg": {
             "name": "dpkg",
-            "version": "1.19.8",
+            "version": "1.20.9",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "dpkg-dev": {
+            "name": "dpkg-dev",
+            "version": "1.20.12",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "dwz": {
+            "name": "dwz",
+            "version": "0.13+20210201-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -430,7 +565,7 @@
         },
         "e2fsprogs": {
             "name": "e2fsprogs",
-            "version": "1.44.5-1+deb10u3",
+            "version": "1.46.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -439,16 +574,16 @@
         },
         "elfutils": {
             "name": "elfutils",
-            "version": "0.176-1.1",
+            "version": "0.183-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "ethtool": {
-            "name": "ethtool",
-            "version": "1:4.19-1",
+        "equivs": {
+            "name": "equivs",
+            "version": "2.3.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -457,7 +592,7 @@
         },
         "exim4-base": {
             "name": "exim4-base",
-            "version": "4.92-8+deb10u7",
+            "version": "4.94.2-7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -466,7 +601,7 @@
         },
         "exim4-config": {
             "name": "exim4-config",
-            "version": "4.92-8+deb10u7",
+            "version": "4.94.2-7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -475,7 +610,16 @@
         },
         "exim4-daemon-light": {
             "name": "exim4-daemon-light",
-            "version": "4.92-8+deb10u7",
+            "version": "4.94.2-7",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "fakeroot": {
+            "name": "fakeroot",
+            "version": "1.25.3-1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -484,7 +628,7 @@
         },
         "fdisk": {
             "name": "fdisk",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -493,7 +637,7 @@
         },
         "file": {
             "name": "file",
-            "version": "1:5.35-4+deb10u2",
+            "version": "1:5.39-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -502,25 +646,79 @@
         },
         "findutils": {
             "name": "findutils",
-            "version": "4.6.0+git+20190209-2",
+            "version": "4.8.0-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "gcc-8-base": {
-            "name": "gcc-8-base",
-            "version": "8.3.0-6",
+        "fontconfig-config": {
+            "name": "fontconfig-config",
+            "version": "2.13.1-4.2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "gdbm-l10n": {
-            "name": "gdbm-l10n",
-            "version": "1.18.1-4",
+        "fonts-dejavu-core": {
+            "name": "fonts-dejavu-core",
+            "version": "2.37-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "g++": {
+            "name": "g++",
+            "version": "4:10.2.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "g++-10": {
+            "name": "g++-10",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "gcc": {
+            "name": "gcc",
+            "version": "4:10.2.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "gcc-10": {
+            "name": "gcc-10",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "gcc-10-base": {
+            "name": "gcc-10-base",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "gcc-9-base": {
+            "name": "gcc-9-base",
+            "version": "9.3.0-22",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -529,7 +727,16 @@
         },
         "genisoimage": {
             "name": "genisoimage",
-            "version": "9:1.1.11-3+b2",
+            "version": "9:1.1.11-3.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "gettext": {
+            "name": "gettext",
+            "version": "0.21-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -538,7 +745,7 @@
         },
         "gettext-base": {
             "name": "gettext-base",
-            "version": "0.19.8.1-9",
+            "version": "0.21-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -547,7 +754,7 @@
         },
         "gnupg": {
             "name": "gnupg",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -556,7 +763,7 @@
         },
         "gnupg-l10n": {
             "name": "gnupg-l10n",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -565,7 +772,7 @@
         },
         "gnupg-utils": {
             "name": "gnupg-utils",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -574,7 +781,7 @@
         },
         "gpg": {
             "name": "gpg",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -583,7 +790,7 @@
         },
         "gpg-agent": {
             "name": "gpg-agent",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -592,7 +799,7 @@
         },
         "gpg-wks-client": {
             "name": "gpg-wks-client",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -601,7 +808,7 @@
         },
         "gpg-wks-server": {
             "name": "gpg-wks-server",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -610,7 +817,7 @@
         },
         "gpgconf": {
             "name": "gpgconf",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -619,7 +826,7 @@
         },
         "gpgsm": {
             "name": "gpgsm",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -628,7 +835,7 @@
         },
         "gpgv": {
             "name": "gpgv",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -637,7 +844,7 @@
         },
         "grep": {
             "name": "grep",
-            "version": "3.3-1",
+            "version": "3.6-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -646,7 +853,7 @@
         },
         "groff-base": {
             "name": "groff-base",
-            "version": "1.22.4-3+deb10u1",
+            "version": "1.22.4-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -655,7 +862,7 @@
         },
         "grub-common": {
             "name": "grub-common",
-            "version": "2.06-3~deb10u1",
+            "version": "2.04-20",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -664,7 +871,7 @@
         },
         "grub-pc": {
             "name": "grub-pc",
-            "version": "2.06-3~deb10u1",
+            "version": "2.04-20",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -673,7 +880,7 @@
         },
         "grub-pc-bin": {
             "name": "grub-pc-bin",
-            "version": "2.06-3~deb10u1",
+            "version": "2.04-20",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -682,7 +889,7 @@
         },
         "grub2-common": {
             "name": "grub2-common",
-            "version": "2.06-3~deb10u1",
+            "version": "2.04-20",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -691,16 +898,7 @@
         },
         "gzip": {
             "name": "gzip",
-            "version": "1.9-3+deb10u1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "hdparm": {
-            "name": "hdparm",
-            "version": "9.58+ds-1",
+            "version": "1.10-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -709,7 +907,7 @@
         },
         "hostname": {
             "name": "hostname",
-            "version": "3.21",
+            "version": "3.23",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -718,7 +916,7 @@
         },
         "ifupdown": {
             "name": "ifupdown",
-            "version": "0.8.35",
+            "version": "0.8.36",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -727,7 +925,7 @@
         },
         "init": {
             "name": "init",
-            "version": "1.56+nmu1",
+            "version": "1.60",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -736,7 +934,7 @@
         },
         "init-system-helpers": {
             "name": "init-system-helpers",
-            "version": "1.56+nmu1",
+            "version": "1.60",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -745,7 +943,7 @@
         },
         "initramfs-tools": {
             "name": "initramfs-tools",
-            "version": "0.133+deb10u1",
+            "version": "0.140",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -754,7 +952,16 @@
         },
         "initramfs-tools-core": {
             "name": "initramfs-tools-core",
-            "version": "0.133+deb10u1",
+            "version": "0.140",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "intltool-debian": {
+            "name": "intltool-debian",
+            "version": "0.35.0+20060710.5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -763,7 +970,7 @@
         },
         "iproute2": {
             "name": "iproute2",
-            "version": "4.20.0-2+deb10u1",
+            "version": "5.10.0-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -772,7 +979,7 @@
         },
         "iptables": {
             "name": "iptables",
-            "version": "1.8.2-4",
+            "version": "1.8.7-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -781,7 +988,7 @@
         },
         "iputils-ping": {
             "name": "iputils-ping",
-            "version": "3:20180629-2+deb10u2",
+            "version": "3:20210202-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -790,7 +997,7 @@
         },
         "isc-dhcp-client": {
             "name": "isc-dhcp-client",
-            "version": "4.4.1-2+deb10u1",
+            "version": "4.4.1-2.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -799,7 +1006,7 @@
         },
         "isc-dhcp-common": {
             "name": "isc-dhcp-common",
-            "version": "4.4.1-2+deb10u1",
+            "version": "4.4.1-2.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -808,7 +1015,7 @@
         },
         "klibc-utils": {
             "name": "klibc-utils",
-            "version": "2.0.6-1+deb10u1",
+            "version": "2.0.8-6.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -817,7 +1024,7 @@
         },
         "kmod": {
             "name": "kmod",
-            "version": "26-1",
+            "version": "28-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -826,7 +1033,7 @@
         },
         "krb5-locales": {
             "name": "krb5-locales",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -835,7 +1042,7 @@
         },
         "less": {
             "name": "less",
-            "version": "487-0.1+b1",
+            "version": "551-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -844,7 +1051,7 @@
         },
         "libacl1": {
             "name": "libacl1",
-            "version": "2.2.53-4",
+            "version": "2.2.53-10",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -853,7 +1060,34 @@
         },
         "libaio1": {
             "name": "libaio1",
-            "version": "0.3.112-3",
+            "version": "0.3.112-9",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libalgorithm-diff-perl": {
+            "name": "libalgorithm-diff-perl",
+            "version": "1.201-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libalgorithm-diff-xs-perl": {
+            "name": "libalgorithm-diff-xs-perl",
+            "version": "0.04-6+b1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libalgorithm-merge-perl": {
+            "name": "libalgorithm-merge-perl",
+            "version": "0.08-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -862,25 +1096,34 @@
         },
         "libapparmor1": {
             "name": "libapparmor1",
-            "version": "2.13.2-10",
+            "version": "2.13.6-10",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libapt-inst2.0": {
-            "name": "libapt-inst2.0",
-            "version": "1.8.2.3",
+        "libapt-pkg6.0": {
+            "name": "libapt-pkg6.0",
+            "version": "2.2.4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libapt-pkg5.0": {
-            "name": "libapt-pkg5.0",
-            "version": "1.8.2.3",
+        "libarchive-cpio-perl": {
+            "name": "libarchive-cpio-perl",
+            "version": "0.10-1.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libarchive-zip-perl": {
+            "name": "libarchive-zip-perl",
+            "version": "1.68-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -896,9 +1139,18 @@
             "arch": "",
             "repository": ""
         },
+        "libasan6": {
+            "name": "libasan6",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
         "libasm1": {
             "name": "libasm1",
-            "version": "0.176-1.1",
+            "version": "0.183-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -907,7 +1159,16 @@
         },
         "libassuan0": {
             "name": "libassuan0",
-            "version": "2.5.2-1",
+            "version": "2.5.3-7.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libatomic1": {
+            "name": "libatomic1",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -916,7 +1177,7 @@
         },
         "libattr1": {
             "name": "libattr1",
-            "version": "1:2.4.48-4",
+            "version": "1:2.4.48-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -925,7 +1186,7 @@
         },
         "libaudit-common": {
             "name": "libaudit-common",
-            "version": "1:2.8.4-3",
+            "version": "1:3.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -934,16 +1195,16 @@
         },
         "libaudit1": {
             "name": "libaudit1",
-            "version": "1:2.8.4-3",
+            "version": "1:3.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libbind9-161": {
-            "name": "libbind9-161",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libbinutils": {
+            "name": "libbinutils",
+            "version": "2.35.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -952,7 +1213,25 @@
         },
         "libblkid1": {
             "name": "libblkid1",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libbpf0": {
+            "name": "libbpf0",
+            "version": "1:0.3-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libbrotli1": {
+            "name": "libbrotli1",
+            "version": "1.0.9-2+b2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -961,7 +1240,7 @@
         },
         "libbsd0": {
             "name": "libbsd0",
-            "version": "0.9.1-2+deb10u1",
+            "version": "0.11.3-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -970,7 +1249,7 @@
         },
         "libbz2-1.0": {
             "name": "libbz2-1.0",
-            "version": "1.0.6-9.2~deb10u1",
+            "version": "1.0.8-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -979,7 +1258,25 @@
         },
         "libc-bin": {
             "name": "libc-bin",
-            "version": "2.28-10+deb10u1",
+            "version": "2.31-13",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libc-dev-bin": {
+            "name": "libc-dev-bin",
+            "version": "2.31-13+deb11u5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libc-devtools": {
+            "name": "libc-devtools",
+            "version": "2.31-13+deb11u5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -988,7 +1285,7 @@
         },
         "libc-l10n": {
             "name": "libc-l10n",
-            "version": "2.28-10+deb10u1",
+            "version": "2.31-13",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -997,7 +1294,16 @@
         },
         "libc6": {
             "name": "libc6",
-            "version": "2.28-10+deb10u1",
+            "version": "2.31-13+deb11u5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libc6-dev": {
+            "name": "libc6-dev",
+            "version": "2.31-13+deb11u5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1006,7 +1312,7 @@
         },
         "libcap-ng0": {
             "name": "libcap-ng0",
-            "version": "0.7.9-2",
+            "version": "0.7.9-2.2+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1015,7 +1321,7 @@
         },
         "libcap2": {
             "name": "libcap2",
-            "version": "1:2.25-2",
+            "version": "1:2.44-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1024,7 +1330,25 @@
         },
         "libcap2-bin": {
             "name": "libcap2-bin",
-            "version": "1:2.25-2",
+            "version": "1:2.44-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libcbor0": {
+            "name": "libcbor0",
+            "version": "0.5.0+dfsg-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libcc1-0": {
+            "name": "libcc1-0",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1033,7 +1357,25 @@
         },
         "libcom-err2": {
             "name": "libcom-err2",
-            "version": "1.44.5-1+deb10u3",
+            "version": "1.46.2-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libcrypt-dev": {
+            "name": "libcrypt-dev",
+            "version": "1:4.4.18-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libcrypt1": {
+            "name": "libcrypt1",
+            "version": "1:4.4.18-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1042,7 +1384,25 @@
         },
         "libcryptsetup12": {
             "name": "libcryptsetup12",
-            "version": "2:2.1.0-5+deb10u2",
+            "version": "2:2.3.5-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libctf-nobfd0": {
+            "name": "libctf-nobfd0",
+            "version": "2.35.2-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libctf0": {
+            "name": "libctf0",
+            "version": "2.35.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1051,7 +1411,7 @@
         },
         "libcurl3-gnutls": {
             "name": "libcurl3-gnutls",
-            "version": "7.64.0-4+deb10u3",
+            "version": "7.74.0-1.3+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1060,7 +1420,7 @@
         },
         "libcurl4": {
             "name": "libcurl4",
-            "version": "7.64.0-4+deb10u3",
+            "version": "7.74.0-1.3+deb11u7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1069,7 +1429,7 @@
         },
         "libdb5.3": {
             "name": "libdb5.3",
-            "version": "5.3.28+dfsg1-0.5",
+            "version": "5.3.28+dfsg1-0.8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1078,7 +1438,7 @@
         },
         "libdbus-1-3": {
             "name": "libdbus-1-3",
-            "version": "1.12.20-0+deb10u1",
+            "version": "1.12.20-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1087,7 +1447,25 @@
         },
         "libdebconfclient0": {
             "name": "libdebconfclient0",
-            "version": "0.249",
+            "version": "0.260",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libdebhelper-perl": {
+            "name": "libdebhelper-perl",
+            "version": "13.3.4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libdeflate0": {
+            "name": "libdeflate0",
+            "version": "1.7-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1096,25 +1474,25 @@
         },
         "libdevmapper1.02.1": {
             "name": "libdevmapper1.02.1",
-            "version": "2:1.02.155-3",
+            "version": "2:1.02.175-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libdns-export1104": {
-            "name": "libdns-export1104",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libdns-export1110": {
+            "name": "libdns-export1110",
+            "version": "1:9.11.19+dfsg-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libdns1104": {
-            "name": "libdns1104",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libdpkg-perl": {
+            "name": "libdpkg-perl",
+            "version": "1.20.12",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1123,7 +1501,7 @@
         },
         "libdw1": {
             "name": "libdw1",
-            "version": "0.176-1.1",
+            "version": "0.183-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1132,7 +1510,7 @@
         },
         "libedit2": {
             "name": "libedit2",
-            "version": "3.1-20181209-1",
+            "version": "3.1-20191231-2+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1141,7 +1519,7 @@
         },
         "libefiboot1": {
             "name": "libefiboot1",
-            "version": "37-2+deb10u1",
+            "version": "37-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1150,7 +1528,7 @@
         },
         "libefivar1": {
             "name": "libefivar1",
-            "version": "37-2+deb10u1",
+            "version": "37-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1159,7 +1537,7 @@
         },
         "libelf1": {
             "name": "libelf1",
-            "version": "0.176-1.1",
+            "version": "0.183-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1168,16 +1546,16 @@
         },
         "libestr0": {
             "name": "libestr0",
-            "version": "0.1.10-2.1",
+            "version": "0.1.10-2.1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libevent-2.1-6": {
-            "name": "libevent-2.1-6",
-            "version": "2.1.8-stable-4",
+        "libevent-2.1-7": {
+            "name": "libevent-2.1-7",
+            "version": "2.1.12-stable-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1186,7 +1564,7 @@
         },
         "libexpat1": {
             "name": "libexpat1",
-            "version": "2.2.6-2+deb10u4",
+            "version": "2.2.10-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1195,7 +1573,16 @@
         },
         "libext2fs2": {
             "name": "libext2fs2",
-            "version": "1.44.5-1+deb10u3",
+            "version": "1.46.2-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libfakeroot": {
+            "name": "libfakeroot",
+            "version": "1.25.3-1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1204,7 +1591,7 @@
         },
         "libfastjson4": {
             "name": "libfastjson4",
-            "version": "0.99.8-2",
+            "version": "0.99.9-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1213,16 +1600,52 @@
         },
         "libfdisk1": {
             "name": "libfdisk1",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libffi6": {
-            "name": "libffi6",
-            "version": "3.2.1-9",
+        "libffi7": {
+            "name": "libffi7",
+            "version": "3.3-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libfido2-1": {
+            "name": "libfido2-1",
+            "version": "1.6.0-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libfile-fcntllock-perl": {
+            "name": "libfile-fcntllock-perl",
+            "version": "0.22-3+b7",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libfile-slurper-perl": {
+            "name": "libfile-slurper-perl",
+            "version": "0.012-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libfile-stripnondeterminism-perl": {
+            "name": "libfile-stripnondeterminism-perl",
+            "version": "1.12.0-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1238,9 +1661,18 @@
             "arch": "",
             "repository": ""
         },
+        "libfontconfig1": {
+            "name": "libfontconfig1",
+            "version": "2.13.1-4.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
         "libfreetype6": {
             "name": "libfreetype6",
-            "version": "2.9.1-3+deb10u3",
+            "version": "2.10.4+dfsg-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1249,7 +1681,7 @@
         },
         "libfstrm0": {
             "name": "libfstrm0",
-            "version": "0.4.0-1",
+            "version": "0.6.0-1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1258,16 +1690,25 @@
         },
         "libfuse2": {
             "name": "libfuse2",
-            "version": "2.9.9-1+deb10u1",
+            "version": "2.9.9-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libgcc1": {
-            "name": "libgcc1",
-            "version": "1:8.3.0-6",
+        "libgcc-10-dev": {
+            "name": "libgcc-10-dev",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libgcc-s1": {
+            "name": "libgcc-s1",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1276,7 +1717,16 @@
         },
         "libgcrypt20": {
             "name": "libgcrypt20",
-            "version": "1.8.4-5+deb10u1",
+            "version": "1.8.7-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libgd3": {
+            "name": "libgd3",
+            "version": "2.3.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1285,7 +1735,7 @@
         },
         "libgdbm-compat4": {
             "name": "libgdbm-compat4",
-            "version": "1.18.1-4",
+            "version": "1.19-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1294,16 +1744,7 @@
         },
         "libgdbm6": {
             "name": "libgdbm6",
-            "version": "1.18.1-4",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libgeoip1": {
-            "name": "libgeoip1",
-            "version": "1.6.12-1",
+            "version": "1.19-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1312,7 +1753,7 @@
         },
         "libglib2.0-0": {
             "name": "libglib2.0-0",
-            "version": "2.58.3-2+deb10u3",
+            "version": "2.66.8-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1321,7 +1762,7 @@
         },
         "libgmp10": {
             "name": "libgmp10",
-            "version": "2:6.1.2+dfsg-4+deb10u1",
+            "version": "2:6.2.1+dfsg-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1330,16 +1771,7 @@
         },
         "libgnutls-dane0": {
             "name": "libgnutls-dane0",
-            "version": "3.6.7-4+deb10u10",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libgnutls-openssl27": {
-            "name": "libgnutls-openssl27",
-            "version": "3.6.7-4+deb10u10",
+            "version": "3.7.1-5+deb11u3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1348,7 +1780,16 @@
         },
         "libgnutls30": {
             "name": "libgnutls30",
-            "version": "3.6.7-4+deb10u10",
+            "version": "3.7.1-5+deb11u3",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libgomp1": {
+            "name": "libgomp1",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1357,16 +1798,7 @@
         },
         "libgpg-error0": {
             "name": "libgpg-error0",
-            "version": "1.35-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libgpm2": {
-            "name": "libgpm2",
-            "version": "1.20.7-5",
+            "version": "1.38-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1375,25 +1807,25 @@
         },
         "libgssapi-krb5-2": {
             "name": "libgssapi-krb5-2",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libhogweed4": {
-            "name": "libhogweed4",
-            "version": "3.4.1-1+deb10u1",
+        "libhogweed6": {
+            "name": "libhogweed6",
+            "version": "3.7.3-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libicu63": {
-            "name": "libicu63",
-            "version": "63.1-6+deb10u3",
+        "libicu67": {
+            "name": "libicu67",
+            "version": "67.1-7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1402,7 +1834,7 @@
         },
         "libidn11": {
             "name": "libidn11",
-            "version": "1.33-2.2",
+            "version": "1.33-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1411,25 +1843,25 @@
         },
         "libidn2-0": {
             "name": "libidn2-0",
-            "version": "2.0.5-1+deb10u1",
+            "version": "2.3.0-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libip4tc0": {
-            "name": "libip4tc0",
-            "version": "1.8.2-4",
+        "libip4tc2": {
+            "name": "libip4tc2",
+            "version": "1.8.7-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libip6tc0": {
-            "name": "libip6tc0",
-            "version": "1.8.2-4",
+        "libip6tc2": {
+            "name": "libip6tc2",
+            "version": "1.8.7-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1438,61 +1870,70 @@
         },
         "libipc-system-simple-perl": {
             "name": "libipc-system-simple-perl",
-            "version": "1.25-4",
+            "version": "1.30-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libiptc0": {
-            "name": "libiptc0",
-            "version": "1.8.2-4",
+        "libisc-export1105": {
+            "name": "libisc-export1105",
+            "version": "1:9.11.19+dfsg-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libisc-export1100": {
-            "name": "libisc-export1100",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libisl23": {
+            "name": "libisl23",
+            "version": "0.23-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libisc1100": {
-            "name": "libisc1100",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libitm1": {
+            "name": "libitm1",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libisccc161": {
-            "name": "libisccc161",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libjansson4": {
+            "name": "libjansson4",
+            "version": "2.13.1-1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libisccfg163": {
-            "name": "libisccfg163",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "libjbig0": {
+            "name": "libjbig0",
+            "version": "2.1-3.1+b2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libjson-c3": {
-            "name": "libjson-c3",
-            "version": "0.12.1+ds-2+deb10u1",
+        "libjpeg62-turbo": {
+            "name": "libjpeg62-turbo",
+            "version": "1:2.0.6-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libjson-c5": {
+            "name": "libjson-c5",
+            "version": "0.15-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1501,7 +1942,7 @@
         },
         "libk5crypto3": {
             "name": "libk5crypto3",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1510,7 +1951,7 @@
         },
         "libkeyutils1": {
             "name": "libkeyutils1",
-            "version": "1.6-6",
+            "version": "1.6.1-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1519,7 +1960,7 @@
         },
         "libklibc": {
             "name": "libklibc",
-            "version": "2.0.6-1+deb10u1",
+            "version": "2.0.8-6.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1528,7 +1969,7 @@
         },
         "libkmod2": {
             "name": "libkmod2",
-            "version": "26-1",
+            "version": "28-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1537,7 +1978,7 @@
         },
         "libkrb5-3": {
             "name": "libkrb5-3",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1546,7 +1987,7 @@
         },
         "libkrb5support0": {
             "name": "libkrb5support0",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1555,7 +1996,7 @@
         },
         "libksba8": {
             "name": "libksba8",
-            "version": "1.3.5-2+deb10u2",
+            "version": "1.5.0-3+deb11u2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1564,16 +2005,7 @@
         },
         "libldap-2.4-2": {
             "name": "libldap-2.4-2",
-            "version": "2.4.47+dfsg-3+deb10u7",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libldap-common": {
-            "name": "libldap-common",
-            "version": "2.4.47+dfsg-3+deb10u7",
+            "version": "2.4.57+dfsg-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1582,7 +2014,7 @@
         },
         "liblmdb0": {
             "name": "liblmdb0",
-            "version": "0.9.22-1",
+            "version": "0.9.24-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1591,7 +2023,7 @@
         },
         "liblocale-gettext-perl": {
             "name": "liblocale-gettext-perl",
-            "version": "1.07-3+b4",
+            "version": "1.07-4+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1600,7 +2032,7 @@
         },
         "liblockfile-bin": {
             "name": "liblockfile-bin",
-            "version": "1.14-1.1",
+            "version": "1.17-1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1609,7 +2041,7 @@
         },
         "liblockfile1": {
             "name": "liblockfile1",
-            "version": "1.14-1.1",
+            "version": "1.17-1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1618,16 +2050,34 @@
         },
         "liblognorm5": {
             "name": "liblognorm5",
-            "version": "2.0.5-1",
+            "version": "2.0.5-1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "liblwres161": {
-            "name": "liblwres161",
-            "version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+        "liblsan0": {
+            "name": "liblsan0",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libltdl-dev": {
+            "name": "libltdl-dev",
+            "version": "2.4.6-15",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libltdl7": {
+            "name": "libltdl7",
+            "version": "2.4.6-15",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1636,7 +2086,7 @@
         },
         "liblz4-1": {
             "name": "liblz4-1",
-            "version": "1.8.3-1+deb10u1",
+            "version": "1.9.3-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1645,7 +2095,7 @@
         },
         "liblzma5": {
             "name": "liblzma5",
-            "version": "5.2.4-1+deb10u1",
+            "version": "5.2.5-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1654,7 +2104,7 @@
         },
         "libmagic-mgc": {
             "name": "libmagic-mgc",
-            "version": "1:5.35-4+deb10u2",
+            "version": "1:5.39-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1663,7 +2113,16 @@
         },
         "libmagic1": {
             "name": "libmagic1",
-            "version": "1:5.35-4+deb10u2",
+            "version": "1:5.39-3",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libmail-sendmail-perl": {
+            "name": "libmail-sendmail-perl",
+            "version": "0.80-1.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1672,7 +2131,16 @@
         },
         "libmaxminddb0": {
             "name": "libmaxminddb0",
-            "version": "1.3.2-1+deb10u1",
+            "version": "1.5.2-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libmd0": {
+            "name": "libmd0",
+            "version": "1.0.3-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1681,7 +2149,7 @@
         },
         "libmnl0": {
             "name": "libmnl0",
-            "version": "1.0.4-2",
+            "version": "1.0.4-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1690,16 +2158,34 @@
         },
         "libmount1": {
             "name": "libmount1",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libmpdec2": {
-            "name": "libmpdec2",
-            "version": "2.4.2-2",
+        "libmpc3": {
+            "name": "libmpc3",
+            "version": "1.2.0-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libmpdec3": {
+            "name": "libmpdec3",
+            "version": "2.5.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libmpfr6": {
+            "name": "libmpfr6",
+            "version": "4.1.0-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1708,7 +2194,7 @@
         },
         "libncurses6": {
             "name": "libncurses6",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1717,7 +2203,7 @@
         },
         "libncursesw6": {
             "name": "libncursesw6",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1726,16 +2212,16 @@
         },
         "libnetfilter-conntrack3": {
             "name": "libnetfilter-conntrack3",
-            "version": "1.0.7-1",
+            "version": "1.0.8-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libnettle6": {
-            "name": "libnettle6",
-            "version": "3.4.1-1+deb10u1",
+        "libnettle8": {
+            "name": "libnettle8",
+            "version": "3.7.3-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1744,7 +2230,7 @@
         },
         "libnewt0.52": {
             "name": "libnewt0.52",
-            "version": "0.52.20-8",
+            "version": "0.52.21-4+b3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1760,9 +2246,18 @@
             "arch": "",
             "repository": ""
         },
+        "libnftables1": {
+            "name": "libnftables1",
+            "version": "0.9.8-3.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
         "libnftnl11": {
             "name": "libnftnl11",
-            "version": "1.1.2-2",
+            "version": "1.1.9-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1771,7 +2266,7 @@
         },
         "libnghttp2-14": {
             "name": "libnghttp2-14",
-            "version": "1.36.0-2+deb10u1",
+            "version": "1.43.0-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1780,7 +2275,25 @@
         },
         "libnpth0": {
             "name": "libnpth0",
-            "version": "1.6-1",
+            "version": "1.6-3",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libnsl-dev": {
+            "name": "libnsl-dev",
+            "version": "1.3.0-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libnsl2": {
+            "name": "libnsl2",
+            "version": "1.3.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1789,7 +2302,7 @@
         },
         "libnss-systemd": {
             "name": "libnss-systemd",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1798,7 +2311,7 @@
         },
         "libp11-kit0": {
             "name": "libp11-kit0",
-            "version": "0.23.15-2+deb10u1",
+            "version": "0.23.22-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1807,7 +2320,7 @@
         },
         "libpam-modules": {
             "name": "libpam-modules",
-            "version": "1.3.1-5",
+            "version": "1.4.0-9",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1816,7 +2329,7 @@
         },
         "libpam-modules-bin": {
             "name": "libpam-modules-bin",
-            "version": "1.3.1-5",
+            "version": "1.4.0-9",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1825,7 +2338,7 @@
         },
         "libpam-runtime": {
             "name": "libpam-runtime",
-            "version": "1.3.1-5",
+            "version": "1.4.0-9",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1834,7 +2347,7 @@
         },
         "libpam-systemd": {
             "name": "libpam-systemd",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1843,16 +2356,7 @@
         },
         "libpam0g": {
             "name": "libpam0g",
-            "version": "1.3.1-5",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libpcap0.8": {
-            "name": "libpcap0.8",
-            "version": "1.8.1-6+deb10u1",
+            "version": "1.4.0-9",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1861,7 +2365,7 @@
         },
         "libpci3": {
             "name": "libpci3",
-            "version": "1:3.5.2-1",
+            "version": "1:3.7.0-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1870,7 +2374,7 @@
         },
         "libpcre2-8-0": {
             "name": "libpcre2-8-0",
-            "version": "10.32-5",
+            "version": "10.36-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1879,16 +2383,25 @@
         },
         "libpcre3": {
             "name": "libpcre3",
-            "version": "2:8.39-12",
+            "version": "2:8.39-13",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libperl5.28": {
-            "name": "libperl5.28",
-            "version": "5.28.1-6+deb10u1",
+        "libperl5.32": {
+            "name": "libperl5.32",
+            "version": "5.32.1-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libperlio-utf8-strict-perl": {
+            "name": "libperlio-utf8-strict-perl",
+            "version": "0.008-1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1897,7 +2410,7 @@
         },
         "libpipeline1": {
             "name": "libpipeline1",
-            "version": "1.5.1-2",
+            "version": "1.5.3-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1906,7 +2419,7 @@
         },
         "libpng16-16": {
             "name": "libpng16-16",
-            "version": "1.6.36-6",
+            "version": "1.6.37-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1915,16 +2428,16 @@
         },
         "libpopt0": {
             "name": "libpopt0",
-            "version": "1.16-12",
+            "version": "1.18-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libprocps7": {
-            "name": "libprocps7",
-            "version": "2:3.3.15-2",
+        "libprocps8": {
+            "name": "libprocps8",
+            "version": "2:3.3.17-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1933,7 +2446,7 @@
         },
         "libprotobuf-c1": {
             "name": "libprotobuf-c1",
-            "version": "1.3.1-1+b1",
+            "version": "1.3.3-1+b2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1942,43 +2455,7 @@
         },
         "libpsl5": {
             "name": "libpsl5",
-            "version": "0.20.2-2",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libpython-stdlib": {
-            "name": "libpython-stdlib",
-            "version": "2.7.16-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libpython2-stdlib": {
-            "name": "libpython2-stdlib",
-            "version": "2.7.16-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libpython2.7-minimal": {
-            "name": "libpython2.7-minimal",
-            "version": "2.7.16-2+deb10u1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "libpython2.7-stdlib": {
-            "name": "libpython2.7-stdlib",
-            "version": "2.7.16-2+deb10u1",
+            "version": "0.21.0-1.2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -1987,34 +2464,43 @@
         },
         "libpython3-stdlib": {
             "name": "libpython3-stdlib",
-            "version": "3.7.3-1",
+            "version": "3.9.2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libpython3.7-minimal": {
-            "name": "libpython3.7-minimal",
-            "version": "3.7.3-2+deb10u3",
+        "libpython3.9-minimal": {
+            "name": "libpython3.9-minimal",
+            "version": "3.9.2-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libpython3.7-stdlib": {
-            "name": "libpython3.7-stdlib",
-            "version": "3.7.3-2+deb10u3",
+        "libpython3.9-stdlib": {
+            "name": "libpython3.9-stdlib",
+            "version": "3.9.2-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libreadline7": {
-            "name": "libreadline7",
-            "version": "7.0-5",
+        "libquadmath0": {
+            "name": "libquadmath0",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libreadline8": {
+            "name": "libreadline8",
+            "version": "8.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2023,7 +2509,7 @@
         },
         "librtmp1": {
             "name": "librtmp1",
-            "version": "2.4+20151223.gitfa8646d.1-2",
+            "version": "2.4+20151223.gitfa8646d.1-2+b2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2032,7 +2518,7 @@
         },
         "libsasl2-2": {
             "name": "libsasl2-2",
-            "version": "2.1.27+dfsg-1+deb10u2",
+            "version": "2.1.27+dfsg-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2041,7 +2527,7 @@
         },
         "libsasl2-modules-db": {
             "name": "libsasl2-modules-db",
-            "version": "2.1.27+dfsg-1+deb10u2",
+            "version": "2.1.27+dfsg-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2050,7 +2536,7 @@
         },
         "libseccomp2": {
             "name": "libseccomp2",
-            "version": "2.3.3-4",
+            "version": "2.5.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2059,7 +2545,7 @@
         },
         "libselinux1": {
             "name": "libselinux1",
-            "version": "2.8-1+b1",
+            "version": "3.1-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2068,7 +2554,7 @@
         },
         "libsemanage-common": {
             "name": "libsemanage-common",
-            "version": "2.8-2",
+            "version": "3.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2077,7 +2563,7 @@
         },
         "libsemanage1": {
             "name": "libsemanage1",
-            "version": "2.8-2",
+            "version": "3.1-1+b2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2086,7 +2572,16 @@
         },
         "libsepol1": {
             "name": "libsepol1",
-            "version": "2.8-1",
+            "version": "3.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libsigsegv2": {
+            "name": "libsigsegv2",
+            "version": "2.13-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2095,7 +2590,7 @@
         },
         "libslang2": {
             "name": "libslang2",
-            "version": "2.3.2-2",
+            "version": "2.3.2-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2104,7 +2599,7 @@
         },
         "libsmartcols1": {
             "name": "libsmartcols1",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2113,7 +2608,7 @@
         },
         "libsqlite3-0": {
             "name": "libsqlite3-0",
-            "version": "3.27.2-3+deb10u1",
+            "version": "3.34.1-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2122,7 +2617,7 @@
         },
         "libss2": {
             "name": "libss2",
-            "version": "1.44.5-1+deb10u3",
+            "version": "1.46.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2131,7 +2626,7 @@
         },
         "libssh2-1": {
             "name": "libssh2-1",
-            "version": "1.8.0-2.1",
+            "version": "1.9.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2140,7 +2635,16 @@
         },
         "libssl1.1": {
             "name": "libssl1.1",
-            "version": "1.1.1n-0+deb10u3",
+            "version": "1.1.1k-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libstdc++-10-dev": {
+            "name": "libstdc++-10-dev",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2149,7 +2653,25 @@
         },
         "libstdc++6": {
             "name": "libstdc++6",
-            "version": "8.3.0-6",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libsub-override-perl": {
+            "name": "libsub-override-perl",
+            "version": "0.09-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libsys-hostname-long-perl": {
+            "name": "libsys-hostname-long-perl",
+            "version": "1.5-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2158,7 +2680,7 @@
         },
         "libsystemd0": {
             "name": "libsystemd0",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2167,7 +2689,7 @@
         },
         "libtasn1-6": {
             "name": "libtasn1-6",
-            "version": "4.13-3",
+            "version": "4.16.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2176,7 +2698,7 @@
         },
         "libtext-charwidth-perl": {
             "name": "libtext-charwidth-perl",
-            "version": "0.04-7.1+b1",
+            "version": "0.04-10+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2185,7 +2707,7 @@
         },
         "libtext-iconv-perl": {
             "name": "libtext-iconv-perl",
-            "version": "1.7-5+b7",
+            "version": "1.7-7+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2194,7 +2716,16 @@
         },
         "libtext-wrapi18n-perl": {
             "name": "libtext-wrapi18n-perl",
-            "version": "0.06-7.1",
+            "version": "0.06-9",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtiff5": {
+            "name": "libtiff5",
+            "version": "4.2.0-1+deb11u4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2203,7 +2734,61 @@
         },
         "libtinfo6": {
             "name": "libtinfo6",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtirpc-common": {
+            "name": "libtirpc-common",
+            "version": "1.3.1-1+deb11u1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtirpc-dev": {
+            "name": "libtirpc-dev",
+            "version": "1.3.1-1+deb11u1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtirpc3": {
+            "name": "libtirpc3",
+            "version": "1.3.1-1+deb11u1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtool": {
+            "name": "libtool",
+            "version": "2.4.6-15",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libtsan0": {
+            "name": "libtsan0",
+            "version": "10.2.1-6",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libubsan1": {
+            "name": "libubsan1",
+            "version": "10.2.1-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2212,7 +2797,7 @@
         },
         "libuchardet0": {
             "name": "libuchardet0",
-            "version": "0.0.6-3",
+            "version": "0.0.7-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2221,7 +2806,7 @@
         },
         "libudev1": {
             "name": "libudev1",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2230,7 +2815,7 @@
         },
         "libunbound8": {
             "name": "libunbound8",
-            "version": "1.9.0-2+deb10u3",
+            "version": "1.13.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2239,16 +2824,16 @@
         },
         "libunistring2": {
             "name": "libunistring2",
-            "version": "0.9.10-1",
+            "version": "0.9.10-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "libutempter0": {
-            "name": "libutempter0",
-            "version": "1.1.6-3",
+        "liburing1": {
+            "name": "liburing1",
+            "version": "0.7-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2257,7 +2842,7 @@
         },
         "libuuid1": {
             "name": "libuuid1",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2266,7 +2851,16 @@
         },
         "libuv1": {
             "name": "libuv1",
-            "version": "1.24.1-1+deb10u1",
+            "version": "1.40.0-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libwebp6": {
+            "name": "libwebp6",
+            "version": "0.6.1-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2275,7 +2869,52 @@
         },
         "libwrap0": {
             "name": "libwrap0",
-            "version": "7.6.q-28",
+            "version": "7.6.q-31",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libx11-6": {
+            "name": "libx11-6",
+            "version": "2:1.7.2-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libx11-data": {
+            "name": "libx11-data",
+            "version": "2:1.7.2-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libxau6": {
+            "name": "libxau6",
+            "version": "1:1.0.9-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libxcb1": {
+            "name": "libxcb1",
+            "version": "1.14-3",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libxdmcp6": {
+            "name": "libxdmcp6",
+            "version": "1:1.1.2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2284,7 +2923,16 @@
         },
         "libxml2": {
             "name": "libxml2",
-            "version": "2.9.4+dfsg1-7+deb10u4",
+            "version": "2.9.10+dfsg-6.7",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libxpm4": {
+            "name": "libxpm4",
+            "version": "1:3.5.12-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2293,7 +2941,16 @@
         },
         "libxtables12": {
             "name": "libxtables12",
-            "version": "1.8.2-4",
+            "version": "1.8.7-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "libxxhash0": {
+            "name": "libxxhash0",
+            "version": "0.8.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2302,7 +2959,7 @@
         },
         "libzstd1": {
             "name": "libzstd1",
-            "version": "1.3.8+dfsg-3+deb10u2",
+            "version": "1.4.8+dfsg-2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2318,9 +2975,9 @@
             "arch": "",
             "repository": ""
         },
-        "linux-image-4.19.0-21-amd64": {
-            "name": "linux-image-4.19.0-21-amd64",
-            "version": "4.19.249-2",
+        "linux-image-5.10.0-8-amd64": {
+            "name": "linux-image-5.10.0-8-amd64",
+            "version": "5.10.46-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2329,7 +2986,16 @@
         },
         "linux-image-amd64": {
             "name": "linux-image-amd64",
-            "version": "4.19+105+deb10u16",
+            "version": "5.10.46-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "linux-libc-dev": {
+            "name": "linux-libc-dev",
+            "version": "5.10.162-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2338,7 +3004,7 @@
         },
         "locales": {
             "name": "locales",
-            "version": "2.28-10+deb10u1",
+            "version": "2.31-13",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2347,7 +3013,7 @@
         },
         "login": {
             "name": "login",
-            "version": "1:4.5-1.1",
+            "version": "1:4.8.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2356,7 +3022,16 @@
         },
         "logrotate": {
             "name": "logrotate",
-            "version": "3.14.0-4",
+            "version": "3.18.0-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "logsave": {
+            "name": "logsave",
+            "version": "1.46.2-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2365,7 +3040,7 @@
         },
         "lsb-base": {
             "name": "lsb-base",
-            "version": "10.2019051400",
+            "version": "11.1.0",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2374,7 +3049,7 @@
         },
         "lsb-release": {
             "name": "lsb-release",
-            "version": "10.2019051400",
+            "version": "11.1.0",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2383,7 +3058,34 @@
         },
         "lsof": {
             "name": "lsof",
-            "version": "4.91+dfsg-1",
+            "version": "4.93.2+dfsg-1.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "m4": {
+            "name": "m4",
+            "version": "1.4.18-5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "mailcap": {
+            "name": "mailcap",
+            "version": "3.69",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "make": {
+            "name": "make",
+            "version": "4.3-4.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2392,7 +3094,7 @@
         },
         "man-db": {
             "name": "man-db",
-            "version": "2.8.5-2",
+            "version": "2.9.4-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2401,7 +3103,16 @@
         },
         "manpages": {
             "name": "manpages",
-            "version": "4.16-2",
+            "version": "5.10-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "manpages-dev": {
+            "name": "manpages-dev",
+            "version": "5.10-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2410,7 +3121,16 @@
         },
         "mawk": {
             "name": "mawk",
-            "version": "1.3.3-17+b3",
+            "version": "1.3.4.20200120-2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "media-types": {
+            "name": "media-types",
+            "version": "4.0.0",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2419,7 +3139,7 @@
         },
         "mime-support": {
             "name": "mime-support",
-            "version": "3.62",
+            "version": "3.66",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2428,7 +3148,7 @@
         },
         "mount": {
             "name": "mount",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2437,7 +3157,7 @@
         },
         "nano": {
             "name": "nano",
-            "version": "3.2-3",
+            "version": "5.4-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2446,7 +3166,7 @@
         },
         "ncurses-base": {
             "name": "ncurses-base",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2455,7 +3175,7 @@
         },
         "ncurses-bin": {
             "name": "ncurses-bin",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2464,7 +3184,7 @@
         },
         "ncurses-term": {
             "name": "ncurses-term",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2473,7 +3193,7 @@
         },
         "netbase": {
             "name": "netbase",
-            "version": "5.6",
+            "version": "6.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2482,7 +3202,16 @@
         },
         "netcat-traditional": {
             "name": "netcat-traditional",
-            "version": "1.10-41.1",
+            "version": "1.10-46",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "nftables": {
+            "name": "nftables",
+            "version": "0.9.8-3.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2491,7 +3220,7 @@
         },
         "openssh-client": {
             "name": "openssh-client",
-            "version": "1:7.9p1-10+deb10u2",
+            "version": "1:8.4p1-5+deb11u1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2500,7 +3229,7 @@
         },
         "openssh-server": {
             "name": "openssh-server",
-            "version": "1:7.9p1-10+deb10u2",
+            "version": "1:8.4p1-5+deb11u1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2509,7 +3238,7 @@
         },
         "openssh-sftp-server": {
             "name": "openssh-sftp-server",
-            "version": "1:7.9p1-10+deb10u2",
+            "version": "1:8.4p1-5+deb11u1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2518,7 +3247,7 @@
         },
         "openssl": {
             "name": "openssl",
-            "version": "1.1.1n-0+deb10u3",
+            "version": "1.1.1k-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2527,7 +3256,25 @@
         },
         "passwd": {
             "name": "passwd",
-            "version": "1:4.5-1.1",
+            "version": "1:4.8.1-1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "patch": {
+            "name": "patch",
+            "version": "2.7.6-7",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "pci.ids": {
+            "name": "pci.ids",
+            "version": "0.0~2021.02.08-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2536,7 +3283,7 @@
         },
         "pciutils": {
             "name": "pciutils",
-            "version": "1:3.5.2-1",
+            "version": "1:3.7.0-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2545,7 +3292,7 @@
         },
         "perl": {
             "name": "perl",
-            "version": "5.28.1-6+deb10u1",
+            "version": "5.32.1-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2554,16 +3301,16 @@
         },
         "perl-base": {
             "name": "perl-base",
-            "version": "5.28.1-6+deb10u1",
+            "version": "5.32.1-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "perl-modules-5.28": {
-            "name": "perl-modules-5.28",
-            "version": "5.28.1-6+deb10u1",
+        "perl-modules-5.32": {
+            "name": "perl-modules-5.32",
+            "version": "5.32.1-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2572,7 +3319,16 @@
         },
         "pinentry-curses": {
             "name": "pinentry-curses",
-            "version": "1.1.0-2",
+            "version": "1.1.0-4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        },
+        "po-debconf": {
+            "name": "po-debconf",
+            "version": "1.0.21+nmu1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2581,7 +3337,7 @@
         },
         "popularity-contest": {
             "name": "popularity-contest",
-            "version": "1.67",
+            "version": "1.71",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2590,7 +3346,7 @@
         },
         "procps": {
             "name": "procps",
-            "version": "2:3.3.15-2",
+            "version": "2:3.3.17-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2599,16 +3355,7 @@
         },
         "psmisc": {
             "name": "psmisc",
-            "version": "23.2-1+deb10u1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python": {
-            "name": "python",
-            "version": "2.7.16-1",
+            "version": "23.4-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2617,52 +3364,7 @@
         },
         "python-apt-common": {
             "name": "python-apt-common",
-            "version": "1.8.4.3",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python-minimal": {
-            "name": "python-minimal",
-            "version": "2.7.16-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python2": {
-            "name": "python2",
-            "version": "2.7.16-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python2-minimal": {
-            "name": "python2-minimal",
-            "version": "2.7.16-1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python2.7": {
-            "name": "python2.7",
-            "version": "2.7.16-2+deb10u1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "python2.7-minimal": {
-            "name": "python2.7-minimal",
-            "version": "2.7.16-2+deb10u1",
+            "version": "2.2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2671,7 +3373,7 @@
         },
         "python3": {
             "name": "python3",
-            "version": "3.7.3-1",
+            "version": "3.9.2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2680,7 +3382,7 @@
         },
         "python3-apt": {
             "name": "python3-apt",
-            "version": "1.8.4.3",
+            "version": "2.2.1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2689,7 +3391,7 @@
         },
         "python3-certifi": {
             "name": "python3-certifi",
-            "version": "2018.8.24-1",
+            "version": "2020.6.20-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2698,7 +3400,7 @@
         },
         "python3-chardet": {
             "name": "python3-chardet",
-            "version": "3.0.4-3",
+            "version": "4.0.0-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2707,7 +3409,7 @@
         },
         "python3-dbus": {
             "name": "python3-dbus",
-            "version": "1.2.8-3",
+            "version": "1.2.16-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2716,7 +3418,7 @@
         },
         "python3-debconf": {
             "name": "python3-debconf",
-            "version": "1.5.71+deb10u1",
+            "version": "1.5.77",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2725,7 +3427,7 @@
         },
         "python3-debian": {
             "name": "python3-debian",
-            "version": "0.1.35",
+            "version": "0.1.39",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2734,7 +3436,7 @@
         },
         "python3-debianbts": {
             "name": "python3-debianbts",
-            "version": "2.8.2",
+            "version": "3.1.0",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2743,7 +3445,7 @@
         },
         "python3-distro-info": {
             "name": "python3-distro-info",
-            "version": "0.21",
+            "version": "1.0",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2752,7 +3454,7 @@
         },
         "python3-httplib2": {
             "name": "python3-httplib2",
-            "version": "0.11.3-2",
+            "version": "0.18.1-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2761,7 +3463,7 @@
         },
         "python3-idna": {
             "name": "python3-idna",
-            "version": "2.6-1",
+            "version": "2.10-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2770,7 +3472,7 @@
         },
         "python3-minimal": {
             "name": "python3-minimal",
-            "version": "3.7.3-1",
+            "version": "3.9.2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2779,7 +3481,7 @@
         },
         "python3-pkg-resources": {
             "name": "python3-pkg-resources",
-            "version": "40.8.0-1",
+            "version": "52.0.0-4",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2788,7 +3490,7 @@
         },
         "python3-pycurl": {
             "name": "python3-pycurl",
-            "version": "7.43.0.2-0.1",
+            "version": "7.43.0.6-5",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2797,7 +3499,7 @@
         },
         "python3-pysimplesoap": {
             "name": "python3-pysimplesoap",
-            "version": "1.16.2-1",
+            "version": "1.16.2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2806,7 +3508,7 @@
         },
         "python3-reportbug": {
             "name": "python3-reportbug",
-            "version": "7.5.3~deb10u1",
+            "version": "7.10.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2815,7 +3517,7 @@
         },
         "python3-requests": {
             "name": "python3-requests",
-            "version": "2.21.0-1",
+            "version": "2.25.1+dfsg-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2824,7 +3526,7 @@
         },
         "python3-six": {
             "name": "python3-six",
-            "version": "1.12.0-1",
+            "version": "1.16.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2833,25 +3535,25 @@
         },
         "python3-urllib3": {
             "name": "python3-urllib3",
-            "version": "1.24.1-1",
+            "version": "1.26.5-1~exp1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "python3.7": {
-            "name": "python3.7",
-            "version": "3.7.3-2+deb10u3",
+        "python3.9": {
+            "name": "python3.9",
+            "version": "3.9.2-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "python3.7-minimal": {
-            "name": "python3.7-minimal",
-            "version": "3.7.3-2+deb10u3",
+        "python3.9-minimal": {
+            "name": "python3.9-minimal",
+            "version": "3.9.2-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2860,7 +3562,7 @@
         },
         "qemu-utils": {
             "name": "qemu-utils",
-            "version": "1:3.1+dfsg-8+deb10u9",
+            "version": "1:5.2+dfsg-11",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2869,7 +3571,7 @@
         },
         "readline-common": {
             "name": "readline-common",
-            "version": "7.0-5",
+            "version": "8.1-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2878,7 +3580,7 @@
         },
         "reboot-notifier": {
             "name": "reboot-notifier",
-            "version": "0.8",
+            "version": "0.10",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2887,16 +3589,7 @@
         },
         "reportbug": {
             "name": "reportbug",
-            "version": "7.5.3~deb10u1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "rsync": {
-            "name": "rsync",
-            "version": "3.1.3-6",
+            "version": "7.10.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2905,16 +3598,16 @@
         },
         "rsyslog": {
             "name": "rsyslog",
-            "version": "8.1901.0-1+deb10u2",
+            "version": "8.2102.0-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
             "arch": "",
             "repository": ""
         },
-        "screen": {
-            "name": "screen",
-            "version": "4.6.2-3+deb10u1",
+        "runit-helper": {
+            "name": "runit-helper",
+            "version": "2.10.3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2932,16 +3625,7 @@
         },
         "sensible-utils": {
             "name": "sensible-utils",
-            "version": "0.0.12",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "socat": {
-            "name": "socat",
-            "version": "1.7.3.2-2",
+            "version": "0.0.14",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2950,7 +3634,7 @@
         },
         "sudo": {
             "name": "sudo",
-            "version": "1.8.27-1+deb10u3",
+            "version": "1.9.5p2-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2959,7 +3643,7 @@
         },
         "systemd": {
             "name": "systemd",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2968,7 +3652,7 @@
         },
         "systemd-sysv": {
             "name": "systemd-sysv",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2977,7 +3661,7 @@
         },
         "sysvinit-utils": {
             "name": "sysvinit-utils",
-            "version": "2.93-8",
+            "version": "2.96-7",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2986,7 +3670,7 @@
         },
         "tar": {
             "name": "tar",
-            "version": "1.30+dfsg-6",
+            "version": "1.34+dfsg-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -2995,7 +3679,7 @@
         },
         "tasksel": {
             "name": "tasksel",
-            "version": "3.53",
+            "version": "3.68",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3004,16 +3688,7 @@
         },
         "tasksel-data": {
             "name": "tasksel-data",
-            "version": "3.53",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "tcpdump": {
-            "name": "tcpdump",
-            "version": "4.9.3-1~deb10u2",
+            "version": "3.68",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3022,7 +3697,7 @@
         },
         "telnet": {
             "name": "telnet",
-            "version": "0.17-41.2",
+            "version": "0.17-42",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3031,7 +3706,7 @@
         },
         "traceroute": {
             "name": "traceroute",
-            "version": "1:2.1.0-2",
+            "version": "1:2.1.0-2+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3040,7 +3715,7 @@
         },
         "tzdata": {
             "name": "tzdata",
-            "version": "2021a-0+deb10u6",
+            "version": "2021a-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3049,7 +3724,7 @@
         },
         "ucf": {
             "name": "ucf",
-            "version": "3.0038+nmu1",
+            "version": "3.0043",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3058,7 +3733,7 @@
         },
         "udev": {
             "name": "udev",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3067,7 +3742,7 @@
         },
         "unattended-upgrades": {
             "name": "unattended-upgrades",
-            "version": "1.11.2",
+            "version": "2.8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3076,25 +3751,7 @@
         },
         "util-linux": {
             "name": "util-linux",
-            "version": "2.33.1-0.1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "uuid-runtime": {
-            "name": "uuid-runtime",
-            "version": "2.33.1-0.1",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "vim": {
-            "name": "vim",
-            "version": "2:8.1.0875-5+deb10u2",
+            "version": "2.36.1-8",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3103,16 +3760,7 @@
         },
         "vim-common": {
             "name": "vim-common",
-            "version": "2:8.1.0875-5+deb10u2",
-            "release": "",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "",
-            "repository": ""
-        },
-        "vim-runtime": {
-            "name": "vim-runtime",
-            "version": "2:8.1.0875-5+deb10u2",
+            "version": "2:8.2.2434-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3121,7 +3769,7 @@
         },
         "vim-tiny": {
             "name": "vim-tiny",
-            "version": "2:8.1.0875-5+deb10u2",
+            "version": "2:8.2.2434-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3130,7 +3778,7 @@
         },
         "wamerican": {
             "name": "wamerican",
-            "version": "2018.04.16-1",
+            "version": "2019.10.06-1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3139,7 +3787,7 @@
         },
         "wget": {
             "name": "wget",
-            "version": "1.20.1-1.1",
+            "version": "1.21-1+b1",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3148,7 +3796,7 @@
         },
         "whiptail": {
             "name": "whiptail",
-            "version": "0.52.20-8",
+            "version": "0.52.21-4+b3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3157,7 +3805,7 @@
         },
         "xxd": {
             "name": "xxd",
-            "version": "2:8.1.0875-5+deb10u2",
+            "version": "2:8.2.2434-3",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3166,7 +3814,7 @@
         },
         "xz-utils": {
             "name": "xz-utils",
-            "version": "5.2.4-1+deb10u1",
+            "version": "5.2.5-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3175,7 +3823,7 @@
         },
         "zlib1g": {
             "name": "zlib1g",
-            "version": "1:1.2.11.dfsg-1+deb10u1",
+            "version": "1:1.2.11.dfsg-2",
             "release": "",
             "newVersion": "",
             "newRelease": "",
@@ -3186,7 +3834,7 @@
     "SrcPackages": {
         "acl": {
             "name": "acl",
-            "version": "2.2.53-4",
+            "version": "2.2.53-10",
             "arch": "",
             "binaryNames": [
                 "libacl1"
@@ -3202,7 +3850,7 @@
         },
         "apparmor": {
             "name": "apparmor",
-            "version": "2.13.2-10",
+            "version": "2.13.6-10",
             "arch": "",
             "binaryNames": [
                 "apparmor",
@@ -3211,18 +3859,17 @@
         },
         "apt": {
             "name": "apt",
-            "version": "1.8.2.3",
+            "version": "2.2.4",
             "arch": "",
             "binaryNames": [
                 "apt",
                 "apt-utils",
-                "libapt-inst2.0",
-                "libapt-pkg5.0"
+                "libapt-pkg6.0"
             ]
         },
         "apt-listchanges": {
             "name": "apt-listchanges",
-            "version": "3.19",
+            "version": "3.24",
             "arch": "",
             "binaryNames": [
                 "apt-listchanges"
@@ -3238,7 +3885,7 @@
         },
         "attr": {
             "name": "attr",
-            "version": "1:2.4.48-4",
+            "version": "1:2.4.48-6",
             "arch": "",
             "binaryNames": [
                 "libattr1"
@@ -3246,16 +3893,40 @@
         },
         "audit": {
             "name": "audit",
-            "version": "1:2.8.4-3",
+            "version": "1:3.0-2",
             "arch": "",
             "binaryNames": [
                 "libaudit-common",
                 "libaudit1"
             ]
         },
+        "autoconf": {
+            "name": "autoconf",
+            "version": "2.69-14",
+            "arch": "",
+            "binaryNames": [
+                "autoconf"
+            ]
+        },
+        "automake-1.16": {
+            "name": "automake-1.16",
+            "version": "1:1.16.3-2",
+            "arch": "",
+            "binaryNames": [
+                "automake"
+            ]
+        },
+        "autotools-dev": {
+            "name": "autotools-dev",
+            "version": "20180224.1+nmu1",
+            "arch": "",
+            "binaryNames": [
+                "autotools-dev"
+            ]
+        },
         "base-files": {
             "name": "base-files",
-            "version": "10.3+deb10u13",
+            "version": "11.1",
             "arch": "",
             "binaryNames": [
                 "base-files"
@@ -3263,7 +3934,7 @@
         },
         "base-passwd": {
             "name": "base-passwd",
-            "version": "3.5.46",
+            "version": "3.5.51",
             "arch": "",
             "binaryNames": [
                 "base-passwd"
@@ -3271,7 +3942,7 @@
         },
         "bash": {
             "name": "bash",
-            "version": "5.0-4",
+            "version": "5.1-2",
             "arch": "",
             "binaryNames": [
                 "bash"
@@ -3279,7 +3950,7 @@
         },
         "bash-completion": {
             "name": "bash-completion",
-            "version": "1:2.8-6",
+            "version": "1:2.11-2",
             "arch": "",
             "binaryNames": [
                 "bash-completion"
@@ -3287,41 +3958,63 @@
         },
         "bind9": {
             "name": "bind9",
-            "version": "1:9.16.27-1~deb11u1~bpo10+1",
+            "version": "1:9.16.15-1",
             "arch": "",
             "binaryNames": [
                 "bind9-dnsutils",
                 "bind9-host",
-                "bind9-libs",
-                "libbind9-161",
-                "libdns-export1104",
-                "libdns1104",
-                "libisc-export1100",
-                "libisc1100",
-                "libisccc161",
-                "libisccfg163",
-                "liblwres161"
+                "bind9-libs"
+            ]
+        },
+        "bind9-libs": {
+            "name": "bind9-libs",
+            "version": "1:9.11.19+dfsg-2.1",
+            "arch": "",
+            "binaryNames": [
+                "libdns-export1110",
+                "libisc-export1105"
+            ]
+        },
+        "binutils": {
+            "name": "binutils",
+            "version": "2.35.2-2",
+            "arch": "",
+            "binaryNames": [
+                "binutils",
+                "binutils-common",
+                "binutils-x86-64-linux-gnu",
+                "libbinutils",
+                "libctf-nobfd0",
+                "libctf0"
+            ]
+        },
+        "brotli": {
+            "name": "brotli",
+            "version": "1.0.9-2",
+            "arch": "",
+            "binaryNames": [
+                "libbrotli1"
             ]
         },
         "bsd-mailx": {
             "name": "bsd-mailx",
-            "version": "8.1.2-0.20180807cvs-1",
+            "version": "8.1.2-0.20180807cvs-2",
             "arch": "",
             "binaryNames": [
                 "bsd-mailx"
             ]
         },
-        "bsdmainutils": {
-            "name": "bsdmainutils",
-            "version": "11.1.2",
+        "build-essential": {
+            "name": "build-essential",
+            "version": "12.9",
             "arch": "",
             "binaryNames": [
-                "bsdmainutils"
+                "build-essential"
             ]
         },
         "bzip2": {
             "name": "bzip2",
-            "version": "1.0.6-9.2~deb10u1",
+            "version": "1.0.8-4",
             "arch": "",
             "binaryNames": [
                 "bzip2",
@@ -3330,7 +4023,7 @@
         },
         "ca-certificates": {
             "name": "ca-certificates",
-            "version": "20200601~deb10u2",
+            "version": "20210119",
             "arch": "",
             "binaryNames": [
                 "ca-certificates"
@@ -3338,7 +4031,7 @@
         },
         "cdebconf": {
             "name": "cdebconf",
-            "version": "0.249",
+            "version": "0.260",
             "arch": "",
             "binaryNames": [
                 "libdebconfclient0"
@@ -3346,7 +4039,7 @@
         },
         "cdrkit": {
             "name": "cdrkit",
-            "version": "9:1.1.11-3",
+            "version": "9:1.1.11-3.2",
             "arch": "",
             "binaryNames": [
                 "genisoimage"
@@ -3354,7 +4047,7 @@
         },
         "chardet": {
             "name": "chardet",
-            "version": "3.0.4-3",
+            "version": "4.0.0-1",
             "arch": "",
             "binaryNames": [
                 "python3-chardet"
@@ -3362,7 +4055,7 @@
         },
         "chrony": {
             "name": "chrony",
-            "version": "3.4-4+deb10u2",
+            "version": "4.0-8",
             "arch": "",
             "binaryNames": [
                 "chrony"
@@ -3370,7 +4063,7 @@
         },
         "cloud-initramfs-tools": {
             "name": "cloud-initramfs-tools",
-            "version": "0.18.debian7",
+            "version": "0.18.debian8",
             "arch": "",
             "binaryNames": [
                 "cloud-initramfs-growroot"
@@ -3378,7 +4071,7 @@
         },
         "cloud-utils": {
             "name": "cloud-utils",
-            "version": "0.29-1",
+            "version": "0.31-2",
             "arch": "",
             "binaryNames": [
                 "cloud-guest-utils",
@@ -3388,7 +4081,7 @@
         },
         "coreutils": {
             "name": "coreutils",
-            "version": "8.30-3",
+            "version": "8.32-4",
             "arch": "",
             "binaryNames": [
                 "coreutils"
@@ -3396,7 +4089,7 @@
         },
         "cpio": {
             "name": "cpio",
-            "version": "2.12+dfsg-9",
+            "version": "2.13+dfsg-4",
             "arch": "",
             "binaryNames": [
                 "cpio"
@@ -3404,7 +4097,7 @@
         },
         "cron": {
             "name": "cron",
-            "version": "3.0pl1-134+deb10u1",
+            "version": "3.0pl1-137",
             "arch": "",
             "binaryNames": [
                 "cron"
@@ -3412,7 +4105,7 @@
         },
         "cryptsetup": {
             "name": "cryptsetup",
-            "version": "2:2.1.0-5+deb10u2",
+            "version": "2:2.3.5-1",
             "arch": "",
             "binaryNames": [
                 "libcryptsetup12"
@@ -3420,7 +4113,7 @@
         },
         "curl": {
             "name": "curl",
-            "version": "7.64.0-4+deb10u3",
+            "version": "7.74.0-1.3+deb11u7",
             "arch": "",
             "binaryNames": [
                 "curl",
@@ -3430,7 +4123,7 @@
         },
         "cyrus-sasl2": {
             "name": "cyrus-sasl2",
-            "version": "2.1.27+dfsg-1+deb10u2",
+            "version": "2.1.27+dfsg-2.1",
             "arch": "",
             "binaryNames": [
                 "libsasl2-2",
@@ -3439,7 +4132,7 @@
         },
         "dash": {
             "name": "dash",
-            "version": "0.5.10.2-5",
+            "version": "0.5.11+git20200708+dd9ef66-5",
             "arch": "",
             "binaryNames": [
                 "dash"
@@ -3447,7 +4140,7 @@
         },
         "db5.3": {
             "name": "db5.3",
-            "version": "5.3.28+dfsg1-0.5",
+            "version": "5.3.28+dfsg1-0.8",
             "arch": "",
             "binaryNames": [
                 "libdb5.3"
@@ -3455,7 +4148,7 @@
         },
         "dbus": {
             "name": "dbus",
-            "version": "1.12.20-0+deb10u1",
+            "version": "1.12.20-2",
             "arch": "",
             "binaryNames": [
                 "dbus",
@@ -3464,7 +4157,7 @@
         },
         "dbus-python": {
             "name": "dbus-python",
-            "version": "1.2.8-3",
+            "version": "1.2.16-5",
             "arch": "",
             "binaryNames": [
                 "python3-dbus"
@@ -3480,7 +4173,7 @@
         },
         "debconf": {
             "name": "debconf",
-            "version": "1.5.71+deb10u1",
+            "version": "1.5.77",
             "arch": "",
             "binaryNames": [
                 "debconf",
@@ -3488,9 +4181,18 @@
                 "python3-debconf"
             ]
         },
+        "debhelper": {
+            "name": "debhelper",
+            "version": "13.3.4",
+            "arch": "",
+            "binaryNames": [
+                "debhelper",
+                "libdebhelper-perl"
+            ]
+        },
         "debian-archive-keyring": {
             "name": "debian-archive-keyring",
-            "version": "2019.1+deb10u1",
+            "version": "2021.1.1",
             "arch": "",
             "binaryNames": [
                 "debian-archive-keyring"
@@ -3498,7 +4200,7 @@
         },
         "debian-faq": {
             "name": "debian-faq",
-            "version": "9.0",
+            "version": "10.1",
             "arch": "",
             "binaryNames": [
                 "debian-faq"
@@ -3506,7 +4208,7 @@
         },
         "debian-goodies": {
             "name": "debian-goodies",
-            "version": "0.84",
+            "version": "0.87",
             "arch": "",
             "binaryNames": [
                 "debian-goodies"
@@ -3514,15 +4216,31 @@
         },
         "debianutils": {
             "name": "debianutils",
-            "version": "4.8.6.1",
+            "version": "4.11.2",
             "arch": "",
             "binaryNames": [
                 "debianutils"
             ]
         },
+        "dh-autoreconf": {
+            "name": "dh-autoreconf",
+            "version": "20",
+            "arch": "",
+            "binaryNames": [
+                "dh-autoreconf"
+            ]
+        },
+        "dh-runit": {
+            "name": "dh-runit",
+            "version": "2.10.3",
+            "arch": "",
+            "binaryNames": [
+                "runit-helper"
+            ]
+        },
         "diffutils": {
             "name": "diffutils",
-            "version": "1:3.7-3",
+            "version": "1:3.7-5",
             "arch": "",
             "binaryNames": [
                 "diffutils"
@@ -3530,7 +4248,7 @@
         },
         "distro-info": {
             "name": "distro-info",
-            "version": "0.21",
+            "version": "1.0",
             "arch": "",
             "binaryNames": [
                 "python3-distro-info"
@@ -3538,7 +4256,7 @@
         },
         "distro-info-data": {
             "name": "distro-info-data",
-            "version": "0.41+deb10u5",
+            "version": "0.51",
             "arch": "",
             "binaryNames": [
                 "distro-info-data"
@@ -3546,7 +4264,7 @@
         },
         "dmidecode": {
             "name": "dmidecode",
-            "version": "3.2-1",
+            "version": "3.3-2",
             "arch": "",
             "binaryNames": [
                 "dmidecode"
@@ -3554,7 +4272,7 @@
         },
         "doc-debian": {
             "name": "doc-debian",
-            "version": "6.4",
+            "version": "6.5",
             "arch": "",
             "binaryNames": [
                 "doc-debian"
@@ -3562,26 +4280,37 @@
         },
         "dpkg": {
             "name": "dpkg",
-            "version": "1.19.8",
+            "version": "1.20.9",
             "arch": "",
             "binaryNames": [
-                "dpkg"
+                "dpkg",
+                "dpkg-dev",
+                "libdpkg-perl"
+            ]
+        },
+        "dwz": {
+            "name": "dwz",
+            "version": "0.13+20210201-1",
+            "arch": "",
+            "binaryNames": [
+                "dwz"
             ]
         },
         "e2fsprogs": {
             "name": "e2fsprogs",
-            "version": "1.44.5-1+deb10u3",
+            "version": "1.46.2-2",
             "arch": "",
             "binaryNames": [
                 "e2fsprogs",
                 "libcom-err2",
                 "libext2fs2",
-                "libss2"
+                "libss2",
+                "logsave"
             ]
         },
         "efivar": {
             "name": "efivar",
-            "version": "37-2+deb10u1",
+            "version": "37-6",
             "arch": "",
             "binaryNames": [
                 "libefiboot1",
@@ -3590,7 +4319,7 @@
         },
         "elfutils": {
             "name": "elfutils",
-            "version": "0.176-1.1",
+            "version": "0.183-1",
             "arch": "",
             "binaryNames": [
                 "elfutils",
@@ -3599,17 +4328,17 @@
                 "libelf1"
             ]
         },
-        "ethtool": {
-            "name": "ethtool",
-            "version": "1:4.19-1",
+        "equivs": {
+            "name": "equivs",
+            "version": "2.3.1",
             "arch": "",
             "binaryNames": [
-                "ethtool"
+                "equivs"
             ]
         },
         "exim4": {
             "name": "exim4",
-            "version": "4.92-8+deb10u7",
+            "version": "4.94.2-7",
             "arch": "",
             "binaryNames": [
                 "exim4-base",
@@ -3619,15 +4348,24 @@
         },
         "expat": {
             "name": "expat",
-            "version": "2.2.6-2+deb10u4",
+            "version": "2.2.10-2",
             "arch": "",
             "binaryNames": [
                 "libexpat1"
             ]
         },
+        "fakeroot": {
+            "name": "fakeroot",
+            "version": "1.25.3-1.1",
+            "arch": "",
+            "binaryNames": [
+                "fakeroot",
+                "libfakeroot"
+            ]
+        },
         "file": {
             "name": "file",
-            "version": "1:5.35-4+deb10u2",
+            "version": "1:5.39-3",
             "arch": "",
             "binaryNames": [
                 "file",
@@ -3637,15 +4375,32 @@
         },
         "findutils": {
             "name": "findutils",
-            "version": "4.6.0+git+20190209-2",
+            "version": "4.8.0-1",
             "arch": "",
             "binaryNames": [
                 "findutils"
             ]
         },
+        "fontconfig": {
+            "name": "fontconfig",
+            "version": "2.13.1-4.2",
+            "arch": "",
+            "binaryNames": [
+                "fontconfig-config",
+                "libfontconfig1"
+            ]
+        },
+        "fonts-dejavu": {
+            "name": "fonts-dejavu",
+            "version": "2.37-2",
+            "arch": "",
+            "binaryNames": [
+                "fonts-dejavu-core"
+            ]
+        },
         "freetype": {
             "name": "freetype",
-            "version": "2.9.1-3+deb10u3",
+            "version": "2.10.4+dfsg-1",
             "arch": "",
             "binaryNames": [
                 "libfreetype6"
@@ -3653,7 +4408,7 @@
         },
         "fstrm": {
             "name": "fstrm",
-            "version": "0.4.0-1",
+            "version": "0.6.0-1",
             "arch": "",
             "binaryNames": [
                 "libfstrm0"
@@ -3661,51 +4416,76 @@
         },
         "fuse": {
             "name": "fuse",
-            "version": "2.9.9-1+deb10u1",
+            "version": "2.9.9-5",
             "arch": "",
             "binaryNames": [
                 "libfuse2"
             ]
         },
-        "gcc-8": {
-            "name": "gcc-8",
-            "version": "8.3.0-6",
+        "gcc-10": {
+            "name": "gcc-10",
+            "version": "10.2.1-6",
             "arch": "",
             "binaryNames": [
-                "gcc-8-base",
-                "libgcc1",
-                "libstdc++6"
+                "cpp-10",
+                "g++-10",
+                "gcc-10",
+                "gcc-10-base",
+                "libasan6",
+                "libatomic1",
+                "libcc1-0",
+                "libgcc-10-dev",
+                "libgcc-s1",
+                "libgomp1",
+                "libitm1",
+                "liblsan0",
+                "libquadmath0",
+                "libstdc++-10-dev",
+                "libstdc++6",
+                "libtsan0",
+                "libubsan1"
+            ]
+        },
+        "gcc-9": {
+            "name": "gcc-9",
+            "version": "9.3.0-22",
+            "arch": "",
+            "binaryNames": [
+                "gcc-9-base"
+            ]
+        },
+        "gcc-defaults": {
+            "name": "gcc-defaults",
+            "version": "1.190",
+            "arch": "",
+            "binaryNames": [
+                "cpp",
+                "g++",
+                "gcc"
             ]
         },
         "gdbm": {
             "name": "gdbm",
-            "version": "1.18.1-4",
+            "version": "1.19-2",
             "arch": "",
             "binaryNames": [
-                "gdbm-l10n",
                 "libgdbm-compat4",
                 "libgdbm6"
             ]
         },
-        "geoip": {
-            "name": "geoip",
-            "version": "1.6.12-1",
-            "arch": "",
-            "binaryNames": [
-                "libgeoip1"
-            ]
-        },
         "gettext": {
             "name": "gettext",
-            "version": "0.19.8.1-9",
+            "version": "0.21-4",
             "arch": "",
             "binaryNames": [
+                "autopoint",
+                "gettext",
                 "gettext-base"
             ]
         },
         "glib2.0": {
             "name": "glib2.0",
-            "version": "2.58.3-2+deb10u3",
+            "version": "2.66.8-1",
             "arch": "",
             "binaryNames": [
                 "libglib2.0-0"
@@ -3713,18 +4493,21 @@
         },
         "glibc": {
             "name": "glibc",
-            "version": "2.28-10+deb10u1",
+            "version": "2.31-13",
             "arch": "",
             "binaryNames": [
                 "libc-bin",
+                "libc-dev-bin",
+                "libc-devtools",
                 "libc-l10n",
                 "libc6",
+                "libc6-dev",
                 "locales"
             ]
         },
         "gmp": {
             "name": "gmp",
-            "version": "2:6.1.2+dfsg-4+deb10u1",
+            "version": "2:6.2.1+dfsg-1",
             "arch": "",
             "binaryNames": [
                 "libgmp10"
@@ -3732,7 +4515,7 @@
         },
         "gnupg2": {
             "name": "gnupg2",
-            "version": "2.2.12-1+deb10u2",
+            "version": "2.2.27-2+deb11u2",
             "arch": "",
             "binaryNames": [
                 "dirmngr",
@@ -3750,25 +4533,16 @@
         },
         "gnutls28": {
             "name": "gnutls28",
-            "version": "3.6.7-4+deb10u10",
+            "version": "3.7.1-5+deb11u3",
             "arch": "",
             "binaryNames": [
                 "libgnutls-dane0",
-                "libgnutls-openssl27",
                 "libgnutls30"
-            ]
-        },
-        "gpm": {
-            "name": "gpm",
-            "version": "1.20.7-5",
-            "arch": "",
-            "binaryNames": [
-                "libgpm2"
             ]
         },
         "grep": {
             "name": "grep",
-            "version": "3.3-1",
+            "version": "3.6-1",
             "arch": "",
             "binaryNames": [
                 "grep"
@@ -3776,7 +4550,7 @@
         },
         "groff": {
             "name": "groff",
-            "version": "1.22.4-3+deb10u1",
+            "version": "1.22.4-6",
             "arch": "",
             "binaryNames": [
                 "groff-base"
@@ -3784,7 +4558,7 @@
         },
         "grub2": {
             "name": "grub2",
-            "version": "2.06-3~deb10u1",
+            "version": "2.04-20",
             "arch": "",
             "binaryNames": [
                 "grub-common",
@@ -3795,23 +4569,15 @@
         },
         "gzip": {
             "name": "gzip",
-            "version": "1.9-3+deb10u1",
+            "version": "1.10-4",
             "arch": "",
             "binaryNames": [
                 "gzip"
             ]
         },
-        "hdparm": {
-            "name": "hdparm",
-            "version": "9.58+ds-1",
-            "arch": "",
-            "binaryNames": [
-                "hdparm"
-            ]
-        },
         "hostname": {
             "name": "hostname",
-            "version": "3.21",
+            "version": "3.23",
             "arch": "",
             "binaryNames": [
                 "hostname"
@@ -3819,15 +4585,15 @@
         },
         "icu": {
             "name": "icu",
-            "version": "63.1-6+deb10u3",
+            "version": "67.1-7",
             "arch": "",
             "binaryNames": [
-                "libicu63"
+                "libicu67"
             ]
         },
         "ifupdown": {
             "name": "ifupdown",
-            "version": "0.8.35",
+            "version": "0.8.36",
             "arch": "",
             "binaryNames": [
                 "ifupdown"
@@ -3835,7 +4601,7 @@
         },
         "init-system-helpers": {
             "name": "init-system-helpers",
-            "version": "1.56+nmu1",
+            "version": "1.60",
             "arch": "",
             "binaryNames": [
                 "init",
@@ -3844,16 +4610,24 @@
         },
         "initramfs-tools": {
             "name": "initramfs-tools",
-            "version": "0.133+deb10u1",
+            "version": "0.140",
             "arch": "",
             "binaryNames": [
                 "initramfs-tools",
                 "initramfs-tools-core"
             ]
         },
+        "intltool-debian": {
+            "name": "intltool-debian",
+            "version": "0.35.0+20060710.5",
+            "arch": "",
+            "binaryNames": [
+                "intltool-debian"
+            ]
+        },
         "iproute2": {
             "name": "iproute2",
-            "version": "4.20.0-2+deb10u1",
+            "version": "5.10.0-4",
             "arch": "",
             "binaryNames": [
                 "iproute2"
@@ -3861,19 +4635,18 @@
         },
         "iptables": {
             "name": "iptables",
-            "version": "1.8.2-4",
+            "version": "1.8.7-1",
             "arch": "",
             "binaryNames": [
                 "iptables",
-                "libip4tc0",
-                "libip6tc0",
-                "libiptc0",
+                "libip4tc2",
+                "libip6tc2",
                 "libxtables12"
             ]
         },
         "iputils": {
             "name": "iputils",
-            "version": "3:20180629-2+deb10u2",
+            "version": "3:20210202-1",
             "arch": "",
             "binaryNames": [
                 "iputils-ping"
@@ -3881,24 +4654,48 @@
         },
         "isc-dhcp": {
             "name": "isc-dhcp",
-            "version": "4.4.1-2+deb10u1",
+            "version": "4.4.1-2.3",
             "arch": "",
             "binaryNames": [
                 "isc-dhcp-client",
                 "isc-dhcp-common"
             ]
         },
-        "json-c": {
-            "name": "json-c",
-            "version": "0.12.1+ds-2+deb10u1",
+        "isl": {
+            "name": "isl",
+            "version": "0.23-1",
             "arch": "",
             "binaryNames": [
-                "libjson-c3"
+                "libisl23"
+            ]
+        },
+        "jansson": {
+            "name": "jansson",
+            "version": "2.13.1-1.1",
+            "arch": "",
+            "binaryNames": [
+                "libjansson4"
+            ]
+        },
+        "jbigkit": {
+            "name": "jbigkit",
+            "version": "2.1-3.1",
+            "arch": "",
+            "binaryNames": [
+                "libjbig0"
+            ]
+        },
+        "json-c": {
+            "name": "json-c",
+            "version": "0.15-2",
+            "arch": "",
+            "binaryNames": [
+                "libjson-c5"
             ]
         },
         "keyutils": {
             "name": "keyutils",
-            "version": "1.6-6",
+            "version": "1.6.1-2",
             "arch": "",
             "binaryNames": [
                 "libkeyutils1"
@@ -3906,7 +4703,7 @@
         },
         "klibc": {
             "name": "klibc",
-            "version": "2.0.6-1+deb10u1",
+            "version": "2.0.8-6.1",
             "arch": "",
             "binaryNames": [
                 "klibc-utils",
@@ -3915,7 +4712,7 @@
         },
         "kmod": {
             "name": "kmod",
-            "version": "26-1",
+            "version": "28-1",
             "arch": "",
             "binaryNames": [
                 "kmod",
@@ -3924,7 +4721,7 @@
         },
         "krb5": {
             "name": "krb5",
-            "version": "1.17-3+deb10u4",
+            "version": "1.18.3-6",
             "arch": "",
             "binaryNames": [
                 "krb5-locales",
@@ -3936,7 +4733,7 @@
         },
         "less": {
             "name": "less",
-            "version": "487-0.1",
+            "version": "551-2",
             "arch": "",
             "binaryNames": [
                 "less"
@@ -3944,23 +4741,71 @@
         },
         "libaio": {
             "name": "libaio",
-            "version": "0.3.112-3",
+            "version": "0.3.112-9",
             "arch": "",
             "binaryNames": [
                 "libaio1"
             ]
         },
+        "libalgorithm-diff-perl": {
+            "name": "libalgorithm-diff-perl",
+            "version": "1.201-1",
+            "arch": "",
+            "binaryNames": [
+                "libalgorithm-diff-perl"
+            ]
+        },
+        "libalgorithm-diff-xs-perl": {
+            "name": "libalgorithm-diff-xs-perl",
+            "version": "0.04-6",
+            "arch": "",
+            "binaryNames": [
+                "libalgorithm-diff-xs-perl"
+            ]
+        },
+        "libalgorithm-merge-perl": {
+            "name": "libalgorithm-merge-perl",
+            "version": "0.08-3",
+            "arch": "",
+            "binaryNames": [
+                "libalgorithm-merge-perl"
+            ]
+        },
+        "libarchive-cpio-perl": {
+            "name": "libarchive-cpio-perl",
+            "version": "0.10-1.1",
+            "arch": "",
+            "binaryNames": [
+                "libarchive-cpio-perl"
+            ]
+        },
+        "libarchive-zip-perl": {
+            "name": "libarchive-zip-perl",
+            "version": "1.68-1",
+            "arch": "",
+            "binaryNames": [
+                "libarchive-zip-perl"
+            ]
+        },
         "libassuan": {
             "name": "libassuan",
-            "version": "2.5.2-1",
+            "version": "2.5.3-7.1",
             "arch": "",
             "binaryNames": [
                 "libassuan0"
             ]
         },
+        "libbpf": {
+            "name": "libbpf",
+            "version": "0.3-2",
+            "arch": "",
+            "binaryNames": [
+                "libbpf0"
+            ]
+        },
         "libbsd": {
             "name": "libbsd",
-            "version": "0.9.1-2+deb10u1",
+            "version": "0.11.3-1",
             "arch": "",
             "binaryNames": [
                 "libbsd0"
@@ -3968,7 +4813,7 @@
         },
         "libcap-ng": {
             "name": "libcap-ng",
-            "version": "0.7.9-2",
+            "version": "0.7.9-2.2",
             "arch": "",
             "binaryNames": [
                 "libcap-ng0"
@@ -3976,16 +4821,32 @@
         },
         "libcap2": {
             "name": "libcap2",
-            "version": "1:2.25-2",
+            "version": "1:2.44-1",
             "arch": "",
             "binaryNames": [
                 "libcap2",
                 "libcap2-bin"
             ]
         },
+        "libcbor": {
+            "name": "libcbor",
+            "version": "0.5.0+dfsg-2",
+            "arch": "",
+            "binaryNames": [
+                "libcbor0"
+            ]
+        },
+        "libdeflate": {
+            "name": "libdeflate",
+            "version": "1.7-1",
+            "arch": "",
+            "binaryNames": [
+                "libdeflate0"
+            ]
+        },
         "libedit": {
             "name": "libedit",
-            "version": "3.1-20181209-1",
+            "version": "3.1-20191231-2",
             "arch": "",
             "binaryNames": [
                 "libedit2"
@@ -4001,15 +4862,15 @@
         },
         "libevent": {
             "name": "libevent",
-            "version": "2.1.8-stable-4",
+            "version": "2.1.12-stable-1",
             "arch": "",
             "binaryNames": [
-                "libevent-2.1-6"
+                "libevent-2.1-7"
             ]
         },
         "libfastjson": {
             "name": "libfastjson",
-            "version": "0.99.8-2",
+            "version": "0.99.9-1",
             "arch": "",
             "binaryNames": [
                 "libfastjson4"
@@ -4017,10 +4878,34 @@
         },
         "libffi": {
             "name": "libffi",
-            "version": "3.2.1-9",
+            "version": "3.3-6",
             "arch": "",
             "binaryNames": [
-                "libffi6"
+                "libffi7"
+            ]
+        },
+        "libfido2": {
+            "name": "libfido2",
+            "version": "1.6.0-2",
+            "arch": "",
+            "binaryNames": [
+                "libfido2-1"
+            ]
+        },
+        "libfile-fcntllock-perl": {
+            "name": "libfile-fcntllock-perl",
+            "version": "0.22-3",
+            "arch": "",
+            "binaryNames": [
+                "libfile-fcntllock-perl"
+            ]
+        },
+        "libfile-slurper-perl": {
+            "name": "libfile-slurper-perl",
+            "version": "0.012-1",
+            "arch": "",
+            "binaryNames": [
+                "libfile-slurper-perl"
             ]
         },
         "libfile-which-perl": {
@@ -4033,15 +4918,23 @@
         },
         "libgcrypt20": {
             "name": "libgcrypt20",
-            "version": "1.8.4-5+deb10u1",
+            "version": "1.8.7-6",
             "arch": "",
             "binaryNames": [
                 "libgcrypt20"
             ]
         },
+        "libgd2": {
+            "name": "libgd2",
+            "version": "2.3.0-2",
+            "arch": "",
+            "binaryNames": [
+                "libgd3"
+            ]
+        },
         "libgpg-error": {
             "name": "libgpg-error",
-            "version": "1.35-1",
+            "version": "1.38-2",
             "arch": "",
             "binaryNames": [
                 "libgpg-error0"
@@ -4049,7 +4942,7 @@
         },
         "libidn": {
             "name": "libidn",
-            "version": "1.33-2.2",
+            "version": "1.33-3",
             "arch": "",
             "binaryNames": [
                 "libidn11"
@@ -4057,7 +4950,7 @@
         },
         "libidn2": {
             "name": "libidn2",
-            "version": "2.0.5-1+deb10u1",
+            "version": "2.3.0-5",
             "arch": "",
             "binaryNames": [
                 "libidn2-0"
@@ -4065,15 +4958,23 @@
         },
         "libipc-system-simple-perl": {
             "name": "libipc-system-simple-perl",
-            "version": "1.25-4",
+            "version": "1.30-1",
             "arch": "",
             "binaryNames": [
                 "libipc-system-simple-perl"
             ]
         },
+        "libjpeg-turbo": {
+            "name": "libjpeg-turbo",
+            "version": "1:2.0.6-4",
+            "arch": "",
+            "binaryNames": [
+                "libjpeg62-turbo"
+            ]
+        },
         "libksba": {
             "name": "libksba",
-            "version": "1.3.5-2+deb10u2",
+            "version": "1.5.0-3+deb11u2",
             "arch": "",
             "binaryNames": [
                 "libksba8"
@@ -4081,7 +4982,7 @@
         },
         "liblocale-gettext-perl": {
             "name": "liblocale-gettext-perl",
-            "version": "1.07-3",
+            "version": "1.07-4",
             "arch": "",
             "binaryNames": [
                 "liblocale-gettext-perl"
@@ -4089,7 +4990,7 @@
         },
         "liblockfile": {
             "name": "liblockfile",
-            "version": "1.14-1.1",
+            "version": "1.17-1",
             "arch": "",
             "binaryNames": [
                 "liblockfile-bin",
@@ -4098,23 +4999,39 @@
         },
         "liblognorm": {
             "name": "liblognorm",
-            "version": "2.0.5-1",
+            "version": "2.0.5-1.1",
             "arch": "",
             "binaryNames": [
                 "liblognorm5"
             ]
         },
+        "libmail-sendmail-perl": {
+            "name": "libmail-sendmail-perl",
+            "version": "0.80-1.1",
+            "arch": "",
+            "binaryNames": [
+                "libmail-sendmail-perl"
+            ]
+        },
         "libmaxminddb": {
             "name": "libmaxminddb",
-            "version": "1.3.2-1+deb10u1",
+            "version": "1.5.2-1",
             "arch": "",
             "binaryNames": [
                 "libmaxminddb0"
             ]
         },
+        "libmd": {
+            "name": "libmd",
+            "version": "1.0.3-3",
+            "arch": "",
+            "binaryNames": [
+                "libmd0"
+            ]
+        },
         "libmnl": {
             "name": "libmnl",
-            "version": "1.0.4-2",
+            "version": "1.0.4-3",
             "arch": "",
             "binaryNames": [
                 "libmnl0"
@@ -4122,7 +5039,7 @@
         },
         "libnetfilter-conntrack": {
             "name": "libnetfilter-conntrack",
-            "version": "1.0.7-1",
+            "version": "1.0.8-3",
             "arch": "",
             "binaryNames": [
                 "libnetfilter-conntrack3"
@@ -4138,23 +5055,32 @@
         },
         "libnftnl": {
             "name": "libnftnl",
-            "version": "1.1.2-2",
+            "version": "1.1.9-1",
             "arch": "",
             "binaryNames": [
                 "libnftnl11"
             ]
         },
-        "libpcap": {
-            "name": "libpcap",
-            "version": "1.8.1-6+deb10u1",
+        "libnsl": {
+            "name": "libnsl",
+            "version": "1.3.0-2",
             "arch": "",
             "binaryNames": [
-                "libpcap0.8"
+                "libnsl-dev",
+                "libnsl2"
+            ]
+        },
+        "libperlio-utf8-strict-perl": {
+            "name": "libperlio-utf8-strict-perl",
+            "version": "0.008-1",
+            "arch": "",
+            "binaryNames": [
+                "libperlio-utf8-strict-perl"
             ]
         },
         "libpipeline": {
             "name": "libpipeline",
-            "version": "1.5.1-2",
+            "version": "1.5.3-1",
             "arch": "",
             "binaryNames": [
                 "libpipeline1"
@@ -4162,7 +5088,7 @@
         },
         "libpng1.6": {
             "name": "libpng1.6",
-            "version": "1.6.36-6",
+            "version": "1.6.37-3",
             "arch": "",
             "binaryNames": [
                 "libpng16-16"
@@ -4170,7 +5096,7 @@
         },
         "libpsl": {
             "name": "libpsl",
-            "version": "0.20.2-2",
+            "version": "0.21.0-1.2",
             "arch": "",
             "binaryNames": [
                 "libpsl5"
@@ -4178,7 +5104,7 @@
         },
         "libseccomp": {
             "name": "libseccomp",
-            "version": "2.3.3-4",
+            "version": "2.5.1-1",
             "arch": "",
             "binaryNames": [
                 "libseccomp2"
@@ -4186,7 +5112,7 @@
         },
         "libselinux": {
             "name": "libselinux",
-            "version": "2.8-1",
+            "version": "3.1-3",
             "arch": "",
             "binaryNames": [
                 "libselinux1"
@@ -4194,7 +5120,7 @@
         },
         "libsemanage": {
             "name": "libsemanage",
-            "version": "2.8-2",
+            "version": "3.1-1",
             "arch": "",
             "binaryNames": [
                 "libsemanage-common",
@@ -4203,23 +5129,47 @@
         },
         "libsepol": {
             "name": "libsepol",
-            "version": "2.8-1",
+            "version": "3.1-1",
             "arch": "",
             "binaryNames": [
                 "libsepol1"
             ]
         },
+        "libsigsegv": {
+            "name": "libsigsegv",
+            "version": "2.13-1",
+            "arch": "",
+            "binaryNames": [
+                "libsigsegv2"
+            ]
+        },
         "libssh2": {
             "name": "libssh2",
-            "version": "1.8.0-2.1",
+            "version": "1.9.0-2",
             "arch": "",
             "binaryNames": [
                 "libssh2-1"
             ]
         },
+        "libsub-override-perl": {
+            "name": "libsub-override-perl",
+            "version": "0.09-2",
+            "arch": "",
+            "binaryNames": [
+                "libsub-override-perl"
+            ]
+        },
+        "libsys-hostname-long-perl": {
+            "name": "libsys-hostname-long-perl",
+            "version": "1.5-2",
+            "arch": "",
+            "binaryNames": [
+                "libsys-hostname-long-perl"
+            ]
+        },
         "libtasn1-6": {
             "name": "libtasn1-6",
-            "version": "4.13-3",
+            "version": "4.16.0-2",
             "arch": "",
             "binaryNames": [
                 "libtasn1-6"
@@ -4227,7 +5177,7 @@
         },
         "libtext-charwidth-perl": {
             "name": "libtext-charwidth-perl",
-            "version": "0.04-7.1",
+            "version": "0.04-10",
             "arch": "",
             "binaryNames": [
                 "libtext-charwidth-perl"
@@ -4235,7 +5185,7 @@
         },
         "libtext-iconv-perl": {
             "name": "libtext-iconv-perl",
-            "version": "1.7-5",
+            "version": "1.7-7",
             "arch": "",
             "binaryNames": [
                 "libtext-iconv-perl"
@@ -4243,50 +5193,136 @@
         },
         "libtext-wrapi18n-perl": {
             "name": "libtext-wrapi18n-perl",
-            "version": "0.06-7.1",
+            "version": "0.06-9",
             "arch": "",
             "binaryNames": [
                 "libtext-wrapi18n-perl"
             ]
         },
+        "libtirpc": {
+            "name": "libtirpc",
+            "version": "1.3.1-1+deb11u1",
+            "arch": "",
+            "binaryNames": [
+                "libtirpc-common",
+                "libtirpc-dev",
+                "libtirpc3"
+            ]
+        },
+        "libtool": {
+            "name": "libtool",
+            "version": "2.4.6-15",
+            "arch": "",
+            "binaryNames": [
+                "libltdl-dev",
+                "libltdl7",
+                "libtool"
+            ]
+        },
         "libunistring": {
             "name": "libunistring",
-            "version": "0.9.10-1",
+            "version": "0.9.10-4",
             "arch": "",
             "binaryNames": [
                 "libunistring2"
             ]
         },
-        "libutempter": {
-            "name": "libutempter",
-            "version": "1.1.6-3",
+        "liburing": {
+            "name": "liburing",
+            "version": "0.7-3",
             "arch": "",
             "binaryNames": [
-                "libutempter0"
+                "liburing1"
             ]
         },
         "libuv1": {
             "name": "libuv1",
-            "version": "1.24.1-1+deb10u1",
+            "version": "1.40.0-2",
             "arch": "",
             "binaryNames": [
                 "libuv1"
             ]
         },
+        "libwebp": {
+            "name": "libwebp",
+            "version": "0.6.1-2.1",
+            "arch": "",
+            "binaryNames": [
+                "libwebp6"
+            ]
+        },
+        "libx11": {
+            "name": "libx11",
+            "version": "2:1.7.2-1",
+            "arch": "",
+            "binaryNames": [
+                "libx11-6",
+                "libx11-data"
+            ]
+        },
+        "libxau": {
+            "name": "libxau",
+            "version": "1:1.0.9-1",
+            "arch": "",
+            "binaryNames": [
+                "libxau6"
+            ]
+        },
+        "libxcb": {
+            "name": "libxcb",
+            "version": "1.14-3",
+            "arch": "",
+            "binaryNames": [
+                "libxcb1"
+            ]
+        },
+        "libxcrypt": {
+            "name": "libxcrypt",
+            "version": "1:4.4.18-4",
+            "arch": "",
+            "binaryNames": [
+                "libcrypt-dev",
+                "libcrypt1"
+            ]
+        },
+        "libxdmcp": {
+            "name": "libxdmcp",
+            "version": "1:1.1.2-3",
+            "arch": "",
+            "binaryNames": [
+                "libxdmcp6"
+            ]
+        },
         "libxml2": {
             "name": "libxml2",
-            "version": "2.9.4+dfsg1-7+deb10u4",
+            "version": "2.9.10+dfsg-6.7",
             "arch": "",
             "binaryNames": [
                 "libxml2"
             ]
         },
+        "libxpm": {
+            "name": "libxpm",
+            "version": "1:3.5.12-1",
+            "arch": "",
+            "binaryNames": [
+                "libxpm4"
+            ]
+        },
         "libzstd": {
             "name": "libzstd",
-            "version": "1.3.8+dfsg-3+deb10u2",
+            "version": "1.4.8+dfsg-2.1",
             "arch": "",
             "binaryNames": [
                 "libzstd1"
+            ]
+        },
+        "linux": {
+            "name": "linux",
+            "version": "5.10.162-1",
+            "arch": "",
+            "binaryNames": [
+                "linux-libc-dev"
             ]
         },
         "linux-base": {
@@ -4297,25 +5333,18 @@
                 "linux-base"
             ]
         },
-        "linux-latest": {
-            "name": "linux-latest",
-            "version": "105+deb10u16",
-            "arch": "",
-            "binaryNames": [
-                "linux-image-amd64"
-            ]
-        },
         "linux-signed-amd64": {
             "name": "linux-signed-amd64",
-            "version": "4.19.249+2",
+            "version": "5.10.46+4",
             "arch": "",
             "binaryNames": [
-                "linux-image-4.19.0-21-amd64"
+                "linux-image-5.10.0-8-amd64",
+                "linux-image-amd64"
             ]
         },
         "lmdb": {
             "name": "lmdb",
-            "version": "0.9.22-1",
+            "version": "0.9.24-1",
             "arch": "",
             "binaryNames": [
                 "liblmdb0"
@@ -4323,7 +5352,7 @@
         },
         "logrotate": {
             "name": "logrotate",
-            "version": "3.14.0-4",
+            "version": "3.18.0-2",
             "arch": "",
             "binaryNames": [
                 "logrotate"
@@ -4331,7 +5360,7 @@
         },
         "lsb": {
             "name": "lsb",
-            "version": "10.2019051400",
+            "version": "11.1.0",
             "arch": "",
             "binaryNames": [
                 "lsb-base",
@@ -4340,7 +5369,7 @@
         },
         "lsof": {
             "name": "lsof",
-            "version": "4.91+dfsg-1",
+            "version": "4.93.2+dfsg-1.1",
             "arch": "",
             "binaryNames": [
                 "lsof"
@@ -4348,7 +5377,7 @@
         },
         "lvm2": {
             "name": "lvm2",
-            "version": "2.03.02-3",
+            "version": "2.03.11-2.1",
             "arch": "",
             "binaryNames": [
                 "dmsetup",
@@ -4357,15 +5386,39 @@
         },
         "lz4": {
             "name": "lz4",
-            "version": "1.8.3-1+deb10u1",
+            "version": "1.9.3-2",
             "arch": "",
             "binaryNames": [
                 "liblz4-1"
             ]
         },
+        "m4": {
+            "name": "m4",
+            "version": "1.4.18-5",
+            "arch": "",
+            "binaryNames": [
+                "m4"
+            ]
+        },
+        "mailcap": {
+            "name": "mailcap",
+            "version": "3.69",
+            "arch": "",
+            "binaryNames": [
+                "mailcap"
+            ]
+        },
+        "make-dfsg": {
+            "name": "make-dfsg",
+            "version": "4.3-4.1",
+            "arch": "",
+            "binaryNames": [
+                "make"
+            ]
+        },
         "man-db": {
             "name": "man-db",
-            "version": "2.8.5-2",
+            "version": "2.9.4-2",
             "arch": "",
             "binaryNames": [
                 "man-db"
@@ -4373,39 +5426,64 @@
         },
         "manpages": {
             "name": "manpages",
-            "version": "4.16-2",
+            "version": "5.10-1",
             "arch": "",
             "binaryNames": [
-                "manpages"
+                "manpages",
+                "manpages-dev"
             ]
         },
         "mawk": {
             "name": "mawk",
-            "version": "1.3.3-17",
+            "version": "1.3.4.20200120-2",
             "arch": "",
             "binaryNames": [
                 "mawk"
             ]
         },
+        "media-types": {
+            "name": "media-types",
+            "version": "4.0.0",
+            "arch": "",
+            "binaryNames": [
+                "media-types"
+            ]
+        },
         "mime-support": {
             "name": "mime-support",
-            "version": "3.62",
+            "version": "3.66",
             "arch": "",
             "binaryNames": [
                 "mime-support"
             ]
         },
-        "mpdecimal": {
-            "name": "mpdecimal",
-            "version": "2.4.2-2",
+        "mpclib3": {
+            "name": "mpclib3",
+            "version": "1.2.0-1",
             "arch": "",
             "binaryNames": [
-                "libmpdec2"
+                "libmpc3"
+            ]
+        },
+        "mpdecimal": {
+            "name": "mpdecimal",
+            "version": "2.5.1-1",
+            "arch": "",
+            "binaryNames": [
+                "libmpdec3"
+            ]
+        },
+        "mpfr4": {
+            "name": "mpfr4",
+            "version": "4.1.0-3",
+            "arch": "",
+            "binaryNames": [
+                "libmpfr6"
             ]
         },
         "nano": {
             "name": "nano",
-            "version": "3.2-3",
+            "version": "5.4-2",
             "arch": "",
             "binaryNames": [
                 "nano"
@@ -4413,7 +5491,7 @@
         },
         "ncurses": {
             "name": "ncurses",
-            "version": "6.1+20181013-2+deb10u2",
+            "version": "6.2+20201114-2",
             "arch": "",
             "binaryNames": [
                 "libncurses6",
@@ -4426,7 +5504,7 @@
         },
         "netbase": {
             "name": "netbase",
-            "version": "5.6",
+            "version": "6.3",
             "arch": "",
             "binaryNames": [
                 "netbase"
@@ -4434,7 +5512,7 @@
         },
         "netcat": {
             "name": "netcat",
-            "version": "1.10-41.1",
+            "version": "1.10-46",
             "arch": "",
             "binaryNames": [
                 "netcat-traditional"
@@ -4442,7 +5520,7 @@
         },
         "netkit-telnet": {
             "name": "netkit-telnet",
-            "version": "0.17-41.2",
+            "version": "0.17-42",
             "arch": "",
             "binaryNames": [
                 "telnet"
@@ -4450,25 +5528,34 @@
         },
         "nettle": {
             "name": "nettle",
-            "version": "3.4.1-1+deb10u1",
+            "version": "3.7.3-1",
             "arch": "",
             "binaryNames": [
-                "libhogweed4",
-                "libnettle6"
+                "libhogweed6",
+                "libnettle8"
             ]
         },
         "newt": {
             "name": "newt",
-            "version": "0.52.20-8",
+            "version": "0.52.21-4",
             "arch": "",
             "binaryNames": [
                 "libnewt0.52",
                 "whiptail"
             ]
         },
+        "nftables": {
+            "name": "nftables",
+            "version": "0.9.8-3.1",
+            "arch": "",
+            "binaryNames": [
+                "libnftables1",
+                "nftables"
+            ]
+        },
         "nghttp2": {
             "name": "nghttp2",
-            "version": "1.36.0-2+deb10u1",
+            "version": "1.43.0-1",
             "arch": "",
             "binaryNames": [
                 "libnghttp2-14"
@@ -4476,7 +5563,7 @@
         },
         "npth": {
             "name": "npth",
-            "version": "1.6-1",
+            "version": "1.6-3",
             "arch": "",
             "binaryNames": [
                 "libnpth0"
@@ -4484,16 +5571,15 @@
         },
         "openldap": {
             "name": "openldap",
-            "version": "2.4.47+dfsg-3+deb10u7",
+            "version": "2.4.57+dfsg-3",
             "arch": "",
             "binaryNames": [
-                "libldap-2.4-2",
-                "libldap-common"
+                "libldap-2.4-2"
             ]
         },
         "openssh": {
             "name": "openssh",
-            "version": "1:7.9p1-10+deb10u2",
+            "version": "1:8.4p1-5+deb11u1",
             "arch": "",
             "binaryNames": [
                 "openssh-client",
@@ -4503,7 +5589,7 @@
         },
         "openssl": {
             "name": "openssl",
-            "version": "1.1.1n-0+deb10u3",
+            "version": "1.1.1k-1",
             "arch": "",
             "binaryNames": [
                 "libssl1.1",
@@ -4512,7 +5598,7 @@
         },
         "p11-kit": {
             "name": "p11-kit",
-            "version": "0.23.15-2+deb10u1",
+            "version": "0.23.22-1",
             "arch": "",
             "binaryNames": [
                 "libp11-kit0"
@@ -4520,7 +5606,7 @@
         },
         "pam": {
             "name": "pam",
-            "version": "1.3.1-5",
+            "version": "1.4.0-9",
             "arch": "",
             "binaryNames": [
                 "libpam-modules",
@@ -4529,9 +5615,25 @@
                 "libpam0g"
             ]
         },
+        "patch": {
+            "name": "patch",
+            "version": "2.7.6-7",
+            "arch": "",
+            "binaryNames": [
+                "patch"
+            ]
+        },
+        "pci.ids": {
+            "name": "pci.ids",
+            "version": "0.0~2021.02.08-1",
+            "arch": "",
+            "binaryNames": [
+                "pci.ids"
+            ]
+        },
         "pciutils": {
             "name": "pciutils",
-            "version": "1:3.5.2-1",
+            "version": "1:3.7.0-5",
             "arch": "",
             "binaryNames": [
                 "libpci3",
@@ -4540,7 +5642,7 @@
         },
         "pcre2": {
             "name": "pcre2",
-            "version": "10.32-5",
+            "version": "10.36-2",
             "arch": "",
             "binaryNames": [
                 "libpcre2-8-0"
@@ -4548,7 +5650,7 @@
         },
         "pcre3": {
             "name": "pcre3",
-            "version": "2:8.39-12",
+            "version": "2:8.39-13",
             "arch": "",
             "binaryNames": [
                 "libpcre3"
@@ -4556,26 +5658,34 @@
         },
         "perl": {
             "name": "perl",
-            "version": "5.28.1-6+deb10u1",
+            "version": "5.32.1-4",
             "arch": "",
             "binaryNames": [
-                "libperl5.28",
+                "libperl5.32",
                 "perl",
                 "perl-base",
-                "perl-modules-5.28"
+                "perl-modules-5.32"
             ]
         },
         "pinentry": {
             "name": "pinentry",
-            "version": "1.1.0-2",
+            "version": "1.1.0-4",
             "arch": "",
             "binaryNames": [
                 "pinentry-curses"
             ]
         },
+        "po-debconf": {
+            "name": "po-debconf",
+            "version": "1.0.21+nmu1",
+            "arch": "",
+            "binaryNames": [
+                "po-debconf"
+            ]
+        },
         "popt": {
             "name": "popt",
-            "version": "1.16-12",
+            "version": "1.18-2",
             "arch": "",
             "binaryNames": [
                 "libpopt0"
@@ -4583,7 +5693,7 @@
         },
         "popularity-contest": {
             "name": "popularity-contest",
-            "version": "1.67",
+            "version": "1.71",
             "arch": "",
             "binaryNames": [
                 "popularity-contest"
@@ -4591,16 +5701,16 @@
         },
         "procps": {
             "name": "procps",
-            "version": "2:3.3.15-2",
+            "version": "2:3.3.17-5",
             "arch": "",
             "binaryNames": [
-                "libprocps7",
+                "libprocps8",
                 "procps"
             ]
         },
         "protobuf-c": {
             "name": "protobuf-c",
-            "version": "1.3.1-1",
+            "version": "1.3.3-1",
             "arch": "",
             "binaryNames": [
                 "libprotobuf-c1"
@@ -4608,7 +5718,7 @@
         },
         "psmisc": {
             "name": "psmisc",
-            "version": "23.2-1+deb10u1",
+            "version": "23.4-2",
             "arch": "",
             "binaryNames": [
                 "psmisc"
@@ -4616,7 +5726,7 @@
         },
         "pycurl": {
             "name": "pycurl",
-            "version": "7.43.0.2-0.1",
+            "version": "7.43.0.6-5",
             "arch": "",
             "binaryNames": [
                 "python3-pycurl"
@@ -4624,7 +5734,7 @@
         },
         "pysimplesoap": {
             "name": "pysimplesoap",
-            "version": "1.16.2-1",
+            "version": "1.16.2-3",
             "arch": "",
             "binaryNames": [
                 "python3-pysimplesoap"
@@ -4632,7 +5742,7 @@
         },
         "python-apt": {
             "name": "python-apt",
-            "version": "1.8.4.3",
+            "version": "2.2.1",
             "arch": "",
             "binaryNames": [
                 "python-apt-common",
@@ -4641,7 +5751,7 @@
         },
         "python-certifi": {
             "name": "python-certifi",
-            "version": "2018.8.24-1",
+            "version": "2020.6.20-1",
             "arch": "",
             "binaryNames": [
                 "python3-certifi"
@@ -4649,7 +5759,7 @@
         },
         "python-debian": {
             "name": "python-debian",
-            "version": "0.1.35",
+            "version": "0.1.39",
             "arch": "",
             "binaryNames": [
                 "python3-debian"
@@ -4657,28 +5767,15 @@
         },
         "python-debianbts": {
             "name": "python-debianbts",
-            "version": "2.8.2",
+            "version": "3.1.0",
             "arch": "",
             "binaryNames": [
                 "python3-debianbts"
             ]
         },
-        "python-defaults": {
-            "name": "python-defaults",
-            "version": "2.7.16-1",
-            "arch": "",
-            "binaryNames": [
-                "libpython-stdlib",
-                "libpython2-stdlib",
-                "python",
-                "python-minimal",
-                "python2",
-                "python2-minimal"
-            ]
-        },
         "python-httplib2": {
             "name": "python-httplib2",
-            "version": "0.11.3-2",
+            "version": "0.18.1-3",
             "arch": "",
             "binaryNames": [
                 "python3-httplib2"
@@ -4686,42 +5783,23 @@
         },
         "python-idna": {
             "name": "python-idna",
-            "version": "2.6-1",
+            "version": "2.10-1",
             "arch": "",
             "binaryNames": [
                 "python3-idna"
             ]
         },
-        "python-setuptools": {
-            "name": "python-setuptools",
-            "version": "40.8.0-1",
-            "arch": "",
-            "binaryNames": [
-                "python3-pkg-resources"
-            ]
-        },
         "python-urllib3": {
             "name": "python-urllib3",
-            "version": "1.24.1-1",
+            "version": "1.26.5-1~exp1",
             "arch": "",
             "binaryNames": [
                 "python3-urllib3"
             ]
         },
-        "python2.7": {
-            "name": "python2.7",
-            "version": "2.7.16-2+deb10u1",
-            "arch": "",
-            "binaryNames": [
-                "libpython2.7-minimal",
-                "libpython2.7-stdlib",
-                "python2.7",
-                "python2.7-minimal"
-            ]
-        },
         "python3-defaults": {
             "name": "python3-defaults",
-            "version": "3.7.3-1",
+            "version": "3.9.2-3",
             "arch": "",
             "binaryNames": [
                 "libpython3-stdlib",
@@ -4729,20 +5807,20 @@
                 "python3-minimal"
             ]
         },
-        "python3.7": {
-            "name": "python3.7",
-            "version": "3.7.3-2+deb10u3",
+        "python3.9": {
+            "name": "python3.9",
+            "version": "3.9.2-1",
             "arch": "",
             "binaryNames": [
-                "libpython3.7-minimal",
-                "libpython3.7-stdlib",
-                "python3.7",
-                "python3.7-minimal"
+                "libpython3.9-minimal",
+                "libpython3.9-stdlib",
+                "python3.9",
+                "python3.9-minimal"
             ]
         },
         "qemu": {
             "name": "qemu",
-            "version": "1:3.1+dfsg-8+deb10u9",
+            "version": "1:5.2+dfsg-11",
             "arch": "",
             "binaryNames": [
                 "qemu-utils"
@@ -4750,16 +5828,16 @@
         },
         "readline": {
             "name": "readline",
-            "version": "7.0-5",
+            "version": "8.1-1",
             "arch": "",
             "binaryNames": [
-                "libreadline7",
+                "libreadline8",
                 "readline-common"
             ]
         },
         "reboot-notifier": {
             "name": "reboot-notifier",
-            "version": "0.8",
+            "version": "0.10",
             "arch": "",
             "binaryNames": [
                 "reboot-notifier"
@@ -4767,7 +5845,7 @@
         },
         "reportbug": {
             "name": "reportbug",
-            "version": "7.5.3~deb10u1",
+            "version": "7.10.3",
             "arch": "",
             "binaryNames": [
                 "python3-reportbug",
@@ -4776,23 +5854,15 @@
         },
         "requests": {
             "name": "requests",
-            "version": "2.21.0-1",
+            "version": "2.25.1+dfsg-2",
             "arch": "",
             "binaryNames": [
                 "python3-requests"
             ]
         },
-        "rsync": {
-            "name": "rsync",
-            "version": "3.1.3-6",
-            "arch": "",
-            "binaryNames": [
-                "rsync"
-            ]
-        },
         "rsyslog": {
             "name": "rsyslog",
-            "version": "8.1901.0-1+deb10u2",
+            "version": "8.2102.0-2",
             "arch": "",
             "binaryNames": [
                 "rsyslog"
@@ -4808,18 +5878,10 @@
         },
         "scowl": {
             "name": "scowl",
-            "version": "2018.04.16-1",
+            "version": "2019.10.06-1",
             "arch": "",
             "binaryNames": [
                 "wamerican"
-            ]
-        },
-        "screen": {
-            "name": "screen",
-            "version": "4.6.2-3+deb10u1",
-            "arch": "",
-            "binaryNames": [
-                "screen"
             ]
         },
         "sed": {
@@ -4832,15 +5894,23 @@
         },
         "sensible-utils": {
             "name": "sensible-utils",
-            "version": "0.0.12",
+            "version": "0.0.14",
             "arch": "",
             "binaryNames": [
                 "sensible-utils"
             ]
         },
+        "setuptools": {
+            "name": "setuptools",
+            "version": "52.0.0-4",
+            "arch": "",
+            "binaryNames": [
+                "python3-pkg-resources"
+            ]
+        },
         "shadow": {
             "name": "shadow",
-            "version": "1:4.5-1.1",
+            "version": "1:4.8.1-1",
             "arch": "",
             "binaryNames": [
                 "login",
@@ -4849,7 +5919,7 @@
         },
         "six": {
             "name": "six",
-            "version": "1.12.0-1",
+            "version": "1.16.0-2",
             "arch": "",
             "binaryNames": [
                 "python3-six"
@@ -4857,31 +5927,32 @@
         },
         "slang2": {
             "name": "slang2",
-            "version": "2.3.2-2",
+            "version": "2.3.2-5",
             "arch": "",
             "binaryNames": [
                 "libslang2"
             ]
         },
-        "socat": {
-            "name": "socat",
-            "version": "1.7.3.2-2",
-            "arch": "",
-            "binaryNames": [
-                "socat"
-            ]
-        },
         "sqlite3": {
             "name": "sqlite3",
-            "version": "3.27.2-3+deb10u1",
+            "version": "3.34.1-3",
             "arch": "",
             "binaryNames": [
                 "libsqlite3-0"
             ]
         },
+        "strip-nondeterminism": {
+            "name": "strip-nondeterminism",
+            "version": "1.12.0-1",
+            "arch": "",
+            "binaryNames": [
+                "dh-strip-nondeterminism",
+                "libfile-stripnondeterminism-perl"
+            ]
+        },
         "sudo": {
             "name": "sudo",
-            "version": "1.8.27-1+deb10u3",
+            "version": "1.9.5p2-3",
             "arch": "",
             "binaryNames": [
                 "sudo"
@@ -4889,7 +5960,7 @@
         },
         "systemd": {
             "name": "systemd",
-            "version": "241-7~deb10u8",
+            "version": "247.3-6",
             "arch": "",
             "binaryNames": [
                 "libnss-systemd",
@@ -4903,7 +5974,7 @@
         },
         "sysvinit": {
             "name": "sysvinit",
-            "version": "2.93-8",
+            "version": "2.96-7",
             "arch": "",
             "binaryNames": [
                 "sysvinit-utils"
@@ -4911,7 +5982,7 @@
         },
         "tar": {
             "name": "tar",
-            "version": "1.30+dfsg-6",
+            "version": "1.34+dfsg-1",
             "arch": "",
             "binaryNames": [
                 "tar"
@@ -4919,7 +5990,7 @@
         },
         "tasksel": {
             "name": "tasksel",
-            "version": "3.53",
+            "version": "3.68",
             "arch": "",
             "binaryNames": [
                 "tasksel",
@@ -4928,18 +5999,18 @@
         },
         "tcp-wrappers": {
             "name": "tcp-wrappers",
-            "version": "7.6.q-28",
+            "version": "7.6.q-31",
             "arch": "",
             "binaryNames": [
                 "libwrap0"
             ]
         },
-        "tcpdump": {
-            "name": "tcpdump",
-            "version": "4.9.3-1~deb10u2",
+        "tiff": {
+            "name": "tiff",
+            "version": "4.2.0-1+deb11u4",
             "arch": "",
             "binaryNames": [
-                "tcpdump"
+                "libtiff5"
             ]
         },
         "traceroute": {
@@ -4952,7 +6023,7 @@
         },
         "tzdata": {
             "name": "tzdata",
-            "version": "2021a-0+deb10u6",
+            "version": "2021a-1",
             "arch": "",
             "binaryNames": [
                 "tzdata"
@@ -4960,7 +6031,7 @@
         },
         "ucf": {
             "name": "ucf",
-            "version": "3.0038+nmu1",
+            "version": "3.0043",
             "arch": "",
             "binaryNames": [
                 "ucf"
@@ -4968,7 +6039,7 @@
         },
         "uchardet": {
             "name": "uchardet",
-            "version": "0.0.6-3",
+            "version": "0.0.7-1",
             "arch": "",
             "binaryNames": [
                 "libuchardet0"
@@ -4976,7 +6047,7 @@
         },
         "unattended-upgrades": {
             "name": "unattended-upgrades",
-            "version": "1.11.2",
+            "version": "2.8",
             "arch": "",
             "binaryNames": [
                 "unattended-upgrades"
@@ -4984,7 +6055,7 @@
         },
         "unbound": {
             "name": "unbound",
-            "version": "1.9.0-2+deb10u3",
+            "version": "1.13.1-1",
             "arch": "",
             "binaryNames": [
                 "libunbound8"
@@ -4992,9 +6063,10 @@
         },
         "util-linux": {
             "name": "util-linux",
-            "version": "2.33.1-0.1",
+            "version": "2.36.1-8",
             "arch": "",
             "binaryNames": [
+                "bsdextrautils",
                 "bsdutils",
                 "fdisk",
                 "libblkid1",
@@ -5003,33 +6075,38 @@
                 "libsmartcols1",
                 "libuuid1",
                 "mount",
-                "util-linux",
-                "uuid-runtime"
+                "util-linux"
             ]
         },
         "vim": {
             "name": "vim",
-            "version": "2:8.1.0875-5+deb10u2",
+            "version": "2:8.2.2434-3",
             "arch": "",
             "binaryNames": [
-                "vim",
                 "vim-common",
-                "vim-runtime",
                 "vim-tiny",
                 "xxd"
             ]
         },
         "wget": {
             "name": "wget",
-            "version": "1.20.1-1.1",
+            "version": "1.21-1",
             "arch": "",
             "binaryNames": [
                 "wget"
             ]
         },
+        "xxhash": {
+            "name": "xxhash",
+            "version": "0.8.0-2",
+            "arch": "",
+            "binaryNames": [
+                "libxxhash0"
+            ]
+        },
         "xz-utils": {
             "name": "xz-utils",
-            "version": "5.2.4-1+deb10u1",
+            "version": "5.2.5-2",
             "arch": "",
             "binaryNames": [
                 "liblzma5",
@@ -5038,7 +6115,7 @@
         },
         "zlib": {
             "name": "zlib",
-            "version": "1:1.2.11.dfsg-1+deb10u1",
+            "version": "1:1.2.11.dfsg-2",
             "arch": "",
             "binaryNames": [
                 "zlib1g"
@@ -5052,8 +6129,8 @@
             "resultsDir": "/home/vuls/go/src/github.com/future-architect/vuls/results",
             "default": {},
             "servers": {
-                "debian_10": {
-                    "serverName": "debian_10",
+                "debian_11": {
+                    "serverName": "debian_11",
                     "user": "vuls",
                     "host": "127.0.0.1",
                     "port": "2222",
@@ -5072,13 +6149,13 @@
             "cveDict": {
                 "Name": "cveDict",
                 "Type": "sqlite3",
-                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/go-cve-dictionary/cve.sqlite3",
+                "SQLite3Path": "home/vuls/go/src/github.com/vulsio/go-cve-dictionary/cve.sqlite3",
                 "DebugSQL": false
             },
             "ovalDict": {
                 "Name": "ovalDict",
                 "Type": "sqlite3",
-                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/goval-dictionary/oval.sqlite3",
+                "SQLite3Path": "home/vuls/go/src/github.com/vulsio/goval-dictionary/oval.sqlite3",
                 "DebugSQL": false
             },
             "gost": {
