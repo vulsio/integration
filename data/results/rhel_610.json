@@ -1,0 +1,2727 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "rhel_610",
+    "family": "redhat",
+    "release": "6.10",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "192.168.0.175"
+    ],
+    "scannedAt": "2023-04-22T05:27:28.653119999+09:00",
+    "scanMode": "fast mode",
+    "scannedVersion": "v0.23.0",
+    "scannedRevision": "build-20230422_050714_333eae0",
+    "scannedBy": "vuls",
+    "scannedVia": "remote",
+    "scannedIpv4Addrs": [
+        "192.168.0.105",
+        "192.168.0.83",
+        "172.17.0.1",
+        "172.19.0.2"
+    ],
+    "scannedIpv6Addrs": [
+        "2400:4051:4be1:be00:126f:6a1f:4e60:e18c",
+        "2400:4051:4be1:be00:8a9e:5b31:ac58:8e51",
+        "2400:4051:4be1:be00:3c5d:9982:6abc:33ba",
+        "2400:4051:4be1:be00:6c31:167a:2d44:ad8b"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.",
+        "Extended support available until 2024-06-30. Check the vendor site."
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "2.6.32-754.el6.x86_64",
+        "version": "",
+        "rebootRequired": false
+    },
+    "packages": {
+        "MAKEDEV": {
+            "name": "MAKEDEV",
+            "version": "3.24",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "acl": {
+            "name": "acl",
+            "version": "2.2.49",
+            "release": "7.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "attr": {
+            "name": "attr",
+            "version": "2.4.44",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "audit": {
+            "name": "audit",
+            "version": "2.4.5",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "audit-libs": {
+            "name": "audit-libs",
+            "version": "2.4.5",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "authconfig": {
+            "name": "authconfig",
+            "version": "6.1.12",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "autoconf": {
+            "name": "autoconf",
+            "version": "2.63",
+            "release": "5.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "automake": {
+            "name": "automake",
+            "version": "1.11.1",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "b43-openfwwf": {
+            "name": "b43-openfwwf",
+            "version": "5.2",
+            "release": "10.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "basesystem": {
+            "name": "basesystem",
+            "version": "10.0",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "bash": {
+            "name": "bash",
+            "version": "4.1.2",
+            "release": "48.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "bash-completion": {
+            "name": "bash-completion",
+            "version": "1:1.3",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "bc": {
+            "name": "bc",
+            "version": "1.06.95",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "bind-libs": {
+            "name": "bind-libs",
+            "version": "32:9.8.2",
+            "release": "0.68.rc1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "bind-utils": {
+            "name": "bind-utils",
+            "version": "32:9.8.2",
+            "release": "0.68.rc1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "binutils": {
+            "name": "binutils",
+            "version": "2.20.51.0.2",
+            "release": "5.48.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "busybox": {
+            "name": "busybox",
+            "version": "1:1.15.1",
+            "release": "21.el6_6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "bzip2": {
+            "name": "bzip2",
+            "version": "1.0.5",
+            "release": "7.el6_0",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "bzip2-libs": {
+            "name": "bzip2-libs",
+            "version": "1.0.5",
+            "release": "7.el6_0",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ca-certificates": {
+            "name": "ca-certificates",
+            "version": "2018.2.22",
+            "release": "65.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "checkpolicy": {
+            "name": "checkpolicy",
+            "version": "2.0.22",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "chkconfig": {
+            "name": "chkconfig",
+            "version": "1.3.49.5",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cloog-ppl": {
+            "name": "cloog-ppl",
+            "version": "0.15.7",
+            "release": "1.2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cmake": {
+            "name": "cmake",
+            "version": "2.8.12.2",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "coreutils": {
+            "name": "coreutils",
+            "version": "8.4",
+            "release": "47.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "coreutils-libs": {
+            "name": "coreutils-libs",
+            "version": "8.4",
+            "release": "47.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cpio": {
+            "name": "cpio",
+            "version": "2.10",
+            "release": "13.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cpp": {
+            "name": "cpp",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cracklib": {
+            "name": "cracklib",
+            "version": "2.8.16",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cracklib-dicts": {
+            "name": "cracklib-dicts",
+            "version": "2.8.16",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cronie": {
+            "name": "cronie",
+            "version": "1.4.4",
+            "release": "16.el6_8.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cronie-anacron": {
+            "name": "cronie-anacron",
+            "version": "1.4.4",
+            "release": "16.el6_8.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "crontabs": {
+            "name": "crontabs",
+            "version": "1.10",
+            "release": "33.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "curl": {
+            "name": "curl",
+            "version": "7.19.7",
+            "release": "53.el6_9",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cyrus-sasl": {
+            "name": "cyrus-sasl",
+            "version": "2.1.23",
+            "release": "15.el6_6.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "cyrus-sasl-lib": {
+            "name": "cyrus-sasl-lib",
+            "version": "2.1.23",
+            "release": "15.el6_6.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dash": {
+            "name": "dash",
+            "version": "0.5.5.1",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "db4": {
+            "name": "db4",
+            "version": "4.7.25",
+            "release": "22.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "db4-utils": {
+            "name": "db4-utils",
+            "version": "4.7.25",
+            "release": "22.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dbus-glib": {
+            "name": "dbus-glib",
+            "version": "0.86",
+            "release": "6.el6_4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dbus-libs": {
+            "name": "dbus-libs",
+            "version": "1:1.2.24",
+            "release": "9.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dbus-python": {
+            "name": "dbus-python",
+            "version": "0.83.0",
+            "release": "6.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "device-mapper": {
+            "name": "device-mapper",
+            "version": "1.02.117",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "device-mapper-event": {
+            "name": "device-mapper-event",
+            "version": "1.02.117",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "device-mapper-event-libs": {
+            "name": "device-mapper-event-libs",
+            "version": "1.02.117",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "device-mapper-libs": {
+            "name": "device-mapper-libs",
+            "version": "1.02.117",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "device-mapper-persistent-data": {
+            "name": "device-mapper-persistent-data",
+            "version": "0.6.2",
+            "release": "0.2.rc7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dhclient": {
+            "name": "dhclient",
+            "version": "12:4.1.1",
+            "release": "60.P1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dhcp-common": {
+            "name": "dhcp-common",
+            "version": "12:4.1.1",
+            "release": "60.P1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "diffutils": {
+            "name": "diffutils",
+            "version": "2.8.1",
+            "release": "28.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dmidecode": {
+            "name": "dmidecode",
+            "version": "1:2.12",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dos2unix": {
+            "name": "dos2unix",
+            "version": "3.1",
+            "release": "37.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "dracut": {
+            "name": "dracut",
+            "version": "004",
+            "release": "411.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "dracut-kernel": {
+            "name": "dracut-kernel",
+            "version": "004",
+            "release": "411.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "e2fsprogs": {
+            "name": "e2fsprogs",
+            "version": "1.41.12",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "e2fsprogs-libs": {
+            "name": "e2fsprogs-libs",
+            "version": "1.41.12",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "efibootmgr": {
+            "name": "efibootmgr",
+            "version": "0.5.4",
+            "release": "15.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "elfutils-libelf": {
+            "name": "elfutils-libelf",
+            "version": "0.164",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "elfutils-libs": {
+            "name": "elfutils-libs",
+            "version": "0.164",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "epel-release": {
+            "name": "epel-release",
+            "version": "6",
+            "release": "8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "ethtool": {
+            "name": "ethtool",
+            "version": "2:3.5",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "expat": {
+            "name": "expat",
+            "version": "2.0.1",
+            "release": "13.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "file": {
+            "name": "file",
+            "version": "5.04",
+            "release": "30.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "file-libs": {
+            "name": "file-libs",
+            "version": "5.04",
+            "release": "30.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "filesystem": {
+            "name": "filesystem",
+            "version": "2.4.30",
+            "release": "3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "findutils": {
+            "name": "findutils",
+            "version": "1:4.4.2",
+            "release": "9.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "fipscheck": {
+            "name": "fipscheck",
+            "version": "1.2.0",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "fipscheck-lib": {
+            "name": "fipscheck-lib",
+            "version": "1.2.0",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gamin": {
+            "name": "gamin",
+            "version": "0.1.10",
+            "release": "9.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gawk": {
+            "name": "gawk",
+            "version": "3.1.7",
+            "release": "10.el6_7.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gcc": {
+            "name": "gcc",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gcc-c++": {
+            "name": "gcc-c++",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gdbm": {
+            "name": "gdbm",
+            "version": "1.8.0",
+            "release": "39.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "glib2": {
+            "name": "glib2",
+            "version": "2.28.8",
+            "release": "10.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "glibc": {
+            "name": "glibc",
+            "version": "2.12",
+            "release": "1.212.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "glibc-common": {
+            "name": "glibc-common",
+            "version": "2.12",
+            "release": "1.212.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "glibc-devel": {
+            "name": "glibc-devel",
+            "version": "2.12",
+            "release": "1.212.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "glibc-headers": {
+            "name": "glibc-headers",
+            "version": "2.12",
+            "release": "1.212.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gmp": {
+            "name": "gmp",
+            "version": "4.3.1",
+            "release": "13.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gnupg2": {
+            "name": "gnupg2",
+            "version": "2.0.14",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gpg-pubkey": {
+            "name": "gpg-pubkey",
+            "version": "fd431d51",
+            "release": "4ae0493b",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "(none)",
+            "repository": ""
+        },
+        "gpgme": {
+            "name": "gpgme",
+            "version": "1.1.8",
+            "release": "3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gpm-libs": {
+            "name": "gpm-libs",
+            "version": "1.20.6",
+            "release": "12.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "grep": {
+            "name": "grep",
+            "version": "2.20",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "groff": {
+            "name": "groff",
+            "version": "1.18.1.4",
+            "release": "21.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "grub": {
+            "name": "grub",
+            "version": "1:0.97",
+            "release": "99.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "grubby": {
+            "name": "grubby",
+            "version": "7.0.15",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "gzip": {
+            "name": "gzip",
+            "version": "1.3.12",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "haveged": {
+            "name": "haveged",
+            "version": "1.9.1",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "hwdata": {
+            "name": "hwdata",
+            "version": "0.233",
+            "release": "20.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "info": {
+            "name": "info",
+            "version": "4.13a",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "initscripts": {
+            "name": "initscripts",
+            "version": "9.03.61",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "iproute": {
+            "name": "iproute",
+            "version": "2.6.32",
+            "release": "57.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "iptables": {
+            "name": "iptables",
+            "version": "1.4.7",
+            "release": "19.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "iptables-ipv6": {
+            "name": "iptables-ipv6",
+            "version": "1.4.7",
+            "release": "19.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "iputils": {
+            "name": "iputils",
+            "version": "20071127",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "jwhois": {
+            "name": "jwhois",
+            "version": "4.0",
+            "release": "19.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kbd": {
+            "name": "kbd",
+            "version": "1.15",
+            "release": "11.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kbd-misc": {
+            "name": "kbd-misc",
+            "version": "1.15",
+            "release": "11.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "kernel": {
+            "name": "kernel",
+            "version": "2.6.32",
+            "release": "754.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kernel-devel": {
+            "name": "kernel-devel",
+            "version": "2.6.32",
+            "release": "754.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kernel-firmware": {
+            "name": "kernel-firmware",
+            "version": "2.6.32",
+            "release": "754.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "kernel-headers": {
+            "name": "kernel-headers",
+            "version": "2.6.32",
+            "release": "754.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kexec-tools": {
+            "name": "kexec-tools",
+            "version": "2.0.0",
+            "release": "310.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "keyutils-libs": {
+            "name": "keyutils-libs",
+            "version": "1.4",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "kpartx": {
+            "name": "kpartx",
+            "version": "0.4.9",
+            "release": "106.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "krb5-libs": {
+            "name": "krb5-libs",
+            "version": "1.10.3",
+            "release": "65.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "less": {
+            "name": "less",
+            "version": "436",
+            "release": "13.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libacl": {
+            "name": "libacl",
+            "version": "2.2.49",
+            "release": "7.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libaio": {
+            "name": "libaio",
+            "version": "0.3.107",
+            "release": "10.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libarchive": {
+            "name": "libarchive",
+            "version": "2.8.3",
+            "release": "7.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libattr": {
+            "name": "libattr",
+            "version": "2.4.44",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libblkid": {
+            "name": "libblkid",
+            "version": "2.17.2",
+            "release": "12.28.el6_9.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libcap": {
+            "name": "libcap",
+            "version": "2.16",
+            "release": "5.5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libcap-ng": {
+            "name": "libcap-ng",
+            "version": "0.6.4",
+            "release": "3.el6_0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libcom_err": {
+            "name": "libcom_err",
+            "version": "1.41.12",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libcurl": {
+            "name": "libcurl",
+            "version": "7.19.7",
+            "release": "53.el6_9",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libdrm": {
+            "name": "libdrm",
+            "version": "2.4.65",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libedit": {
+            "name": "libedit",
+            "version": "2.11",
+            "release": "4.20080712cvs.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libffi": {
+            "name": "libffi",
+            "version": "3.0.5",
+            "release": "3.2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libgcc": {
+            "name": "libgcc",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libgcrypt": {
+            "name": "libgcrypt",
+            "version": "1.4.5",
+            "release": "12.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libgomp": {
+            "name": "libgomp",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libgpg-error": {
+            "name": "libgpg-error",
+            "version": "1.7",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libgudev1": {
+            "name": "libgudev1",
+            "version": "147",
+            "release": "2.73.el6_8.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libidn": {
+            "name": "libidn",
+            "version": "1.18",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libnih": {
+            "name": "libnih",
+            "version": "1.0.1",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libnl": {
+            "name": "libnl",
+            "version": "1.1.4",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libpciaccess": {
+            "name": "libpciaccess",
+            "version": "0.13.4",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libselinux": {
+            "name": "libselinux",
+            "version": "2.0.94",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libselinux-utils": {
+            "name": "libselinux-utils",
+            "version": "2.0.94",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libsemanage": {
+            "name": "libsemanage",
+            "version": "2.0.43",
+            "release": "5.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libsepol": {
+            "name": "libsepol",
+            "version": "2.0.41",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libss": {
+            "name": "libss",
+            "version": "1.41.12",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libssh2": {
+            "name": "libssh2",
+            "version": "1.4.2",
+            "release": "2.el6_7.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libstdc++": {
+            "name": "libstdc++",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libstdc++-devel": {
+            "name": "libstdc++-devel",
+            "version": "4.4.7",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libtasn1": {
+            "name": "libtasn1",
+            "version": "2.3",
+            "release": "6.el6_5",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libtool": {
+            "name": "libtool",
+            "version": "2.2.6",
+            "release": "15.5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libudev": {
+            "name": "libudev",
+            "version": "147",
+            "release": "2.73.el6_8.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libusb": {
+            "name": "libusb",
+            "version": "0.1.12",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libuser": {
+            "name": "libuser",
+            "version": "0.56.13",
+            "release": "8.el6_7",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libutempter": {
+            "name": "libutempter",
+            "version": "1.1.5",
+            "release": "4.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libuuid": {
+            "name": "libuuid",
+            "version": "2.17.2",
+            "release": "12.28.el6_9.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libxml2": {
+            "name": "libxml2",
+            "version": "2.7.6",
+            "release": "21.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libxml2-python": {
+            "name": "libxml2-python",
+            "version": "2.7.6",
+            "release": "21.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "libxslt": {
+            "name": "libxslt",
+            "version": "1.1.26",
+            "release": "2.el6_3.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "logrotate": {
+            "name": "logrotate",
+            "version": "3.7.8",
+            "release": "28.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "lsof": {
+            "name": "lsof",
+            "version": "4.82",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "lua": {
+            "name": "lua",
+            "version": "5.1.4",
+            "release": "4.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "lvm2": {
+            "name": "lvm2",
+            "version": "2.02.143",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "lvm2-libs": {
+            "name": "lvm2-libs",
+            "version": "2.02.143",
+            "release": "12.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "lzo": {
+            "name": "lzo",
+            "version": "2.03",
+            "release": "3.1.el6_5.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "m2crypto": {
+            "name": "m2crypto",
+            "version": "0.20.2",
+            "release": "9.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "m4": {
+            "name": "m4",
+            "version": "1.4.13",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "make": {
+            "name": "make",
+            "version": "1:3.81",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "man": {
+            "name": "man",
+            "version": "1.6f",
+            "release": "39.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "man-pages": {
+            "name": "man-pages",
+            "version": "3.22",
+            "release": "20.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "mdadm": {
+            "name": "mdadm",
+            "version": "3.3.4",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "mingetty": {
+            "name": "mingetty",
+            "version": "1.08",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "mlocate": {
+            "name": "mlocate",
+            "version": "0.22.2",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "module-init-tools": {
+            "name": "module-init-tools",
+            "version": "3.9",
+            "release": "26.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "mpfr": {
+            "name": "mpfr",
+            "version": "2.4.1",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "mysql-libs": {
+            "name": "mysql-libs",
+            "version": "5.1.73",
+            "release": "8.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ncurses": {
+            "name": "ncurses",
+            "version": "5.7",
+            "release": "4.20090207.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ncurses-base": {
+            "name": "ncurses-base",
+            "version": "5.7",
+            "release": "4.20090207.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ncurses-devel": {
+            "name": "ncurses-devel",
+            "version": "5.7",
+            "release": "4.20090207.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ncurses-libs": {
+            "name": "ncurses-libs",
+            "version": "5.7",
+            "release": "4.20090207.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "net-tools": {
+            "name": "net-tools",
+            "version": "1.60",
+            "release": "114.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "newt": {
+            "name": "newt",
+            "version": "0.52.11",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "newt-python": {
+            "name": "newt-python",
+            "version": "0.52.11",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nspr": {
+            "name": "nspr",
+            "version": "4.19.0",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss": {
+            "name": "nss",
+            "version": "3.36.0",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss-softokn": {
+            "name": "nss-softokn",
+            "version": "3.14.3",
+            "release": "23.3.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss-softokn-freebl": {
+            "name": "nss-softokn-freebl",
+            "version": "3.14.3",
+            "release": "23.3.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss-sysinit": {
+            "name": "nss-sysinit",
+            "version": "3.36.0",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss-tools": {
+            "name": "nss-tools",
+            "version": "3.36.0",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "nss-util": {
+            "name": "nss-util",
+            "version": "3.36.0",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "openldap": {
+            "name": "openldap",
+            "version": "2.4.40",
+            "release": "16.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "openssh": {
+            "name": "openssh",
+            "version": "5.3p1",
+            "release": "124.el6_10",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "openssh-clients": {
+            "name": "openssh-clients",
+            "version": "5.3p1",
+            "release": "124.el6_10",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "openssh-server": {
+            "name": "openssh-server",
+            "version": "5.3p1",
+            "release": "124.el6_10",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "openssl": {
+            "name": "openssl",
+            "version": "1.0.1e",
+            "release": "57.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "p11-kit": {
+            "name": "p11-kit",
+            "version": "0.18.5",
+            "release": "2.el6_5.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "p11-kit-trust": {
+            "name": "p11-kit-trust",
+            "version": "0.18.5",
+            "release": "2.el6_5.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pam": {
+            "name": "pam",
+            "version": "1.1.1",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "passwd": {
+            "name": "passwd",
+            "version": "0.77",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "patch": {
+            "name": "patch",
+            "version": "2.6",
+            "release": "8.el6_9",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pciutils": {
+            "name": "pciutils",
+            "version": "3.1.10",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pciutils-libs": {
+            "name": "pciutils-libs",
+            "version": "3.1.10",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pcre": {
+            "name": "pcre",
+            "version": "7.8",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl": {
+            "name": "perl",
+            "version": "4:5.10.1",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl-Module-Pluggable": {
+            "name": "perl-Module-Pluggable",
+            "version": "1:3.90",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl-Pod-Escapes": {
+            "name": "perl-Pod-Escapes",
+            "version": "1:1.04",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl-Pod-Simple": {
+            "name": "perl-Pod-Simple",
+            "version": "1:3.13",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl-libs": {
+            "name": "perl-libs",
+            "version": "4:5.10.1",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "perl-version": {
+            "name": "perl-version",
+            "version": "3:0.77",
+            "release": "144.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pinentry": {
+            "name": "pinentry",
+            "version": "0.7.6",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pkgconfig": {
+            "name": "pkgconfig",
+            "version": "1:0.23",
+            "release": "9.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "plymouth": {
+            "name": "plymouth",
+            "version": "0.8.3",
+            "release": "29.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "plymouth-core-libs": {
+            "name": "plymouth-core-libs",
+            "version": "0.8.3",
+            "release": "29.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "plymouth-scripts": {
+            "name": "plymouth-scripts",
+            "version": "0.8.3",
+            "release": "29.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "policycoreutils": {
+            "name": "policycoreutils",
+            "version": "2.0.83",
+            "release": "30.1.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "popt": {
+            "name": "popt",
+            "version": "1.13",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "postfix": {
+            "name": "postfix",
+            "version": "2:2.6.6",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ppl": {
+            "name": "ppl",
+            "version": "0.10.2",
+            "release": "11.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "procps": {
+            "name": "procps",
+            "version": "3.2.8",
+            "release": "45.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "psmisc": {
+            "name": "psmisc",
+            "version": "22.6",
+            "release": "24.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pth": {
+            "name": "pth",
+            "version": "2.0.7",
+            "release": "9.3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pyOpenSSL": {
+            "name": "pyOpenSSL",
+            "version": "0.13.1",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pygobject2": {
+            "name": "pygobject2",
+            "version": "2.20.0",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "pygpgme": {
+            "name": "pygpgme",
+            "version": "0.1",
+            "release": "18.20090824bzr68.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python": {
+            "name": "python",
+            "version": "2.6.6",
+            "release": "66.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-dateutil": {
+            "name": "python-dateutil",
+            "version": "1.4.1",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "python-decorator": {
+            "name": "python-decorator",
+            "version": "3.0.1",
+            "release": "3.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "python-dmidecode": {
+            "name": "python-dmidecode",
+            "version": "3.10.15",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-ethtool": {
+            "name": "python-ethtool",
+            "version": "0.6",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-gudev": {
+            "name": "python-gudev",
+            "version": "147.1",
+            "release": "4.el6_0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-iniparse": {
+            "name": "python-iniparse",
+            "version": "0.3.1",
+            "release": "2.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "python-libs": {
+            "name": "python-libs",
+            "version": "2.6.6",
+            "release": "66.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-lxml": {
+            "name": "python-lxml",
+            "version": "2.2.3",
+            "release": "1.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-magic": {
+            "name": "python-magic",
+            "version": "5.04",
+            "release": "30.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-pycurl": {
+            "name": "python-pycurl",
+            "version": "7.19.0",
+            "release": "9.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "python-six": {
+            "name": "python-six",
+            "version": "1.9.0",
+            "release": "2.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "python-urlgrabber": {
+            "name": "python-urlgrabber",
+            "version": "3.9.1",
+            "release": "11.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rdma": {
+            "name": "rdma",
+            "version": "6.9_4.1",
+            "release": "3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "readline": {
+            "name": "readline",
+            "version": "6.0",
+            "release": "4.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "redhat-logos": {
+            "name": "redhat-logos",
+            "version": "60.0.14",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "redhat-release-server": {
+            "name": "redhat-release-server",
+            "version": "6Server",
+            "release": "6.10.0.12.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "redhat-support-lib-python": {
+            "name": "redhat-support-lib-python",
+            "version": "0.9.7",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "redhat-support-tool": {
+            "name": "redhat-support-tool",
+            "version": "0.9.8",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rhn-check": {
+            "name": "rhn-check",
+            "version": "1.0.0.1",
+            "release": "45.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rhn-client-tools": {
+            "name": "rhn-client-tools",
+            "version": "1.0.0.1",
+            "release": "45.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rhn-setup": {
+            "name": "rhn-setup",
+            "version": "1.0.0.1",
+            "release": "45.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rhnlib": {
+            "name": "rhnlib",
+            "version": "2.5.22",
+            "release": "15.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rhnsd": {
+            "name": "rhnsd",
+            "version": "4.9.3",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "rootfiles": {
+            "name": "rootfiles",
+            "version": "8.1",
+            "release": "6.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "rpm": {
+            "name": "rpm",
+            "version": "4.8.0",
+            "release": "59.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "rpm-libs": {
+            "name": "rpm-libs",
+            "version": "4.8.0",
+            "release": "59.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "rpm-python": {
+            "name": "rpm-python",
+            "version": "4.8.0",
+            "release": "59.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "rsyslog": {
+            "name": "rsyslog",
+            "version": "5.8.10",
+            "release": "12.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "sed": {
+            "name": "sed",
+            "version": "4.2.1",
+            "release": "10.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "selinux-policy": {
+            "name": "selinux-policy",
+            "version": "3.7.19",
+            "release": "312.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "selinux-policy-targeted": {
+            "name": "selinux-policy-targeted",
+            "version": "3.7.19",
+            "release": "312.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "setup": {
+            "name": "setup",
+            "version": "2.8.14",
+            "release": "23.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "shadow-utils": {
+            "name": "shadow-utils",
+            "version": "2:4.1.5.1",
+            "release": "5.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "shared-mime-info": {
+            "name": "shared-mime-info",
+            "version": "0.70",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "slang": {
+            "name": "slang",
+            "version": "2.2.1",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "snappy": {
+            "name": "snappy",
+            "version": "1.1.0",
+            "release": "1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "sqlite": {
+            "name": "sqlite",
+            "version": "3.6.20",
+            "release": "1.el6_7.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "subscription-manager": {
+            "name": "subscription-manager",
+            "version": "1.20.10",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "subscription-manager-rhsm": {
+            "name": "subscription-manager-rhsm",
+            "version": "1.20.10",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "subscription-manager-rhsm-certificates": {
+            "name": "subscription-manager-rhsm-certificates",
+            "version": "1.20.10",
+            "release": "7.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "sudo": {
+            "name": "sudo",
+            "version": "1.8.6p3",
+            "release": "29.el6_9",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "sysstat": {
+            "name": "sysstat",
+            "version": "9.0.4",
+            "release": "33.el6_9.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "system-config-firewall-base": {
+            "name": "system-config-firewall-base",
+            "version": "1.2.27",
+            "release": "7.2.el6_6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "sysvinit-tools": {
+            "name": "sysvinit-tools",
+            "version": "2.87",
+            "release": "6.dsf.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "tar": {
+            "name": "tar",
+            "version": "2:1.23",
+            "release": "15.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "tcp_wrappers-libs": {
+            "name": "tcp_wrappers-libs",
+            "version": "7.6",
+            "release": "58.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "telnet": {
+            "name": "telnet",
+            "version": "1:0.17",
+            "release": "48.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "texinfo": {
+            "name": "texinfo",
+            "version": "4.13a",
+            "release": "8.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "tuned": {
+            "name": "tuned",
+            "version": "0.2.19",
+            "release": "18.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "tzdata": {
+            "name": "tzdata",
+            "version": "2018e",
+            "release": "3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "udev": {
+            "name": "udev",
+            "version": "147",
+            "release": "2.73.el6_8.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "unix2dos": {
+            "name": "unix2dos",
+            "version": "2.2",
+            "release": "35.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "upstart": {
+            "name": "upstart",
+            "version": "0.6.5",
+            "release": "17.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "usermode": {
+            "name": "usermode",
+            "version": "1.102",
+            "release": "3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "ustr": {
+            "name": "ustr",
+            "version": "1.0.4",
+            "release": "9.1.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "util-linux-ng": {
+            "name": "util-linux-ng",
+            "version": "2.17.2",
+            "release": "12.28.el6_9.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "vim-common": {
+            "name": "vim-common",
+            "version": "2:7.4.629",
+            "release": "5.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "vim-enhanced": {
+            "name": "vim-enhanced",
+            "version": "2:7.4.629",
+            "release": "5.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "vim-filesystem": {
+            "name": "vim-filesystem",
+            "version": "2:7.4.629",
+            "release": "5.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "vim-minimal": {
+            "name": "vim-minimal",
+            "version": "2:7.4.629",
+            "release": "5.el6_8.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "virt-what": {
+            "name": "virt-what",
+            "version": "1.11",
+            "release": "1.3.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "wget": {
+            "name": "wget",
+            "version": "1.12",
+            "release": "10.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "which": {
+            "name": "which",
+            "version": "2.19",
+            "release": "6.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "xz": {
+            "name": "xz",
+            "version": "4.999.9",
+            "release": "0.5.beta.20091007git.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "xz-libs": {
+            "name": "xz-libs",
+            "version": "4.999.9",
+            "release": "0.5.beta.20091007git.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "xz-lzma-compat": {
+            "name": "xz-lzma-compat",
+            "version": "4.999.9",
+            "release": "0.5.beta.20091007git.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "yum": {
+            "name": "yum",
+            "version": "3.2.29",
+            "release": "81.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "yum-metadata-parser": {
+            "name": "yum-metadata-parser",
+            "version": "1.1.2",
+            "release": "16.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        },
+        "yum-rhn-plugin": {
+            "name": "yum-rhn-plugin",
+            "version": "0.9.1",
+            "release": "60.2.el6_8",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "yum-utils": {
+            "name": "yum-utils",
+            "version": "1.1.30",
+            "release": "42.el6_10",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": ""
+        },
+        "zlib": {
+            "name": "zlib",
+            "version": "1.2.3",
+            "release": "29.el6",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": ""
+        }
+    },
+    "config": {
+        "scan": {
+            "logDir": "/var/log/vuls",
+            "logJSON": false,
+            "resultsDir": "/home/vuls/go/src/github.com/future-architect/vuls/results",
+            "default": {},
+            "servers": {
+                "rhel_610": {
+                    "serverName": "rhel_610",
+                    "user": "vuls",
+                    "host": "127.0.0.1",
+                    "port": "2222",
+                    "keyPath": "/home/vuls/.ssh/id_rsa",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "home/vuls/go/src/github.com/vulsio/go-cve-dictionary/cve.sqlite3",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "ovalDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "home/vuls/go/src/github.com/vulsio/goval-dictionary/oval.sqlite3",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/gost/gost.sqlite3",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/go-exploitdb/go-exploitdb.sqlite3",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/go-msfdb/go-msfdb.sqlite3",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/go-kev/go-kev.sqlite3",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go/src/github.com/vulsio/go-cti/go-cti.sqlite3",
+                "DebugSQL": false
+            }
+        },
+        "report": {
+            "logJSON": false,
+            "default": {},
+            "cveDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            }
+        }
+    }
+}
