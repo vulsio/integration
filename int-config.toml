@@ -106,6 +106,10 @@ lockfiles = ["./integration/data/lockfile/gobinary"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/test.jar"]
 
+[servers.jar-by-sha1]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/by-sha1.jar"]
+
 [servers.pom]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/pom.xml"]

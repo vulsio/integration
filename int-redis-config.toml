@@ -107,6 +107,10 @@ lockfiles = ["./integration/data/lockfile/gobinary"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/test.jar"]
 
+[servers.jar-heuristic]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/heuristic-1.0.0-SNAPSHOT.jar"]
+
 [servers.pom]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/pom.xml"]
