@@ -58,6 +58,10 @@ cpeNames = [ "cpe:/o:nec:aterm_wg2600hp2_firmware"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/Gemfile.lock"]
 
+[servers.conda]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/conda_meta/envs/foo/conda-meta/pip-22.2.2-py38h06a4308_0.json"]
+
 [servers.pip]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/requirements.txt"]
