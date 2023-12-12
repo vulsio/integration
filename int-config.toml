@@ -62,6 +62,18 @@ lockfiles = ["./integration/data/lockfile/Gemfile.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/conda_meta/envs/foo/conda-meta/pip-22.2.2-py38h06a4308_0.json"]
 
+[servers.dart]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pubspec.lock"]
+
+[servers.elixir]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/mix.lock"]
+
+[servers.python-packaging]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/wheel.dist-info/METADATA"]
+
 [servers.pip]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/requirements.txt"]
@@ -137,3 +149,11 @@ lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
 [servers.conan]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/conan.lock"]
+
+[servers.swift-cocoapods]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/Podfile.lock"]
+
+[servers.swift-swift]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/Package.resolved"]
