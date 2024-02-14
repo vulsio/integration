@@ -8,5 +8,6 @@ PODS:
   - AppCenter/Crashes (4.2.0):
     - AppCenter/Core
   - KeychainAccess (4.2.1)
+  - SwiftNIO (2.41.0)
 
 COCOAPODS: 1.11.2
