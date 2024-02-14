@@ -116,11 +116,20 @@ lockfiles = ["./integration/data/lockfile/gobinary"]
 
 [servers.jar]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/test.jar"]
+lockfiles = ["./integration/data/lockfile/log4j-core-2.13.0.jar"]
 
 [servers.jar-by-sha1]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/by-sha1.jar"]
+# copy of log4j-core-2.13.0.jar, test for the case that go-dep-parser/jar returns multple entries for single JAR
+lockfiles = ["./integration/data/lockfile/jar-by-sha1.jar"]
+
+[servers.jar-in-jar]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/jar-in-jar.jar"]
+
+[servers.war]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/juddiv3-war-3.3.5.war"]
 
 [servers.pom]
 type = "pseudo"
@@ -141,6 +150,10 @@ lockfiles = ["./integration/data/lockfile/packages.config"]
 [servers.dotnet-deps]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
+
+[servers.dotnet-package-props]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/Directory.Packages.props"]
 
 [servers.conan]
 type = "pseudo"
