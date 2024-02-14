@@ -118,14 +118,10 @@ lockfiles = ["./integration/data/lockfile/gobinary"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/log4j-core-2.13.0.jar"]
 
-[servers.jar-by-sha1]
+[servers.jar-wrong-name-log4j-core]
 type = "pseudo"
 # copy of log4j-core-2.13.0.jar, test for the case that go-dep-parser/jar returns multple entries for single JAR
-lockfiles = ["./integration/data/lockfile/jar-by-sha1.jar"]
-
-[servers.jar-in-jar]
-type = "pseudo"
-lockfiles = ["./integration/data/lockfile/jar-in-jar.jar"]
+lockfiles = ["./integration/data/lockfile/wrong-name-log4j-core.jar"]
 
 [servers.war]
 type = "pseudo"
