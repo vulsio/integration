@@ -116,11 +116,12 @@ lockfiles = ["./integration/data/lockfile/log4j-core-2.13.0.jar"]
 
 [servers.jar-wrong-name-log4j-core]
 type = "pseudo"
-# copy of log4j-core-2.13.0.jar, test for the case that go-dep-parser/jar returns multple entries for single JAR
+# copy of log4j-core-2.13.0.jar, test for the case that the jar parser returns multple entries for single JAR
 lockfiles = ["./integration/data/lockfile/wrong-name-log4j-core.jar"]
 
 [servers.war]
 type = "pseudo"
+# Multiple JARs inside this WAR and one of them has entries from multiple JARs (= multiple pom.properties)
 lockfiles = ["./integration/data/lockfile/juddiv3-war-3.3.5.war"]
 
 [servers.pom]
