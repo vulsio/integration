@@ -59,6 +59,14 @@ cpeNames = [ "cpe:/o:nec:aterm_wg2600hp2_firmware"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/Gemfile.lock"]
 
+[servers.dart]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pubspec.lock"]
+
+[servers.elixir]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/mix.lock"]
+
 [servers.pip]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/requirements.txt"]
@@ -105,7 +113,17 @@ lockfiles = ["./integration/data/lockfile/gobinary"]
 
 [servers.jar]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/test.jar"]
+lockfiles = ["./integration/data/lockfile/log4j-core-2.13.0.jar"]
+
+[servers.jar-wrong-name-log4j-core]
+type = "pseudo"
+# copy of log4j-core-2.13.0.jar, test for the case that the jar parser returns multple entries for single JAR
+lockfiles = ["./integration/data/lockfile/wrong-name-log4j-core.jar"]
+
+[servers.war]
+type = "pseudo"
+# Multiple JARs inside this WAR and one of them has entries from multiple JARs (= multiple pom.properties)
+lockfiles = ["./integration/data/lockfile/juddiv3-war-3.3.5.war"]
 
 [servers.pom]
 type = "pseudo"
@@ -130,3 +148,15 @@ lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
 [servers.conan]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/conan.lock"]
+
+[servers.swift-cocoapods]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/Podfile.lock"]
+
+[servers.swift-swift]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/Package.resolved"]
+
+[servers.rust-binary]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/hello-rust"]
