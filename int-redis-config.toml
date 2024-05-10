@@ -153,9 +153,13 @@ lockfiles = ["./integration/data/lockfile/packages.config"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/datacollector.deps.json"]
 
-[servers.conan]
+[servers.conan-v1]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/conan.lock"]
+lockfiles = ["./integration/data/lockfile/conan-v1/conan.lock"]
+
+[servers.conan-v2]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/conan-v2/conan.lock"]
 
 [servers.swift-cocoapods]
 type = "pseudo"
