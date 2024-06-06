@@ -101,7 +101,11 @@ lockfiles = ["./integration/data/lockfile/yarn.lock"]
 
 [servers.pnpm]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/pnpm-lock.yaml"]
+lockfiles = ["./integration/data/lockfile/pnpm/pnpm-lock.yaml"]
+
+[servers.pnpm-v9]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pnpm-v9/pnpm-lock.yaml"]
 
 [servers.cargo]
 type = "pseudo"
