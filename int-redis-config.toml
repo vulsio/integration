@@ -83,6 +83,10 @@ lockfiles = ["./integration/data/lockfile/poetry.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/composer.lock"]
 
+[servers.composer-vendor]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/installed.json"]
+
 [servers.npm-v1]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/npm-v1/package-lock.json"]
