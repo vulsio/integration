@@ -79,6 +79,10 @@ lockfiles = ["./integration/data/lockfile/Pipfile.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/poetry.lock"]
 
+[servers.uv]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/uv.lock"]
+
 [servers.composer]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/composer.lock"]
