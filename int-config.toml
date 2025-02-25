@@ -74,9 +74,13 @@ lockfiles = ["./integration/data/lockfile/requirements.txt"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/Pipfile.lock"]
 
-[servers.poetry]
+[servers.poetry-v1]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/poetry.lock"]
+lockfiles = ["./integration/data/lockfile/poetry-v1/poetry.lock"]
+
+[servers.poetry-v2]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/poetry-v2/poetry.lock"]
 
 [servers.uv]
 type = "pseudo"
