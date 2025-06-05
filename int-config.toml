@@ -1,30 +1,30 @@
 [cveDict]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/cve.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/cve.sqlite3"
 
 [ovalDict]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/oval.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/oval.sqlite3"
 
 [gost]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/gost.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/gost.sqlite3"
 
 [exploit]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/go-exploitdb.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/go-exploitdb.sqlite3"
 
 [metasploit]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/go-msfdb.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/go-msfdb.sqlite3"
 
 [kevuln]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/go-kev.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/go-kev.sqlite3"
 
 [cti]
-  Type = "sqlite3"
-  SQLite3Path = "/data/vulsctl/docker/go-cti.sqlite3"
+type = "sqlite3"
+sqlite3Path = "/data/vulsctl/docker/go-cti.sqlite3"
 
 [default]
 
@@ -32,27 +32,27 @@
 
 [servers.nvd_exact]
 type = "pseudo"
-cpeNames = [ "cpe:/a:rubyonrails:rails:3.0.1" ]
+cpeNames = ["cpe:/a:rubyonrails:rails:3.0.1"]
 
 [servers.nvd_rough]
 type = "pseudo"
-cpeNames = [ "cpe:/a:openssl:openssl:1.1.1" ]
+cpeNames = ["cpe:/a:openssl:openssl:1.1.1"]
 
 [servers.nvd_vendor_product]
- type = "pseudo"
- cpeNames = [ "cpe:/a:djangoproject:django" ]
+type = "pseudo"
+cpeNames = ["cpe:/a:djangoproject:django"]
 
 [servers.nvd_match_no_jvn]
 type = "pseudo"
-cpeNames = [ "cpe:/a:apache:tomcat:7.0.27" ]
+cpeNames = ["cpe:/a:apache:tomcat:7.0.27"]
 
 [servers.jvn_vendor_product]
 type = "pseudo"
-cpeNames = [ "cpe:/a:hitachi_abb_power_grids:afs660:1.0.0" ]
+cpeNames = ["cpe:/a:hitachi_abb_power_grids:afs660:1.0.0"]
 
 [servers.jvn_vendor_product_nover]
 type = "pseudo"
-cpeNames = [ "cpe:/o:nec:aterm_wg2600hp2_firmware"]
+cpeNames = ["cpe:/o:nec:aterm_wg2600hp2_firmware"]
 
 [servers.bundler]
 type = "pseudo"
@@ -114,13 +114,13 @@ lockfiles = ["./integration/data/lockfile/yarn.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/pnpm/pnpm-lock.yaml"]
 
-[servers.bun]
-type = "pseudo"
-lockfiles = ["./integration/data/lockfile/bun.lock"]
-
 [servers.pnpm-v9]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/pnpm-v9/pnpm-lock.yaml"]
+
+[servers.bun]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/bun.lock"]
 
 [servers.cargo]
 type = "pseudo"
