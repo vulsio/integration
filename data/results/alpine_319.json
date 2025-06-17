@@ -1,0 +1,477 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "alpine_319",
+    "family": "alpine",
+    "release": "3.19.0",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "172.17.0.5"
+    ],
+    "scannedAt": "2025-06-17T10:41:24.47498401+09:00",
+    "scanMode": "fast-root mode",
+    "scannedVersion": "0.32.0",
+    "scannedRevision": "6accfb855ea1523c5a70b79c30c5430fd3b7a1a5-2025-05-16T07:24:16Z",
+    "scannedBy": "vuls",
+    "scannedVia": "remote",
+    "scannedIpv4Addrs": [
+        "192.168.0.200",
+        "192.168.0.83",
+        "192.168.122.1",
+        "172.17.0.1"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "6.8.0-60-generic",
+        "version": "",
+        "rebootRequired": false
+    },
+    "packages": {
+        "alpine-baselayout": {
+            "name": "alpine-baselayout",
+            "version": "3.4.3-r2",
+            "release": "",
+            "newVersion": "3.4.3-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "alpine-baselayout-data": {
+            "name": "alpine-baselayout-data",
+            "version": "3.4.3-r2",
+            "release": "",
+            "newVersion": "3.4.3-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "alpine-keys": {
+            "name": "alpine-keys",
+            "version": "2.4-r1",
+            "release": "",
+            "newVersion": "2.4-r1",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "apk-tools": {
+            "name": "apk-tools",
+            "version": "2.14.0-r5",
+            "release": "",
+            "newVersion": "2.14.4-r0",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "busybox": {
+            "name": "busybox",
+            "version": "1.36.1-r15",
+            "release": "",
+            "newVersion": "1.36.1-r19",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "busybox-binsh": {
+            "name": "busybox-binsh",
+            "version": "1.36.1-r15",
+            "release": "",
+            "newVersion": "1.36.1-r19",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "ca-certificates-bundle": {
+            "name": "ca-certificates-bundle",
+            "version": "20230506-r0",
+            "release": "",
+            "newVersion": "20241121-r1",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libc-utils": {
+            "name": "libc-utils",
+            "version": "0.7.2-r5",
+            "release": "",
+            "newVersion": "0.7.2-r5",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcrypto3": {
+            "name": "libcrypto3",
+            "version": "3.1.4-r2",
+            "release": "",
+            "newVersion": "3.1.8-r0",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libssl3": {
+            "name": "libssl3",
+            "version": "3.1.4-r2",
+            "release": "",
+            "newVersion": "3.1.8-r0",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "musl": {
+            "name": "musl",
+            "version": "1.2.4_git20230717-r4",
+            "release": "",
+            "newVersion": "1.2.4_git20230717-r5",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "musl-utils": {
+            "name": "musl-utils",
+            "version": "1.2.4_git20230717-r4",
+            "release": "",
+            "newVersion": "1.2.4_git20230717-r5",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssh-keygen": {
+            "name": "openssh-keygen",
+            "version": "9.6_p1-r1",
+            "release": "",
+            "newVersion": "9.6_p1-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssh-server": {
+            "name": "openssh-server",
+            "version": "9.6_p1-r1",
+            "release": "",
+            "newVersion": "9.6_p1-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssh-server-common": {
+            "name": "openssh-server-common",
+            "version": "9.6_p1-r1",
+            "release": "",
+            "newVersion": "9.6_p1-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "scanelf": {
+            "name": "scanelf",
+            "version": "1.3.7-r2",
+            "release": "",
+            "newVersion": "1.3.7-r2",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "ssl_client": {
+            "name": "ssl_client",
+            "version": "1.36.1-r15",
+            "release": "",
+            "newVersion": "1.36.1-r19",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "zlib": {
+            "name": "zlib",
+            "version": "1.3-r2",
+            "release": "",
+            "newVersion": "1.3.1-r0",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        }
+    },
+    "SrcPackages": {
+        "alpine-baselayout": {
+            "name": "alpine-baselayout",
+            "version": "3.4.3-r2",
+            "arch": "",
+            "binaryNames": [
+                "alpine-baselayout",
+                "alpine-baselayout-data"
+            ]
+        },
+        "alpine-keys": {
+            "name": "alpine-keys",
+            "version": "2.4-r1",
+            "arch": "",
+            "binaryNames": [
+                "alpine-keys"
+            ]
+        },
+        "apk-tools": {
+            "name": "apk-tools",
+            "version": "2.14.0-r5",
+            "arch": "",
+            "binaryNames": [
+                "apk-tools"
+            ]
+        },
+        "busybox": {
+            "name": "busybox",
+            "version": "1.36.1-r15",
+            "arch": "",
+            "binaryNames": [
+                "busybox",
+                "busybox-binsh",
+                "ssl_client"
+            ]
+        },
+        "ca-certificates": {
+            "name": "ca-certificates",
+            "version": "20230506-r0",
+            "arch": "",
+            "binaryNames": [
+                "ca-certificates-bundle"
+            ]
+        },
+        "libc-dev": {
+            "name": "libc-dev",
+            "version": "0.7.2-r5",
+            "arch": "",
+            "binaryNames": [
+                "libc-utils"
+            ]
+        },
+        "musl": {
+            "name": "musl",
+            "version": "1.2.4_git20230717-r4",
+            "arch": "",
+            "binaryNames": [
+                "musl",
+                "musl-utils"
+            ]
+        },
+        "openssh": {
+            "name": "openssh",
+            "version": "9.6_p1-r1",
+            "arch": "",
+            "binaryNames": [
+                "openssh-keygen",
+                "openssh-server",
+                "openssh-server-common"
+            ]
+        },
+        "openssl": {
+            "name": "openssl",
+            "version": "3.1.4-r2",
+            "arch": "",
+            "binaryNames": [
+                "libcrypto3",
+                "libssl3"
+            ]
+        },
+        "pax-utils": {
+            "name": "pax-utils",
+            "version": "1.3.7-r2",
+            "arch": "",
+            "binaryNames": [
+                "scanelf"
+            ]
+        },
+        "zlib": {
+            "name": "zlib",
+            "version": "1.3-r2",
+            "arch": "",
+            "binaryNames": [
+                "zlib"
+            ]
+        }
+    },
+    "config": {
+        "scan": {
+            "logDir": "/var/log/vuls",
+            "logJSON": false,
+            "resultsDir": "/home/vuls/results",
+            "default": {},
+            "servers": {
+                "docker": {
+                    "serverName": "docker",
+                    "user": "root",
+                    "host": "127.0.0.1",
+                    "port": "2222",
+                    "keyPath": "/home/vuls/.ssh/id_rsa",
+                    "scanMode": [
+                        "fast-root"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "ovalDict": {
+                "Name": "ovalDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/oval.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "/home/vuls/go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "vuls2": {
+                "Repository": "ghcr.io/vulsio/vuls-nightly-db:nightly",
+                "Path": "",
+                "SkipUpdate": false
+            }
+        },
+        "report": {
+            "logJSON": false,
+            "default": {},
+            "cveDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "ovalDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "vuls2": {
+                "Repository": "",
+                "Path": "",
+                "SkipUpdate": false
+            }
+        }
+    }
+}
