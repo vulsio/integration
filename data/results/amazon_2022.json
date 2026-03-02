@@ -1,0 +1,2498 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "amazon_2022",
+    "family": "amazon",
+    "release": "2022",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "unknown",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "172.17.0.2"
+    ],
+    "scannedAt": "2026-03-02T04:56:51.480047528Z",
+    "scanMode": "fast-root offline mode",
+    "scannedVersion": "0.38.2",
+    "scannedRevision": "b8762b3b28ce3703a42213076b8ec84f41016b4d-2026-02-20T09:45:52Z",
+    "scannedBy": "d4ddda135d17",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "172.17.0.2"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "5.15.72-43.134.amzn2022.x86_64",
+        "version": "",
+        "rebootRequired": false
+    },
+    "packages": {
+        "alternatives": {
+            "name": "alternatives",
+            "version": "1.15",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "amazon-linux-repo-cdn": {
+            "name": "amazon-linux-repo-cdn",
+            "version": "2022.0.20230118",
+            "release": "0.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "audit-libs": {
+            "name": "audit-libs",
+            "version": "3.0.6",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "basesystem": {
+            "name": "basesystem",
+            "version": "11",
+            "release": "11.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "bash": {
+            "name": "bash",
+            "version": "5.2.15",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": "",
+            "AffectedProcs": [
+                {
+                    "pid": "35",
+                    "name": "bash"
+                }
+            ]
+        },
+        "bzip2-libs": {
+            "name": "bzip2-libs",
+            "version": "1.0.8",
+            "release": "6.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "ca-certificates": {
+            "name": "ca-certificates",
+            "version": "2021.2.50",
+            "release": "1.0.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "coreutils": {
+            "name": "coreutils",
+            "version": "8.32",
+            "release": "30.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "coreutils-common": {
+            "name": "coreutils-common",
+            "version": "8.32",
+            "release": "30.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "cracklib": {
+            "name": "cracklib",
+            "version": "2.9.6",
+            "release": "27.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "crypto-policies": {
+            "name": "crypto-policies",
+            "version": "20220428",
+            "release": "1.gitdfb10ea.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "curl-minimal": {
+            "name": "curl-minimal",
+            "version": "7.87.0",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dbus": {
+            "name": "dbus",
+            "version": "1:1.12.24",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dbus-broker": {
+            "name": "dbus-broker",
+            "version": "29",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dbus-common": {
+            "name": "dbus-common",
+            "version": "1:1.12.24",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dbus-libs": {
+            "name": "dbus-libs",
+            "version": "1:1.12.24",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dnf": {
+            "name": "dnf",
+            "version": "4.12.0",
+            "release": "2.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dnf-data": {
+            "name": "dnf-data",
+            "version": "4.12.0",
+            "release": "2.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dnf-plugins-core": {
+            "name": "dnf-plugins-core",
+            "version": "4.1.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "dnf-utils": {
+            "name": "dnf-utils",
+            "version": "4.1.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "elfutils-default-yama-scope": {
+            "name": "elfutils-default-yama-scope",
+            "version": "0.188",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "elfutils-libelf": {
+            "name": "elfutils-libelf",
+            "version": "0.188",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "elfutils-libs": {
+            "name": "elfutils-libs",
+            "version": "0.188",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "expat": {
+            "name": "expat",
+            "version": "2.5.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "file-libs": {
+            "name": "file-libs",
+            "version": "5.39",
+            "release": "7.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "filesystem": {
+            "name": "filesystem",
+            "version": "3.14",
+            "release": "5.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gawk": {
+            "name": "gawk",
+            "version": "5.1.0",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gdbm-libs": {
+            "name": "gdbm-libs",
+            "version": "1:1.19",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "glib2": {
+            "name": "glib2",
+            "version": "2.73.2",
+            "release": "678.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "glibc": {
+            "name": "glibc",
+            "version": "2.34",
+            "release": "52.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": "",
+            "AffectedProcs": [
+                {
+                    "pid": "1",
+                    "name": "sshd",
+                    "listenPortStats": [
+                        {
+                            "bindAddress": "*",
+                            "port": "22",
+                            "portReachableTo": null
+                        }
+                    ]
+                },
+                {
+                    "pid": "32",
+                    "name": "sshd"
+                },
+                {
+                    "pid": "34",
+                    "name": "sshd"
+                }
+            ]
+        },
+        "glibc-common": {
+            "name": "glibc-common",
+            "version": "2.34",
+            "release": "52.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "glibc-langpack-en": {
+            "name": "glibc-langpack-en",
+            "version": "2.34",
+            "release": "52.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "glibc-minimal-langpack": {
+            "name": "glibc-minimal-langpack",
+            "version": "2.34",
+            "release": "52.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gmp": {
+            "name": "gmp",
+            "version": "1:6.2.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gnupg2-minimal": {
+            "name": "gnupg2-minimal",
+            "version": "2.3.7",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gpg-pubkey": {
+            "name": "gpg-pubkey",
+            "version": "afaa0026",
+            "release": "6185c6ab",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "(none)",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gpgme": {
+            "name": "gpgme",
+            "version": "1.15.1",
+            "release": "6.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "grep": {
+            "name": "grep",
+            "version": "3.8",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "gzip": {
+            "name": "gzip",
+            "version": "1.10",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "iproute": {
+            "name": "iproute",
+            "version": "5.10.0",
+            "release": "2.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "json-c": {
+            "name": "json-c",
+            "version": "0.14",
+            "release": "8.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "kernel": {
+             "name": "kernel",
+            "version": "5.15.72",
+            "release": "43.134.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "keyutils-libs": {
+            "name": "keyutils-libs",
+            "version": "1.6.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "kmod-libs": {
+            "name": "kmod-libs",
+            "version": "29",
+            "release": "2.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "krb5-libs": {
+            "name": "krb5-libs",
+            "version": "1.19.2",
+            "release": "13.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libacl": {
+            "name": "libacl",
+            "version": "2.3.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libarchive": {
+            "name": "libarchive",
+            "version": "3.5.3",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libassuan": {
+            "name": "libassuan",
+            "version": "2.5.5",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libattr": {
+            "name": "libattr",
+            "version": "2.5.1",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libblkid": {
+            "name": "libblkid",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcap": {
+            "name": "libcap",
+            "version": "2.48",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcap-ng": {
+            "name": "libcap-ng",
+            "version": "0.8.2",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcom_err": {
+            "name": "libcom_err",
+            "version": "1.46.5",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcomps": {
+            "name": "libcomps",
+            "version": "0.1.18",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libcurl-minimal": {
+            "name": "libcurl-minimal",
+            "version": "7.87.0",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libdb": {
+            "name": "libdb",
+            "version": "5.3.28",
+            "release": "49.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libdnf": {
+            "name": "libdnf",
+            "version": "0.67.0",
+            "release": "1.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libeconf": {
+            "name": "libeconf",
+            "version": "0.4.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libfdisk": {
+            "name": "libfdisk",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libffi": {
+            "name": "libffi",
+            "version": "3.1",
+            "release": "28.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libgcc": {
+            "name": "libgcc",
+            "version": "11.3.1",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libgcrypt": {
+            "name": "libgcrypt",
+            "version": "1.10.1",
+            "release": "4.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libgomp": {
+            "name": "libgomp",
+            "version": "11.3.1",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libgpg-error": {
+            "name": "libgpg-error",
+            "version": "1.42",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libidn2": {
+            "name": "libidn2",
+            "version": "2.3.2",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libmnl": {
+            "name": "libmnl",
+            "version": "1.0.4",
+            "release": "13.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libmodulemd": {
+            "name": "libmodulemd",
+            "version": "2.13.0",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libmount": {
+            "name": "libmount",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libnghttp2": {
+            "name": "libnghttp2",
+            "version": "1.45.1",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libpwquality": {
+            "name": "libpwquality",
+            "version": "1.4.4",
+            "release": "6.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "librepo": {
+            "name": "librepo",
+            "version": "1.14.2",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libreport-filesystem": {
+            "name": "libreport-filesystem",
+            "version": "2.15.2",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libseccomp": {
+            "name": "libseccomp",
+            "version": "2.5.3",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libselinux": {
+            "name": "libselinux",
+            "version": "3.4",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libsemanage": {
+            "name": "libsemanage",
+            "version": "3.4",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libsepol": {
+            "name": "libsepol",
+            "version": "3.4",
+            "release": "3.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libsigsegv": {
+            "name": "libsigsegv",
+            "version": "2.13",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libsmartcols": {
+            "name": "libsmartcols",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libsolv": {
+            "name": "libsolv",
+            "version": "0.7.22",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libstdc++": {
+            "name": "libstdc++",
+            "version": "11.3.1",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libtasn1": {
+            "name": "libtasn1",
+            "version": "4.19.0",
+            "release": "1.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libtirpc": {
+            "name": "libtirpc",
+            "version": "1.3.2",
+            "release": "0.rc1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libunistring": {
+            "name": "libunistring",
+            "version": "0.9.10",
+            "release": "10.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libutempter": {
+            "name": "libutempter",
+            "version": "1.2.1",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libuuid": {
+            "name": "libuuid",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libverto": {
+            "name": "libverto",
+            "version": "0.3.2",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libxcrypt": {
+            "name": "libxcrypt",
+            "version": "4.4.26",
+            "release": "4.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libxml2": {
+            "name": "libxml2",
+            "version": "2.10.3",
+            "release": "2.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libyaml": {
+            "name": "libyaml",
+            "version": "0.2.5",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "libzstd": {
+            "name": "libzstd",
+            "version": "1.5.2",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "lsof": {
+            "name": "lsof",
+            "version": "4.94.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "lua-libs": {
+            "name": "lua-libs",
+            "version": "5.4.4",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "lz4-libs": {
+            "name": "lz4-libs",
+            "version": "1.9.4",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "mpfr": {
+            "name": "mpfr",
+            "version": "4.1.0",
+            "release": "7.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "ncurses-base": {
+            "name": "ncurses-base",
+            "version": "6.2",
+            "release": "4.20200222.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "ncurses-libs": {
+            "name": "ncurses-libs",
+            "version": "6.2",
+            "release": "4.20200222.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "npth": {
+            "name": "npth",
+            "version": "1.6",
+            "release": "6.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssh": {
+            "name": "openssh",
+            "version": "8.7p1",
+            "release": "8.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssh-server": {
+            "name": "openssh-server",
+            "version": "8.7p1",
+            "release": "8.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "openssl-libs": {
+            "name": "openssl-libs",
+            "version": "1:3.0.5",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "p11-kit": {
+            "name": "p11-kit",
+            "version": "0.24.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "p11-kit-trust": {
+            "name": "p11-kit-trust",
+            "version": "0.24.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "pam": {
+            "name": "pam",
+            "version": "1.5.1",
+            "release": "8.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "pcre2": {
+            "name": "pcre2",
+            "version": "10.40",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "pcre2-syntax": {
+            "name": "pcre2-syntax",
+            "version": "10.40",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "popt": {
+            "name": "popt",
+            "version": "1.18",
+            "release": "6.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "procps-ng": {
+            "name": "procps-ng",
+            "version": "3.3.17",
+            "release": "1.amzn2022.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "psmisc": {
+            "name": "psmisc",
+            "version": "23.4",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3": {
+            "name": "python3",
+            "version": "3.9.16",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-dateutil": {
+            "name": "python3-dateutil",
+            "version": "1:2.8.1",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-dbus": {
+            "name": "python3-dbus",
+            "version": "1.2.18",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-distro": {
+            "name": "python3-distro",
+            "version": "1.5.0",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-dnf": {
+            "name": "python3-dnf",
+            "version": "4.12.0",
+            "release": "2.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-dnf-plugins-core": {
+            "name": "python3-dnf-plugins-core",
+            "version": "4.1.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-gpg": {
+            "name": "python3-gpg",
+            "version": "1.15.1",
+            "release": "6.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-hawkey": {
+            "name": "python3-hawkey",
+            "version": "0.67.0",
+            "release": "1.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-libcomps": {
+            "name": "python3-libcomps",
+            "version": "0.1.18",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-libdnf": {
+            "name": "python3-libdnf",
+            "version": "0.67.0",
+            "release": "1.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-libs": {
+            "name": "python3-libs",
+            "version": "3.9.16",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-pip-wheel": {
+            "name": "python3-pip-wheel",
+            "version": "21.3.1",
+            "release": "2.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-rpm": {
+            "name": "python3-rpm",
+            "version": "4.16.1.3",
+            "release": "12.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-setuptools": {
+            "name": "python3-setuptools",
+            "version": "59.6.0",
+            "release": "2.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-setuptools-wheel": {
+            "name": "python3-setuptools-wheel",
+            "version": "59.6.0",
+            "release": "2.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "python3-six": {
+            "name": "python3-six",
+            "version": "1.15.0",
+            "release": "5.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "readline": {
+            "name": "readline",
+            "version": "8.1",
+            "release": "2.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "rpm": {
+            "name": "rpm",
+            "version": "4.16.1.3",
+            "release": "12.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "rpm-build-libs": {
+            "name": "rpm-build-libs",
+            "version": "4.16.1.3",
+            "release": "12.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "rpm-libs": {
+            "name": "rpm-libs",
+            "version": "4.16.1.3",
+            "release": "12.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "rpm-sign-libs": {
+            "name": "rpm-sign-libs",
+            "version": "4.16.1.3",
+            "release": "12.amzn2022.0.4",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "sed": {
+            "name": "sed",
+            "version": "4.8",
+            "release": "7.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "setup": {
+            "name": "setup",
+            "version": "2.13.7",
+            "release": "3.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "shadow-utils": {
+            "name": "shadow-utils",
+            "version": "2:4.8.1",
+            "release": "9.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "sqlite-libs": {
+            "name": "sqlite-libs",
+            "version": "3.40.0",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "system-release": {
+            "name": "system-release",
+            "version": "2022.0.20230118",
+            "release": "0.amzn2022",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "systemd": {
+            "name": "systemd",
+            "version": "250.8",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "systemd-libs": {
+            "name": "systemd-libs",
+            "version": "250.8",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "systemd-pam": {
+            "name": "systemd-pam",
+            "version": "250.8",
+            "release": "1.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "tzdata": {
+            "name": "tzdata",
+            "version": "2022g",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "util-linux": {
+            "name": "util-linux",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "util-linux-core": {
+            "name": "util-linux-core",
+            "version": "2.37.4",
+            "release": "1.amzn2022.0.2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "vim-data": {
+            "name": "vim-data",
+            "version": "2:9.0.1006",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "vim-minimal": {
+            "name": "vim-minimal",
+            "version": "2:9.0.1006",
+            "release": "1.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "which": {
+            "name": "which",
+            "version": "2.21",
+            "release": "26.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "xz-libs": {
+            "name": "xz-libs",
+            "version": "5.2.5",
+            "release": "9.amzn2022.0.1",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "yum": {
+            "name": "yum",
+            "version": "4.12.0",
+            "release": "2.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "zlib": {
+            "name": "zlib",
+            "version": "1.2.11",
+            "release": "33.amzn2022.0.3",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "x86_64",
+            "repository": "",
+            "modularitylabel": ""
+        }
+    },
+    "SrcPackages": {
+        "acl": {
+            "name": "acl",
+            "version": "2.3.1-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libacl"
+            ]
+        },
+        "attr": {
+            "name": "attr",
+            "version": "2.5.1-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libattr"
+            ]
+        },
+        "audit": {
+            "name": "audit",
+            "version": "3.0.6-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "audit-libs"
+            ]
+        },
+        "basesystem": {
+            "name": "basesystem",
+            "version": "11-11.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "basesystem"
+            ]
+        },
+        "bash": {
+            "name": "bash",
+            "version": "5.2.15-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "bash"
+            ]
+        },
+        "bzip2": {
+            "name": "bzip2",
+            "version": "1.0.8-6.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "bzip2-libs"
+            ]
+        },
+        "ca-certificates": {
+            "name": "ca-certificates",
+            "version": "2021.2.50-1.0.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "ca-certificates"
+            ]
+        },
+        "chkconfig": {
+            "name": "chkconfig",
+            "version": "1.15-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "alternatives"
+            ]
+        },
+        "coreutils": {
+            "name": "coreutils",
+            "version": "8.32-30.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "coreutils",
+                "coreutils-common"
+            ]
+        },
+        "cracklib": {
+            "name": "cracklib",
+            "version": "2.9.6-27.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "cracklib"
+            ]
+        },
+        "crypto-policies": {
+            "name": "crypto-policies",
+            "version": "20220428-1.gitdfb10ea.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "crypto-policies"
+            ]
+        },
+        "curl": {
+            "name": "curl",
+            "version": "7.87.0-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libcurl-minimal",
+                "curl-minimal"
+            ]
+        },
+        "dbus": {
+            "name": "dbus",
+            "version": "1:1.12.24-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "dbus-libs",
+                "dbus",
+                "dbus-common"
+            ]
+        },
+        "dbus-broker": {
+            "name": "dbus-broker",
+            "version": "29-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "dbus-broker"
+            ]
+        },
+        "dbus-python": {
+            "name": "dbus-python",
+            "version": "1.2.18-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-dbus"
+            ]
+        },
+        "dnf": {
+            "name": "dnf",
+            "version": "4.12.0-2.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "dnf",
+                "yum",
+                "python3-dnf",
+                "dnf-data"
+            ]
+        },
+        "dnf-plugins-core": {
+            "name": "dnf-plugins-core",
+            "version": "4.1.0-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "dnf-utils",
+                "dnf-plugins-core",
+                "python3-dnf-plugins-core"
+            ]
+        },
+        "e2fsprogs": {
+            "name": "e2fsprogs",
+            "version": "1.46.5-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libcom_err"
+            ]
+        },
+        "elfutils": {
+            "name": "elfutils",
+            "version": "0.188-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "elfutils-default-yama-scope",
+                "elfutils-libs",
+                "elfutils-libelf"
+            ]
+        },
+        "expat": {
+            "name": "expat",
+            "version": "2.5.0-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "expat"
+            ]
+        },
+        "file": {
+            "name": "file",
+            "version": "5.39-7.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "file-libs"
+            ]
+        },
+        "filesystem": {
+            "name": "filesystem",
+            "version": "3.14-5.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "filesystem"
+            ]
+        },
+        "gawk": {
+            "name": "gawk",
+            "version": "5.1.0-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "gawk"
+            ]
+        },
+        "gcc": {
+            "name": "gcc",
+            "version": "11.3.1-4.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libstdc++",
+                "libgcc",
+                "libgomp"
+            ]
+        },
+        "gdbm": {
+            "name": "gdbm",
+            "version": "1:1.19-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "gdbm-libs"
+            ]
+        },
+        "glib2": {
+            "name": "glib2",
+            "version": "2.73.2-678.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "glib2"
+            ]
+        },
+        "glibc": {
+            "name": "glibc",
+            "version": "2.34-52.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "glibc-langpack-en",
+                "glibc",
+                "glibc-minimal-langpack",
+                "glibc-common"
+            ]
+        },
+        "gmp": {
+            "name": "gmp",
+            "version": "1:6.2.1-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "gmp"
+            ]
+        },
+        "gnupg2": {
+            "name": "gnupg2",
+            "version": "2.3.7-1.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "gnupg2-minimal"
+            ]
+        },
+        "gpgme": {
+            "name": "gpgme",
+            "version": "1.15.1-6.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "python3-gpg",
+                "gpgme"
+            ]
+        },
+        "grep": {
+            "name": "grep",
+            "version": "3.8-1.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "grep"
+            ]
+        },
+        "gzip": {
+            "name": "gzip",
+            "version": "1.10-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "gzip"
+            ]
+        },
+        "iproute": {
+            "name": "iproute",
+            "version": "5.10.0-2.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "iproute"
+            ]
+        },
+        "json-c": {
+            "name": "json-c",
+            "version": "0.14-8.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "json-c"
+            ]
+        },
+        "kernel": {
+            "name": "kernel",
+            "version": "5.15.72-43.134.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "kernel"
+            ]
+        },
+        "keyutils": {
+            "name": "keyutils",
+            "version": "1.6.1-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "keyutils-libs"
+            ]
+        },
+        "kmod": {
+            "name": "kmod",
+            "version": "29-2.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "kmod-libs"
+            ]
+        },
+        "krb5": {
+            "name": "krb5",
+            "version": "1.19.2-13.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "krb5-libs"
+            ]
+        },
+        "libarchive": {
+            "name": "libarchive",
+            "version": "3.5.3-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libarchive"
+            ]
+        },
+        "libassuan": {
+            "name": "libassuan",
+            "version": "2.5.5-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libassuan"
+            ]
+        },
+        "libcap": {
+            "name": "libcap",
+            "version": "2.48-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libcap"
+            ]
+        },
+        "libcap-ng": {
+            "name": "libcap-ng",
+            "version": "0.8.2-4.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libcap-ng"
+            ]
+        },
+        "libcomps": {
+            "name": "libcomps",
+            "version": "0.1.18-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-libcomps",
+                "libcomps"
+            ]
+        },
+        "libdb": {
+            "name": "libdb",
+            "version": "5.3.28-49.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libdb"
+            ]
+        },
+        "libdnf": {
+            "name": "libdnf",
+            "version": "0.67.0-1.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "python3-libdnf",
+                "python3-hawkey",
+                "libdnf"
+            ]
+        },
+        "libeconf": {
+            "name": "libeconf",
+            "version": "0.4.0-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libeconf"
+            ]
+        },
+        "libffi": {
+            "name": "libffi",
+            "version": "3.1-28.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libffi"
+            ]
+        },
+        "libgcrypt": {
+            "name": "libgcrypt",
+            "version": "1.10.1-4.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "libgcrypt"
+            ]
+        },
+        "libgpg-error": {
+            "name": "libgpg-error",
+            "version": "1.42-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libgpg-error"
+            ]
+        },
+        "libidn2": {
+            "name": "libidn2",
+            "version": "2.3.2-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libidn2"
+            ]
+        },
+        "libmnl": {
+            "name": "libmnl",
+            "version": "1.0.4-13.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libmnl"
+            ]
+        },
+        "libmodulemd": {
+            "name": "libmodulemd",
+            "version": "2.13.0-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libmodulemd"
+            ]
+        },
+        "libpwquality": {
+            "name": "libpwquality",
+            "version": "1.4.4-6.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libpwquality"
+            ]
+        },
+        "librepo": {
+            "name": "librepo",
+            "version": "1.14.2-1.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "librepo"
+            ]
+        },
+        "libreport": {
+            "name": "libreport",
+            "version": "2.15.2-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libreport-filesystem"
+            ]
+        },
+        "libseccomp": {
+            "name": "libseccomp",
+            "version": "2.5.3-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libseccomp"
+            ]
+        },
+        "libselinux": {
+            "name": "libselinux",
+            "version": "3.4-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libselinux"
+            ]
+        },
+        "libsemanage": {
+            "name": "libsemanage",
+            "version": "3.4-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libsemanage"
+            ]
+        },
+        "libsepol": {
+            "name": "libsepol",
+            "version": "3.4-3.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "libsepol"
+            ]
+        },
+        "libsigsegv": {
+            "name": "libsigsegv",
+            "version": "2.13-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libsigsegv"
+            ]
+        },
+        "libsolv": {
+            "name": "libsolv",
+            "version": "0.7.22-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libsolv"
+            ]
+        },
+        "libtasn1": {
+            "name": "libtasn1",
+            "version": "4.19.0-1.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "libtasn1"
+            ]
+        },
+        "libtirpc": {
+            "name": "libtirpc",
+            "version": "1.3.2-0.rc1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libtirpc"
+            ]
+        },
+        "libunistring": {
+            "name": "libunistring",
+            "version": "0.9.10-10.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libunistring"
+            ]
+        },
+        "libutempter": {
+            "name": "libutempter",
+            "version": "1.2.1-4.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libutempter"
+            ]
+        },
+        "libverto": {
+            "name": "libverto",
+            "version": "0.3.2-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libverto"
+            ]
+        },
+        "libxcrypt": {
+            "name": "libxcrypt",
+            "version": "4.4.26-4.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libxcrypt"
+            ]
+        },
+        "libxml2": {
+            "name": "libxml2",
+            "version": "2.10.3-2.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "libxml2"
+            ]
+        },
+        "libyaml": {
+            "name": "libyaml",
+            "version": "0.2.5-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libyaml"
+            ]
+        },
+        "lsof": {
+            "name": "lsof",
+            "version": "4.94.0-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "lsof"
+            ]
+        },
+        "lua": {
+            "name": "lua",
+            "version": "5.4.4-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "lua-libs"
+            ]
+        },
+        "lz4": {
+            "name": "lz4",
+            "version": "1.9.4-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "lz4-libs"
+            ]
+        },
+        "mpfr": {
+            "name": "mpfr",
+            "version": "4.1.0-7.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "mpfr"
+            ]
+        },
+        "ncurses": {
+            "name": "ncurses",
+            "version": "6.2-4.20200222.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "ncurses-base",
+                "ncurses-libs"
+            ]
+        },
+        "nghttp2": {
+            "name": "nghttp2",
+            "version": "1.45.1-1.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "libnghttp2"
+            ]
+        },
+        "npth": {
+            "name": "npth",
+            "version": "1.6-6.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "npth"
+            ]
+        },
+        "openssh": {
+            "name": "openssh",
+            "version": "8.7p1-8.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "openssh-server",
+                "openssh"
+            ]
+        },
+        "openssl": {
+            "name": "openssl",
+            "version": "1:3.0.5-1.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "openssl-libs"
+            ]
+        },
+        "p11-kit": {
+            "name": "p11-kit",
+            "version": "0.24.1-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "p11-kit-trust",
+                "p11-kit"
+            ]
+        },
+        "pam": {
+            "name": "pam",
+            "version": "1.5.1-8.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "pam"
+            ]
+        },
+        "pcre2": {
+            "name": "pcre2",
+            "version": "10.40-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "pcre2",
+                "pcre2-syntax"
+            ]
+        },
+        "popt": {
+            "name": "popt",
+            "version": "1.18-6.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "popt"
+            ]
+        },
+        "procps-ng": {
+            "name": "procps-ng",
+            "version": "3.3.17-1.amzn2022.1",
+            "arch": "src",
+            "binaryNames": [
+                "procps-ng"
+            ]
+        },
+        "psmisc": {
+            "name": "psmisc",
+            "version": "23.4-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "psmisc"
+            ]
+        },
+        "python-dateutil": {
+            "name": "python-dateutil",
+            "version": "1:2.8.1-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-dateutil"
+            ]
+        },
+        "python-distro": {
+            "name": "python-distro",
+            "version": "1.5.0-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-distro"
+            ]
+        },
+        "python-pip": {
+            "name": "python-pip",
+            "version": "21.3.1-2.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "python3-pip-wheel"
+            ]
+        },
+        "python-setuptools": {
+            "name": "python-setuptools",
+            "version": "59.6.0-2.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "python3-setuptools",
+                "python3-setuptools-wheel"
+            ]
+        },
+        "python-six": {
+            "name": "python-six",
+            "version": "1.15.0-5.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-six"
+            ]
+        },
+        "python3.9": {
+            "name": "python3.9",
+            "version": "3.9.16-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "python3-libs",
+                "python3"
+            ]
+        },
+        "readline": {
+            "name": "readline",
+            "version": "8.1-2.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "readline"
+            ]
+        },
+        "rpm": {
+            "name": "rpm",
+            "version": "4.16.1.3-12.amzn2022.0.4",
+            "arch": "src",
+            "binaryNames": [
+                "python3-rpm",
+                "rpm-build-libs",
+                "rpm",
+                "rpm-sign-libs",
+                "rpm-libs"
+            ]
+        },
+        "sed": {
+            "name": "sed",
+            "version": "4.8-7.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "sed"
+            ]
+        },
+        "setup": {
+            "name": "setup",
+            "version": "2.13.7-3.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "setup"
+            ]
+        },
+        "shadow-utils": {
+            "name": "shadow-utils",
+            "version": "2:4.8.1-9.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "shadow-utils"
+            ]
+        },
+        "sqlite": {
+            "name": "sqlite",
+            "version": "3.40.0-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "sqlite-libs"
+            ]
+        },
+        "system-release": {
+            "name": "system-release",
+            "version": "2022.0.20230118-0.amzn2022",
+            "arch": "src",
+            "binaryNames": [
+                "amazon-linux-repo-cdn",
+                "system-release"
+            ]
+        },
+        "systemd": {
+            "name": "systemd",
+            "version": "250.8-1.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "systemd",
+                "systemd-pam",
+                "systemd-libs"
+            ]
+        },
+        "tzdata": {
+            "name": "tzdata",
+            "version": "2022g-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "tzdata"
+            ]
+        },
+        "util-linux": {
+            "name": "util-linux",
+            "version": "2.37.4-1.amzn2022.0.2",
+            "arch": "src",
+            "binaryNames": [
+                "util-linux",
+                "libfdisk",
+                "util-linux-core",
+                "libblkid",
+                "libsmartcols",
+                "libmount",
+                "libuuid"
+            ]
+        },
+        "vim": {
+            "name": "vim",
+            "version": "2:9.0.1006-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "vim-minimal",
+                "vim-data"
+            ]
+        },
+        "which": {
+            "name": "which",
+            "version": "2.21-26.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "which"
+            ]
+        },
+        "xz": {
+            "name": "xz",
+            "version": "5.2.5-9.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "xz-libs"
+            ]
+        },
+        "zlib": {
+            "name": "zlib",
+            "version": "1.2.11-33.amzn2022.0.3",
+            "arch": "src",
+            "binaryNames": [
+                "zlib"
+            ]
+        },
+        "zstd": {
+            "name": "zstd",
+            "version": "1.5.2-1.amzn2022.0.1",
+            "arch": "src",
+            "binaryNames": [
+                "libzstd"
+            ]
+        }
+    },
+    "config": {
+        "scan": {
+            "logDir": "/var/log/vuls",
+            "logJSON": false,
+            "resultsDir": "/root/results",
+            "servers": {
+                "amazon_2022": {
+                    "serverName": "amazon_2022",
+                    "user": "root",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast-root",
+                        "offline"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "ovalDict": {
+                "Name": "ovalDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/oval.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "/root/go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            }
+        },
+        "report": {
+            "logJSON": false
+        }
+    }
+}
