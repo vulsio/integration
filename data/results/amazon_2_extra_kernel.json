@@ -22,7 +22,7 @@
     "ipv6Addrs": [
         "fd17:625c:f037:2:a00:27ff:fea6:b56c"
     ],
-    "scannedAt": "2026-03-02T04:29:26.838439109Z",
+    "scannedAt": "2026-03-02T04:47:40.553078327Z",
     "scanMode": "fast-root offline mode",
     "scannedVersion": "0.38.2",
     "scannedRevision": "b8762b3b28ce3703a42213076b8ec84f41016b4d-2026-02-20T09:45:52Z",
@@ -42,7 +42,7 @@
     "warnings": [],
     "scannedCves": {},
     "runningKernel": {
-        "release": "4.14.314-237.533.amzn2.x86_64",
+        "release": "5.10.245-243.979.amzn2.x86_64",
         "version": "",
         "rebootRequired": false
     },
@@ -107,6 +107,16 @@
             "repository": "amzn2-core",
             "modularitylabel": ""
         },
+        "amd-ucode-firmware": {
+            "name": "amd-ucode-firmware",
+            "version": "20200421",
+            "release": "85.git78c0348.amzn2",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "noarch",
+            "repository": "amzn2-core",
+            "modularitylabel": ""
+        },
         "at": {
             "name": "at",
             "version": "3.1.13",
@@ -115,15 +125,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "3264",
-                    "path": "/usr/sbin/atd -f ",
-                    "serviceName": "atd.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "attr": {
             "name": "attr",
@@ -143,15 +145,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2255",
-                    "path": "/sbin/auditd ",
-                    "serviceName": "auditd.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "audit-libs": {
             "name": "audit-libs",
@@ -204,7 +198,7 @@
             "modularitylabel": "",
             "AffectedProcs": [
                 {
-                    "pid": "4889",
+                    "pid": "3889",
                     "name": "bash"
                 }
             ]
@@ -240,7 +234,7 @@
             "modularitylabel": "",
             "AffectedProcs": [
                 {
-                    "pid": "3047",
+                    "pid": "3286",
                     "name": "dhclient"
                 }
             ]
@@ -393,15 +387,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2320",
-                    "path": "/usr/sbin/chronyd -F 2 ",
-                    "serviceName": "chronyd.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "cloud-init": {
             "name": "cloud-init",
@@ -554,16 +540,8 @@
             "modularitylabel": "",
             "AffectedProcs": [
                 {
-                    "pid": "2284",
+                    "pid": "2537",
                     "name": "dbus-daemon"
-                }
-            ],
-            "NeedRestartProcs": [
-                {
-                    "pid": "2284",
-                    "path": "/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation ",
-                    "serviceName": "dbus.service",
-                    "initSystem": "systemd"
                 }
             ]
         },
@@ -635,15 +613,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "3047",
-                    "path": "/sbin/dhclient -1 -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H vagrant eth0 ",
-                    "serviceName": "network.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "dhcp-common": {
             "name": "dhcp-common",
@@ -990,19 +960,23 @@
                     "name": "systemd"
                 },
                 {
-                    "pid": "1640",
+                    "pid": "1783",
                     "name": "systemd-journal"
                 },
                 {
-                    "pid": "1656",
+                    "pid": "1799",
                     "name": "lvmetad"
                 },
                 {
-                    "pid": "2255",
+                    "pid": "2492",
                     "name": "auditd"
                 },
                 {
-                    "pid": "2287",
+                    "pid": "2524",
+                    "name": "irqbalance"
+                },
+                {
+                    "pid": "2525",
                     "name": "rpcbind",
                     "listenPortStats": [
                         {
@@ -1013,27 +987,27 @@
                     ]
                 },
                 {
-                    "pid": "2292",
-                    "name": "irqbalance"
-                },
-                {
-                    "pid": "2293",
+                    "pid": "2527",
                     "name": "systemd-logind"
                 },
                 {
-                    "pid": "2298",
-                    "name": "rngd"
-                },
-                {
-                    "pid": "2313",
+                    "pid": "2538",
                     "name": "gssproxy"
                 },
                 {
-                    "pid": "2320",
+                    "pid": "2550",
+                    "name": "rngd"
+                },
+                {
+                    "pid": "2551",
                     "name": "chronyd"
                 },
                 {
-                    "pid": "3205",
+                    "pid": "3206",
+                    "name": "VBoxService"
+                },
+                {
+                    "pid": "3437",
                     "name": "master",
                     "listenPortStats": [
                         {
@@ -1044,31 +1018,19 @@
                     ]
                 },
                 {
-                    "pid": "3208",
+                    "pid": "3443",
                     "name": "pickup"
                 },
                 {
-                    "pid": "3209",
+                    "pid": "3444",
                     "name": "qmgr"
                 },
                 {
-                    "pid": "3251",
+                    "pid": "3496",
                     "name": "rsyslogd"
                 },
                 {
-                    "pid": "3264",
-                    "name": "atd"
-                },
-                {
-                    "pid": "3282",
-                    "name": "agetty"
-                },
-                {
-                    "pid": "4801",
-                    "name": "crond"
-                },
-                {
-                    "pid": "4833",
+                    "pid": "3501",
                     "name": "sshd",
                     "listenPortStats": [
                         {
@@ -1079,16 +1041,24 @@
                     ]
                 },
                 {
-                    "pid": "4886",
+                    "pid": "3514",
+                    "name": "atd"
+                },
+                {
+                    "pid": "3515",
+                    "name": "crond"
+                },
+                {
+                    "pid": "3526",
+                    "name": "agetty"
+                },
+                {
+                    "pid": "3886",
                     "name": "sshd"
                 },
                 {
-                    "pid": "4888",
+                    "pid": "3888",
                     "name": "sshd"
-                },
-                {
-                    "pid": "4991",
-                    "name": "VBoxService"
                 }
             ]
         },
@@ -1280,15 +1250,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2313",
-                    "path": "/usr/sbin/gssproxy -D ",
-                    "serviceName": "gssproxy.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "gzip": {
             "name": "gzip",
@@ -1438,15 +1400,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2292",
-                    "path": "/usr/sbin/irqbalance --foreground ",
-                    "serviceName": "irqbalance.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "jansson": {
             "name": "jansson",
@@ -1510,12 +1464,12 @@
         },
         "kernel": {
             "name": "kernel",
-            "version": "4.14.314",
-            "release": "237.533.amzn2",
+            "version": "5.10.245",
+            "release": "243.979.amzn2",
             "newVersion": "",
             "newRelease": "",
             "arch": "x86_64",
-            "repository": "amzn2-core",
+            "repository": "amzn2extra-kernel-5.10",
             "modularitylabel": ""
         },
         "kernel-tools": {
@@ -2259,16 +2213,8 @@
             "modularitylabel": "",
             "AffectedProcs": [
                 {
-                    "pid": "2296",
+                    "pid": "2534",
                     "name": "lsmd"
-                }
-            ],
-            "NeedRestartProcs": [
-                {
-                    "pid": "2296",
-                    "path": "/usr/bin/lsmd -d ",
-                    "serviceName": "libstoragemgmt.service",
-                    "initSystem": "systemd"
                 }
             ]
         },
@@ -2442,16 +2388,6 @@
             "repository": "amzn2-core",
             "modularitylabel": ""
         },
-        "libzip": {
-            "name": "libzip",
-            "version": "1.3.2",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2-core",
-            "modularitylabel": ""
-        },
         "lm_sensors-libs": {
             "name": "lm_sensors-libs",
             "version": "3.4.0",
@@ -2500,15 +2436,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "1656",
-                    "path": "/usr/sbin/lvmetad -f ",
-                    "serviceName": "lvm2-lvmetad.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "lvm2-libs": {
             "name": "lvm2-libs",
@@ -3240,56 +3168,6 @@
             "repository": "amzn2-core",
             "modularitylabel": ""
         },
-        "php-cli": {
-            "name": "php-cli",
-            "version": "8.2.30",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2extra-php8.2",
-            "modularitylabel": ""
-        },
-        "php-common": {
-            "name": "php-common",
-            "version": "8.2.30",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2extra-php8.2",
-            "modularitylabel": ""
-        },
-        "php-fpm": {
-            "name": "php-fpm",
-            "version": "8.2.30",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2extra-php8.2",
-            "modularitylabel": ""
-        },
-        "php-mysqlnd": {
-            "name": "php-mysqlnd",
-            "version": "8.2.30",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2extra-php8.2",
-            "modularitylabel": ""
-        },
-        "php-pdo": {
-            "name": "php-pdo",
-            "version": "8.2.30",
-            "release": "1.amzn2.0.1",
-            "newVersion": "",
-            "newRelease": "",
-            "arch": "x86_64",
-            "repository": "amzn2extra-php8.2",
-            "modularitylabel": ""
-        },
         "pinentry": {
             "name": "pinentry",
             "version": "0.8.1",
@@ -3378,15 +3256,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "3205",
-                    "path": "/usr/libexec/postfix/master -w ",
-                    "serviceName": "postfix.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "procps-ng": {
             "name": "procps-ng",
@@ -3936,15 +3806,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2298",
-                    "path": "/sbin/rngd -f --fill-watermark=0 --exclude=jitter ",
-                    "serviceName": "rngd.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "rootfiles": {
             "name": "rootfiles",
@@ -3964,15 +3826,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "2287",
-                    "path": "/sbin/rpcbind -w ",
-                    "serviceName": "rpcbind.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "rpm": {
             "name": "rpm",
@@ -4032,15 +3886,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "3251",
-                    "path": "/usr/sbin/rsyslogd -n ",
-                    "serviceName": "rsyslog.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "scl-utils": {
             "name": "scl-utils",
@@ -4243,28 +4089,8 @@
             "modularitylabel": "",
             "AffectedProcs": [
                 {
-                    "pid": "2168",
+                    "pid": "2399",
                     "name": "systemd-udevd"
-                }
-            ],
-            "NeedRestartProcs": [
-                {
-                    "pid": "1640",
-                    "path": "/usr/lib/systemd/systemd-journald ",
-                    "serviceName": "systemd-journald.service",
-                    "initSystem": "systemd"
-                },
-                {
-                    "pid": "2168",
-                    "path": "/usr/lib/systemd/systemd-udevd ",
-                    "serviceName": "systemd-udevd.service",
-                    "initSystem": "systemd"
-                },
-                {
-                    "pid": "2293",
-                    "path": "/usr/lib/systemd/systemd-logind ",
-                    "serviceName": "systemd-logind.service",
-                    "initSystem": "systemd"
                 }
             ]
         },
@@ -4446,15 +4272,7 @@
             "newRelease": "",
             "arch": "x86_64",
             "repository": "amzn2-core",
-            "modularitylabel": "",
-            "NeedRestartProcs": [
-                {
-                    "pid": "3282",
-                    "path": "/sbin/agetty --noclear tty1 linux ",
-                    "serviceName": "getty@tty1.service",
-                    "initSystem": "systemd"
-                }
-            ]
+            "modularitylabel": ""
         },
         "vim-common": {
             "name": "vim-common",
@@ -5892,12 +5710,12 @@
                 "libyaml"
             ]
         },
-        "libzip": {
-            "name": "libzip",
-            "version": "1.3.2-1.amzn2.0.1",
+        "linux-firmware": {
+            "name": "linux-firmware",
+            "version": "20200421-85.git78c0348.amzn2",
             "arch": "src",
             "binaryNames": [
-                "libzip"
+                "amd-ucode-firmware"
             ]
         },
         "lm_sensors": {
@@ -6421,18 +6239,6 @@
             "arch": "src",
             "binaryNames": [
                 "perl-threads-shared"
-            ]
-        },
-        "php": {
-            "name": "php",
-            "version": "8.2.30-1.amzn2.0.1",
-            "arch": "src",
-            "binaryNames": [
-                "php-pdo",
-                "php-mysqlnd",
-                "php-fpm",
-                "php-common",
-                "php-cli"
             ]
         },
         "pinentry": {
