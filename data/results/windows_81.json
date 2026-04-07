@@ -1,0 +1,358 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "windows_81",
+    "family": "windows",
+    "release": "Windows 8.1 for x64-based Systems",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "10.0.2.15"
+    ],
+    "ipv6Addrs": [
+        "fd17:625c:f037:2:e19c:4d1c:d8d4:67c0",
+        "fd17:625c:f037:2:b1ea:98d2:4eb0:ff18",
+        "fe80::e19c:4d1c:d8d4:67c0"
+    ],
+    "scannedAt": "2026-04-07T01:42:27.2541894-07:00",
+    "scanMode": "fast mode",
+    "scannedVersion": "0.24.9",
+    "scannedRevision": "b9ebcf351b10ca9d691d76cf2c684e610601f7a7-2024-02-02T06:42:43Z",
+    "scannedBy": "win-8-1-pro-x64",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.0.2.15"
+    ],
+    "scannedIpv6Addrs": [
+        "fd17:625c:f037:2:e19c:4d1c:d8d4:67c0",
+        "fd17:625c:f037:2:b1ea:98d2:4eb0:ff18"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended."
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "6.3.9600",
+        "rebootRequired": false
+    },
+    "packages": {
+        "Oracle VM VirtualBox Guest Additions 5.1.20": {
+            "name": "Oracle VM VirtualBox Guest Additions 5.1.20",
+            "version": "5.1.20.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "2939153",
+            "2966407",
+            "2975061",
+            "2976627",
+            "3191564",
+            "2937220",
+            "2958263",
+            "2965142",
+            "2965500",
+            "2967917",
+            "2987107",
+            "2959936",
+            "2931358",
+            "3014442",
+            "2968599",
+            "2981580",
+            "2961072",
+            "2973351",
+            "2978002",
+            "3001237",
+            "2919355",
+            "2954879",
+            "2949621",
+            "2920189",
+            "2938772",
+            "2976978",
+            "2989647",
+            "2962140",
+            "2971203",
+            "2977629",
+            "2998527",
+            "3000850",
+            "3003057",
+            "3102467",
+            "2931366",
+            "2958262"
+        ],
+        "unapplied": [
+            "3097992",
+            "3138910",
+            "2973114",
+            "2972213",
+            "2972103",
+            "2989930",
+            "3046480",
+            "3023219",
+            "3024751",
+            "3024755",
+            "3059317",
+            "3054256",
+            "3080149",
+            "3037576",
+            "3071663",
+            "3048043",
+            "3122651",
+            "2994290",
+            "3045685",
+            "3058168",
+            "3061512",
+            "3072307",
+            "3156059",
+            "3047254",
+            "3078405",
+            "3036612",
+            "3045999",
+            "3061493",
+            "3115858",
+            "5018922",
+            "4486105",
+            "2978122",
+            "3015696",
+            "3013791",
+            "3121261",
+            "3133690",
+            "3155178",
+            "3043812",
+            "3053863",
+            "3103709",
+            "3042085",
+            "3046017",
+            "3109976",
+            "2894852",
+            "2990967",
+            "3054169",
+            "3029606",
+            "3139914",
+            "4049017",
+            "3086255",
+            "3146723",
+            "3178539",
+            "2976978",
+            "5001027",
+            "2267602",
+            "3054464",
+            "3056347",
+            "3102939",
+            "4041085",
+            "2968296",
+            "3127222",
+            "3045634",
+            "3092601",
+            "3147071",
+            "3081320",
+            "3110329",
+            "3146751",
+            "3149157",
+            "3138962",
+            "3159398",
+            "3013816",
+            "3027209",
+            "3013769",
+            "3013538",
+            "3063843",
+            "3044374",
+            "3161949",
+            "2899189",
+            "3013531",
+            "3045717",
+            "3076949",
+            "3077715",
+            "3102429",
+            "3179574",
+            "2966826",
+            "3023266",
+            "3080800",
+            "3087137",
+            "3138602",
+            "3161102",
+            "3082089",
+            "3126041",
+            "5018549",
+            "3013410",
+            "3055323",
+            "3060793",
+            "3084905",
+            "3091297",
+            "3145384",
+            "3012702",
+            "3126030",
+            "3140185",
+            "3109103",
+            "5022352",
+            "2966828",
+            "3030947",
+            "3038002",
+            "3045719",
+            "3046737",
+            "3062760",
+            "3126593",
+            "3132080",
+            "3019978",
+            "3012235",
+            "3018133",
+            "3020370",
+            "3084135",
+            "3109560",
+            "4054519",
+            "3044673",
+            "3103616",
+            "3064059",
+            "3103696",
+            "3126434",
+            "3175024",
+            "3031044",
+            "3013172",
+            "3033446",
+            "3074545",
+            "5021093",
+            "3008242",
+            "3137728",
+            "890830",
+            "3071756",
+            "3126587",
+            "3140219",
+            "3100473",
+            "3146604",
+            "3184143"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\vagrant\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\Users\\vagrant\\vuls\\results",
+            "default": {},
+            "servers": {
+                "windows_81": {
+                    "serverName": "windows_81",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\cve.sqlite3",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "ovalDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\oval.sqlite3",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\gost.sqlite3",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\go-exploitdb.sqlite3",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\go-msfdb.sqlite3",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\go-kev.sqlite3",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\Users\\vagrant\\vuls\\go-cti.sqlite3",
+                "DebugSQL": false
+            }
+        },
+        "report": {
+            "logJSON": false,
+            "default": {},
+            "cveDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "ovalDict": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "gost": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "exploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "metasploit": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "kevuln": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            },
+            "cti": {
+                "Name": "",
+                "Type": "",
+                "SQLite3Path": "",
+                "DebugSQL": false
+            }
+        }
+    }
+}

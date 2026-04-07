@@ -1,0 +1,282 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "windows_server_2012",
+    "family": "windows",
+    "release": "Windows Server 2012",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "10.0.2.15"
+    ],
+    "ipv6Addrs": [
+        "fd17:625c:f037:2:39a8:a22e:5cd9:29a0",
+        "fe80::39a8:a22e:5cd9:29a0"
+    ],
+    "scannedAt": "2026-04-08T12:58:21.4188186Z",
+    "scanMode": "fast mode",
+    "scannedVersion": "0.38.6",
+    "scannedRevision": "6827f2d6404e32b781d7c2f3cd00fdb025df76a8-2026-03-10T09:54:28Z",
+    "scannedBy": "WIN-6MCJCUIECNU",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.0.2.15"
+    ],
+    "scannedIpv6Addrs": [
+        "fd17:625c:f037:2:39a8:a22e:5cd9:29a0"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended."
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "6.2.9200.24523",
+        "rebootRequired": false
+    },
+    "packages": {
+        "Oracle VM VirtualBox Guest Additions 7.0.10": {
+            "name": "Oracle VM VirtualBox Guest Additions 7.0.10",
+            "version": "7.0.10.158379",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Oracle and/or its affiliates",
+            "modularitylabel": ""
+        },
+        "PSReadLine": {
+            "name": "PSReadLine",
+            "version": "1.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "Vim 9.0 (x64)": {
+            "name": "Vim 9.0 (x64)",
+            "version": "9.0.2009",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Bram Moolenaar et al.",
+            "modularitylabel": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "2862966",
+            "2883201",
+            "2938066",
+            "3010788",
+            "3018238",
+            "4486081",
+            "2769034",
+            "2795944",
+            "2863725",
+            "2896496",
+            "2955163",
+            "2973501",
+            "2995387",
+            "3042058",
+            "2823516",
+            "3102429",
+            "3110329",
+            "3123479",
+            "4492872",
+            "2780342",
+            "2882780",
+            "2891804",
+            "2911101",
+            "2992611",
+            "3012702",
+            "3045685",
+            "2855336",
+            "2871997",
+            "3000853",
+            "3137061",
+            "3179575",
+            "2764870",
+            "2769165",
+            "2871389",
+            "2876415",
+            "2973201",
+            "2996928",
+            "3059317",
+            "3140245",
+            "2770660",
+            "2807986",
+            "2850674",
+            "2887536",
+            "2985485",
+            "3044673",
+            "3139914",
+            "3147071",
+            "2784160",
+            "2862768",
+            "2866029",
+            "2884256",
+            "2975331",
+            "2984005",
+            "3004375",
+            "3083992",
+            "2877213",
+            "2887537",
+            "3030377",
+            "3046017",
+            "3107998",
+            "3137726",
+            "3161949",
+            "5031002",
+            "2761094",
+            "2770917",
+            "2967916",
+            "3133043",
+            "3156016",
+            "3159398",
+            "3005628",
+            "5031227",
+            "2802618",
+            "2813430",
+            "2822241",
+            "2903938",
+            "2962407",
+            "3086255",
+            "3146604",
+            "2772501",
+            "2808679",
+            "2851234",
+            "2889784",
+            "3013767",
+            "2758246",
+            "2864202",
+            "2912390",
+            "2934016",
+            "3043812",
+            "5010797",
+            "2756872",
+            "2836988",
+            "2843630",
+            "2868038",
+            "2999323",
+            "5031442",
+            "2785094",
+            "2845533",
+            "2928678",
+            "3126587",
+            "4019990",
+            "5031469",
+            "3031432",
+            "2779768",
+            "2842230",
+            "2862335",
+            "3019978",
+            "3054204",
+            "3071756",
+            "2800033",
+            "2811660"
+        ],
+        "unapplied": [
+            "890830"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\vagrant\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\vagrant\\results",
+            "servers": {
+                "windows_server_2012": {
+                    "serverName": "windows_server_2012",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "vuls2": {
+                "Repository": "ghcr.io/vulsio/vuls-nightly-db:nightly",
+                "Path": "",
+                "SkipUpdate": false
+            }
+        },
+        "report": {
+            "logJSON": false
+        }
+    }
+}
