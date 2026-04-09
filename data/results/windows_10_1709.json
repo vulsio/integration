@@ -1,0 +1,288 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "windows_10_1709",
+    "family": "windows",
+    "release": "Windows 10 Version 1709 for x64-based Systems",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "10.0.2.15"
+    ],
+    "ipv6Addrs": [
+        "fd17:625c:f037:2:756b:493:11c3:c2cb",
+        "fd17:625c:f037:2:5df1:7240:d622:c4ab",
+        "fe80::756b:493:11c3:c2cb",
+        "2001:0:14c9:d206:24f2:2aa4:f5ff:fdf0",
+        "fe80::24f2:2aa4:f5ff:fdf0"
+    ],
+    "scannedAt": "2026-04-07T02:32:02.7320684-07:00",
+    "scanMode": "fast mode",
+    "scannedVersion": "0.38.6",
+    "scannedRevision": "6827f2d6404e32b781d7c2f3cd00fdb025df76a8-2026-03-10T09:54:28Z",
+    "scannedBy": "vagrant-10",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.0.2.15"
+    ],
+    "scannedIpv6Addrs": [
+        "fd17:625c:f037:2:756b:493:11c3:c2cb",
+        "fd17:625c:f037:2:5df1:7240:d622:c4ab",
+        "2001:0:14c9:d206:24f2:2aa4:f5ff:fdf0"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended."
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "10.0.16299.371",
+        "rebootRequired": false
+    },
+    "packages": {
+        "Microsoft OneDrive": {
+            "name": "Microsoft OneDrive",
+            "version": "26.040.0301.0001",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Silverlight": {
+            "name": "Microsoft Silverlight",
+            "version": "5.1.50907.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Oracle VM VirtualBox Guest Additions 5.2.8": {
+            "name": "Oracle VM VirtualBox Guest Additions 5.2.8",
+            "version": "5.2.8.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Oracle Corporation",
+            "modularitylabel": ""
+        },
+        "Update for Windows 10 for x64-based Systems (KB4023057)": {
+            "name": "Update for Windows 10 for x64-based Systems (KB4023057)",
+            "version": "2.67.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Update for Windows 10 for x64-based Systems (KB4480730)": {
+            "name": "Update for Windows 10 for x64-based Systems (KB4480730)",
+            "version": "2.55.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "4046355",
+            "4058258",
+            "4088776",
+            "4089848",
+            "4093110",
+            "4295110",
+            "4093112",
+            "2267602",
+            "4051963",
+            "4056892",
+            "4073290",
+            "4073291",
+            "4058043",
+            "4486153",
+            "4052623",
+            "4023307",
+            "925673",
+            "4048955",
+            "4074588",
+            "4090913",
+            "4099989",
+            "4023057",
+            "4480730",
+            "890830",
+            "4043961",
+            "4054517"
+        ],
+        "unapplied": [
+            "4554342",
+            "4567515",
+            "4494452",
+            "4093105",
+            "4103727",
+            "4284822",
+            "4499179",
+            "4507455",
+            "4489886",
+            "4516066",
+            "4524150",
+            "4540681",
+            "4103714",
+            "4338825",
+            "4462918",
+            "4462932",
+            "4480978",
+            "4493441",
+            "4520006",
+            "4486996",
+            "4578971",
+            "4512516",
+            "4512494",
+            "4561602",
+            "4457142",
+            "4505062",
+            "4507465",
+            "4525241",
+            "4550927",
+            "4580328",
+            "4534276",
+            "4577041",
+            "4343893",
+            "4457136",
+            "4483232",
+            "4530714",
+            "4503281",
+            "4565508",
+            "4480967",
+            "4522012",
+            "4556812",
+            "4537816",
+            "4541330",
+            "4343897",
+            "4467686",
+            "4464217",
+            "4471329",
+            "4489890",
+            "4516071",
+            "4284819",
+            "4520004",
+            "4534318",
+            "4345420",
+            "4338817",
+            "4487021",
+            "4509477",
+            "4537789",
+            "4571741",
+            "4295110",
+            "4467681",
+            "4493440",
+            "4499147",
+            "4503284"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\vagrant\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\vagrant\\results",
+            "servers": {
+                "windows_10_1709": {
+                    "serverName": "windows_10_1709",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "vuls2": {
+                "Repository": "ghcr.io/vulsio/vuls-nightly-db:nightly",
+                "Path": "",
+                "SkipUpdate": false
+            }
+        },
+        "report": {
+            "logJSON": false
+        }
+    }
+}

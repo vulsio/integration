@@ -1,0 +1,283 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "windows_10_22h2",
+    "family": "windows",
+    "release": "Windows 10 Version 22H2 for x64-based Systems",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "10.0.2.15"
+    ],
+    "ipv6Addrs": [
+        "fd17:625c:f037:2:df4d:6a0c:9e08:526c",
+        "fd17:625c:f037:2:7976:fc:2a94:6a9",
+        "fe80::2248:ece5:5d7:b8bf"
+    ],
+    "scannedAt": "2026-04-07T15:15:59.8690501Z",
+    "scanMode": "fast mode",
+    "scannedVersion": "0.38.6",
+    "scannedRevision": "6827f2d6404e32b781d7c2f3cd00fdb025df76a8-2026-03-10T09:54:28Z",
+    "scannedBy": "DESKTOP-J0AV2VI",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.0.2.15"
+    ],
+    "scannedIpv6Addrs": [
+        "fd17:625c:f037:2:df4d:6a0c:9e08:526c",
+        "fd17:625c:f037:2:7976:fc:2a94:6a9"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [
+        "Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended."
+    ],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "10.0.19045.6456",
+        "rebootRequired": false
+    },
+    "packages": {
+        "Microsoft Edge": {
+            "name": "Microsoft Edge",
+            "version": "92.0.902.67",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft OneDrive": {
+            "name": "Microsoft OneDrive",
+            "version": "19.043.0304.0013",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Update Health Tools": {
+            "name": "Microsoft Update Health Tools",
+            "version": "3.74.0.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Oracle VirtualBox Guest Additions 7.2.4": {
+            "name": "Oracle VirtualBox Guest Additions 7.2.4",
+            "version": "7.2.4.170995",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Oracle and/or its affiliates",
+            "modularitylabel": ""
+        },
+        "PSWindowsUpdate": {
+            "name": "PSWindowsUpdate",
+            "version": "2.2.1.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "modularitylabel": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "5066135",
+            "5023696",
+            "5039211",
+            "5052077",
+            "5060533",
+            "5066747",
+            "5019959",
+            "5023773",
+            "5035941",
+            "5058481",
+            "5063159",
+            "5066791",
+            "5029244",
+            "5041580",
+            "5045594",
+            "5072653",
+            "4023057",
+            "5020030",
+            "5031356",
+            "5036892",
+            "5058379",
+            "5034843",
+            "5043131",
+            "5066198",
+            "5026037",
+            "5026435",
+            "5037768",
+            "5053643",
+            "5026361",
+            "5028244",
+            "5032189",
+            "5041582",
+            "5061979",
+            "5065429",
+            "5066790",
+            "5021233",
+            "5027215",
+            "5028166",
+            "5029331",
+            "5030211",
+            "5034122",
+            "5011048",
+            "5019275",
+            "5035845",
+            "5036979",
+            "5053606",
+            "890830",
+            "5022906",
+            "5031445",
+            "5032278",
+            "5034203",
+            "5044273",
+            "5048652",
+            "5055612",
+            "5022834",
+            "5025297",
+            "5027293",
+            "5030300",
+            "5040427",
+            "5040525",
+            "5043064",
+            "5062649",
+            "5066130",
+            "5015684",
+            "5022282",
+            "5049981",
+            "5051974",
+            "5063842",
+            "5014032",
+            "4052623",
+            "5033372",
+            "5055518",
+            "5066188",
+            "5016705",
+            "5039299",
+            "5046613",
+            "5046714",
+            "5020953",
+            "5037849",
+            "5061768",
+            "5062554",
+            "5063709",
+            "5025221",
+            "5034763",
+            "5050081",
+            "5061087"
+        ],
+        "unapplied": [
+            "2267602",
+            "890830"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\vagrant\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\vagrant\\results",
+            "servers": {
+                "windows_10_22h2": {
+                    "serverName": "windows_10_22h2",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "vuls2": {
+                "Repository": "ghcr.io/vulsio/vuls-nightly-db:nightly",
+                "Path": "",
+                "SkipUpdate": false
+            }
+        },
+        "report": {
+            "logJSON": false
+        }
+    }
+}
