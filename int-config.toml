@@ -90,9 +90,13 @@ lockfiles = ["./integration/data/lockfile/uv.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/composer.lock"]
 
-[servers.composer-vendor]
+[servers.composer-vendor-pear]
 type = "pseudo"
-lockfiles = ["./integration/data/lockfile/installed.json"]
+lockfiles = ["./integration/data/lockfile/installed-pear/installed.json"]
+
+[servers.composer-vendor-packagist]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/installed-packagist/installed.json"]
 
 [servers.npm-v1]
 type = "pseudo"
