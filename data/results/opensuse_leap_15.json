@@ -2,7 +2,7 @@
     "jsonVersion": 4,
     "lang": "",
     "serverUUID": "",
-    "serverName": "leap",
+    "serverName": "opensuse_leap_15",
     "family": "opensuse.leap",
     "release": "15.3",
     "container": {
@@ -9420,8 +9420,8 @@
                 ]
             },
             "servers": {
-                "leap": {
-                    "serverName": "leap",
+                "opensuse_leap_15": {
+                    "serverName": "opensuse_leap_15",
                     "user": "ec2-user",
                     "host": "13.115.41.119",
                     "port": "22",
