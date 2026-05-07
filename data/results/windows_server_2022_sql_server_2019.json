@@ -1,0 +1,670 @@
+{
+    "jsonVersion": 4,
+    "lang": "",
+    "serverUUID": "",
+    "serverName": "windows_server_2022_sql_server_2019",
+    "family": "windows",
+    "release": "Windows Server 2022",
+    "container": {
+        "containerID": "",
+        "name": "",
+        "image": "",
+        "type": "",
+        "uuid": ""
+    },
+    "platform": {
+        "name": "other",
+        "instanceID": ""
+    },
+    "ipv4Addrs": [
+        "10.0.2.15"
+    ],
+    "ipv6Addrs": [
+        "fd17:625c:f037:2:3caf:b7c5:c3df:6dac",
+        "fe80::1acb:4f4c:938:15c0"
+    ],
+    "scannedAt": "2026-05-01T12:11:53.5711439Z",
+    "scanMode": "fast-root mode",
+    "scannedVersion": "0.38.6",
+    "scannedRevision": "6827f2d6404e32b781d7c2f3cd00fdb025df76a8-2026-03-10T09:54:28Z",
+    "scannedBy": "WIN-P5R9DOVTTHF",
+    "scannedVia": "local",
+    "scannedIpv4Addrs": [
+        "10.0.2.15"
+    ],
+    "scannedIpv6Addrs": [
+        "fd17:625c:f037:2:3caf:b7c5:c3df:6dac"
+    ],
+    "reportedAt": "0001-01-01T00:00:00Z",
+    "reportedVersion": "",
+    "reportedRevision": "",
+    "reportedBy": "",
+    "errors": [],
+    "warnings": [],
+    "scannedCves": {},
+    "runningKernel": {
+        "release": "",
+        "version": "10.0.20348.3328",
+        "rebootRequired": false
+    },
+    "packages": {
+        "Browser for SQL Server 2019": {
+            "name": "Browser for SQL Server 2019",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Hotfix 4430 for SQL Server 2019 (KB5054833) (64-bit)": {
+            "name": "Hotfix 4430 for SQL Server 2019 (KB5054833) (64-bit)",
+            "version": "15.0.4430.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Integration Services": {
+            "name": "Integration Services",
+            "version": "16.0.5491.7",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Analysis Services OLE DB Provider": {
+            "name": "Microsoft Analysis Services OLE DB Provider",
+            "version": "16.0.5143.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Edge": {
+            "name": "Microsoft Edge",
+            "version": "147.0.3912.86",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Help Viewer 2.3": {
+            "name": "Microsoft Help Viewer 2.3",
+            "version": "2.3.28307",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft ODBC Driver 17 for SQL Server": {
+            "name": "Microsoft ODBC Driver 17 for SQL Server",
+            "version": "17.10.6.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft OLE DB Driver for SQL Server": {
+            "name": "Microsoft OLE DB Driver for SQL Server",
+            "version": "18.7.4.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server 2012 Native Client": {
+            "name": "Microsoft SQL Server 2012 Native Client",
+            "version": "11.4.7515.2",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server 2019 (64-bit)": {
+            "name": "Microsoft SQL Server 2019 (64-bit)",
+            "version": "",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server 2019 RsFx Driver": {
+            "name": "Microsoft SQL Server 2019 RsFx Driver",
+            "version": "15.0.4430.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server 2019 Setup (English)": {
+            "name": "Microsoft SQL Server 2019 Setup (English)",
+            "version": "15.0.4430.1",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server 2019 T-SQL Language Service": {
+            "name": "Microsoft SQL Server 2019 T-SQL Language Service",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft SQL Server Management Studio - 20.2": {
+            "name": "Microsoft SQL Server Management Studio - 20.2",
+            "version": "20.2.30.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft VSS Writer for SQL Server 2019": {
+            "name": "Microsoft VSS Writer for SQL Server 2019",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 Redistributable (x64) - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 Redistributable (x64) - 14.14.26429",
+            "version": "14.14.26429.4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 Redistributable (x86) - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 Redistributable (x86) - 14.14.26429",
+            "version": "14.14.26429.4",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 x64 Additional Runtime - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 x64 Additional Runtime - 14.14.26429",
+            "version": "14.14.26429",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.14.26429",
+            "version": "14.14.26429",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 x86 Additional Runtime - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 x86 Additional Runtime - 14.14.26429",
+            "version": "14.14.26429",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual C++ 2017 x86 Minimum Runtime - 14.14.26429": {
+            "name": "Microsoft Visual C++ 2017 x86 Minimum Runtime - 14.14.26429",
+            "version": "14.14.26429",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual Studio Tools for Applications 2019": {
+            "name": "Microsoft Visual Studio Tools for Applications 2019",
+            "version": "16.0.31110",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual Studio Tools for Applications 2019 x64 Hosting Support": {
+            "name": "Microsoft Visual Studio Tools for Applications 2019 x64 Hosting Support",
+            "version": "16.0.31110",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Microsoft Visual Studio Tools for Applications 2019 x86 Hosting Support": {
+            "name": "Microsoft Visual Studio Tools for Applications 2019 x86 Hosting Support",
+            "version": "16.0.31110",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Oracle VirtualBox Guest Additions 7.1.6": {
+            "name": "Oracle VirtualBox Guest Additions 7.1.6",
+            "version": "7.1.6.167084",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Oracle and/or its affiliates",
+            "modularitylabel": ""
+        },
+        "PSWindowsUpdate": {
+            "name": "PSWindowsUpdate",
+            "version": "2.2.1.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Batch Parser": {
+            "name": "SQL Server 2019 Batch Parser",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Common Files": {
+            "name": "SQL Server 2019 Common Files",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Connection Info": {
+            "name": "SQL Server 2019 Connection Info",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 DMF": {
+            "name": "SQL Server 2019 DMF",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Database Engine Services": {
+            "name": "SQL Server 2019 Database Engine Services",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Database Engine Shared": {
+            "name": "SQL Server 2019 Database Engine Shared",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Full text search": {
+            "name": "SQL Server 2019 Full text search",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 SQL Diagnostics": {
+            "name": "SQL Server 2019 SQL Diagnostics",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Shared Management Objects": {
+            "name": "SQL Server 2019 Shared Management Objects",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 Shared Management Objects Extensions": {
+            "name": "SQL Server 2019 Shared Management Objects Extensions",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server 2019 XEvent": {
+            "name": "SQL Server 2019 XEvent",
+            "version": "15.0.2000.5",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "SQL Server Management Studio": {
+            "name": "SQL Server Management Studio",
+            "version": "20.2.30.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corp.",
+            "modularitylabel": ""
+        },
+        "SQL Server Management Studio Language Pack - English": {
+            "name": "SQL Server Management Studio Language Pack - English",
+            "version": "20.2.30.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corp.",
+            "modularitylabel": ""
+        },
+        "SSMS Post Install Tasks": {
+            "name": "SSMS Post Install Tasks",
+            "version": "20.2.30.0",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        },
+        "Visual Studio 2017 Isolated Shell for SSMS": {
+            "name": "Visual Studio 2017 Isolated Shell for SSMS",
+            "version": "15.0.28307.421",
+            "release": "",
+            "newVersion": "",
+            "newRelease": "",
+            "arch": "",
+            "repository": "",
+            "vendor": "Microsoft Corporation",
+            "modularitylabel": ""
+        }
+    },
+    "windowsKB": {
+        "applied": [
+            "5053603",
+            "2267602",
+            "5010354",
+            "5050187",
+            "5015013",
+            "5017316",
+            "5028171",
+            "5046616",
+            "890830",
+            "5005575",
+            "5008223",
+            "5014678",
+            "5018485",
+            "5029250",
+            "5041054",
+            "5053666",
+            "5006745",
+            "5020032",
+            "5021249",
+            "5039227",
+            "5041160",
+            "5048654",
+            "4052623",
+            "5007205",
+            "5009555",
+            "5016627",
+            "5022553",
+            "5026370",
+            "5005619",
+            "5019081",
+            "5006699",
+            "5018421",
+            "5037782",
+            "5049617",
+            "5007254",
+            "5010197",
+            "5015879",
+            "5022842",
+            "5032198",
+            "5034129",
+            "5012637",
+            "5014665",
+            "5015827",
+            "5022291",
+            "5036909",
+            "5042881",
+            "5033118",
+            "5009608",
+            "5020436",
+            "5023705",
+            "5025230",
+            "5010796",
+            "5016693",
+            "5017381",
+            "5021656",
+            "5040437",
+            "5005104",
+            "5012604",
+            "5013944",
+            "5027225",
+            "5031364",
+            "5051979",
+            "5011497",
+            "5014021",
+            "5034770",
+            "5037422",
+            "5049983",
+            "5010421",
+            "5011558",
+            "5030216",
+            "5035857",
+            "5044281",
+            "4583458"
+        ],
+        "unapplied": [
+            "5082142",
+            "5059092",
+            "5061906",
+            "5063880",
+            "5066782",
+            "4052623",
+            "5055526",
+            "5060526",
+            "890830",
+            "5084071",
+            "5058385",
+            "5062572",
+            "5065432",
+            "5058920",
+            "5070884"
+        ]
+    },
+    "config": {
+        "scan": {
+            "logDir": "C:\\Users\\vagrant\\AppData\\Roaming\\vuls",
+            "logJSON": false,
+            "resultsDir": "C:\\vagrant\\results",
+            "servers": {
+                "windows_server_2022_sql_server_2019": {
+                    "serverName": "windows_server_2022_sql_server_2019",
+                    "host": "localhost",
+                    "port": "local",
+                    "scanMode": [
+                        "fast-root"
+                    ],
+                    "scanModules": [
+                        "ospkg"
+                    ],
+                    "wordpress": {},
+                    "portscan": {},
+                    "windows": {}
+                }
+            },
+            "cveDict": {
+                "Name": "cveDict",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\cve.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "gost": {
+                "Name": "gost",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\gost.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "exploit": {
+                "Name": "exploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-exploitdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "metasploit": {
+                "Name": "metasploit",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-msfdb.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "kevuln": {
+                "Name": "kevuln",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-kev.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            },
+            "cti": {
+                "Name": "cti",
+                "Type": "sqlite3",
+                "SQLite3Path": "C:\\vagrant\\go-cti.sqlite3",
+                "DebugSQL": false,
+                "TimeoutSec": 0,
+                "TimeoutSecPerRequest": 0
+            }
+        },
+        "report": {
+            "logJSON": false
+        }
+    }
+}
