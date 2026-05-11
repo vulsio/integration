@@ -124,11 +124,14 @@ version = "1.5.0"
 sdist = { url = "https://files.pythonhosted.org/packages/cf/59/4b0dd64676aa6fb4986a755790cb6fc558559cf0084effad516820208ec3/imagesize-1.5.0.tar.gz", upload-time = 2026-03-03T01:59:54Z, size = 1281127, hashes = { sha256 = "8bfc5363a7f2133a89f0098451e0bcb1cd71aba4dc02bbcecb39d99d40e1b94f" } }
 wheels = [{ url = "https://files.pythonhosted.org/packages/1e/b1/a0662b03103c66cf77101a187f396ea91167cd9b7d5d3a2e465ad2c7ee9b/imagesize-1.5.0-py2.py3-none-any.whl", upload-time = 2026-03-03T01:59:52Z, size = 5763, hashes = { sha256 = "32677681b3f434c2cb496f00e89c5a291247b35b1f527589909e008057da5899" } }]
 
+# Intentionally pinned to a vulnerable version for vuls integration tests.
+# CVE-2024-56201 / GHSA-q2x7-8rv6-6q7h (sandbox escape via |attr filter), fixed in 3.1.5
+# CVE-2025-27516 / GHSA-cpwx-vrp4-4pq7 (sandbox escape via |attr filter), fixed in 3.1.6
 [[packages]]
 name = "jinja2"
-version = "3.1.6"
-sdist = { url = "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz", upload-time = 2025-03-05T20:05:02Z, size = 245115, hashes = { sha256 = "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d" } }
-wheels = [{ url = "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl", upload-time = 2025-03-05T20:05:00Z, size = 134899, hashes = { sha256 = "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67" } }]
+version = "3.1.4"
+sdist = { url = "https://files.pythonhosted.org/packages/ed/55/39036716d19cab0747a5020fc7e907f362fbf48c984b14e62127f7e68e5d/jinja2-3.1.4.tar.gz", upload-time = 2024-05-05T23:42:02Z, size = 240245, hashes = { sha256 = "4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl", upload-time = 2024-05-05T23:41:59Z, size = 133271, hashes = { sha256 = "bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d" } }]
 
 [[packages]]
 name = "linklint"
@@ -171,11 +174,13 @@ version = "2026.4"
 sdist = { url = "https://files.pythonhosted.org/packages/fd/59/dbb07775a15ddf9f7f8d5f6ef4cd4da5e8afd908cc27e6585bb132e6366a/python_docs_theme-2026.4.tar.gz", upload-time = 2026-04-19T18:35:13Z, size = 29782, hashes = { sha256 = "a815f80c5a09f734449eb2498fbcbad05340976a7a543e431f57de92218a9315" } }
 wheels = [{ url = "https://files.pythonhosted.org/packages/db/05/b9298eb9330c70a3d1465a6116ab01dad095538c2e574a2d704bb0002f4d/python_docs_theme-2026.4-py3-none-any.whl", upload-time = 2026-04-19T18:35:12Z, size = 73742, hashes = { sha256 = "f755d80ebe8d7aa4fad8ee964ff999635c72eebd24ab10928a0e9726363d65fc" } }]
 
+# Intentionally pinned to a vulnerable version for vuls integration tests.
+# CVE-2024-35195 / GHSA-9wx4-h78v-vm56 (Session verify=False persists across requests), fixed in 2.32.0
 [[packages]]
 name = "requests"
-version = "2.33.1"
-sdist = { url = "https://files.pythonhosted.org/packages/5f/a4/98b9c7c6428a668bf7e42ebb7c79d576a1c3c1e3ae2d47e674b468388871/requests-2.33.1.tar.gz", upload-time = 2026-03-30T16:09:15Z, size = 134120, hashes = { sha256 = "18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517" } }
-wheels = [{ url = "https://files.pythonhosted.org/packages/d7/8e/7540e8a2036f79a125c1d2ebadf69ed7901608859186c856fa0388ef4197/requests-2.33.1-py3-none-any.whl", upload-time = 2026-03-30T16:09:13Z, size = 64947, hashes = { sha256 = "4e6d1ef462f3626a1f0a0a9c42dd93c63bad33f9f1c1937509b8c5c8718ab56a" } }]
+version = "2.31.0"
+sdist = { url = "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz", upload-time = 2023-05-22T15:12:44Z, size = 110794, hashes = { sha256 = "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl", upload-time = 2023-05-22T15:12:42Z, size = 62574, hashes = { sha256 = "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f" } }]
 
 [[packages]]
 name = "roman-numerals"
@@ -249,8 +254,10 @@ version = "0.13.0"
 sdist = { url = "https://files.pythonhosted.org/packages/f6/c0/eb6838e3bae624ce6c8b90b245d17e84252863150e95efdb88f92c8aa3fb/sphinxext_opengraph-0.13.0.tar.gz", upload-time = 2025-08-29T12:20:31Z, size = 1026875, hashes = { sha256 = "103335d08567ad8468faf1425f575e3b698e9621f9323949a6c8b96d9793e80b" } }
 wheels = [{ url = "https://files.pythonhosted.org/packages/bf/a4/66c1fd4f8fab88faf71cee04a945f9806ba0fef753f2cfc8be6353f64508/sphinxext_opengraph-0.13.0-py3-none-any.whl", upload-time = 2025-08-29T12:20:29Z, size = 1004152, hashes = { sha256 = "936c07828edc9ad9a7b07908b29596dc84ed0b3ceaa77acdf51282d232d4d80e" } }]
 
+# Intentionally pinned to a vulnerable version for vuls integration tests.
+# CVE-2024-37891 / GHSA-34jh-p97f-mpxf (Proxy-Authorization not stripped on cross-origin redirect), fixed in 2.2.2
 [[packages]]
 name = "urllib3"
-version = "2.6.3"
-sdist = { url = "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz", upload-time = 2026-01-07T16:24:43Z, size = 435556, hashes = { sha256 = "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed" } }
-wheels = [{ url = "https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl", upload-time = 2026-01-07T16:24:42Z, size = 131584, hashes = { sha256 = "bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4" } }]
+version = "2.2.1"
+sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", upload-time = 2024-02-18T03:55:57Z, size = 291020, hashes = { sha256 = "d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", upload-time = 2024-02-18T03:55:54Z, size = 121067, hashes = { sha256 = "450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d" } }]
