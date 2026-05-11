@@ -82,6 +82,10 @@ lockfiles = ["./integration/data/lockfile/poetry-v1/poetry.lock"]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/poetry-v2/poetry.lock"]
 
+[servers.pylock]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/pylock.toml"]
+
 [servers.uv]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/uv.lock"]
