@@ -2,7 +2,7 @@
     "jsonVersion": 4,
     "lang": "",
     "serverUUID": "",
-    "serverName": "localhost",
+    "serverName": "windows_10_21h2_old",
     "family": "windows",
     "release": "Windows 10 Version 21H2 for x64-based Systems",
     "container": {
@@ -603,8 +603,8 @@
             "resultsDir": "C:\\Users\\user\\vuls\\results",
             "default": {},
             "servers": {
-                "localhost": {
-                    "serverName": "localhost",
+                "windows_10_21h2_old": {
+                    "serverName": "windows_10_21h2_old",
                     "host": "localhost",
                     "port": "local",
                     "scanMode": [
