@@ -203,3 +203,15 @@ lockfiles = ["./integration/data/lockfile/Package.resolved"]
 [servers.rust-binary]
 type = "pseudo"
 lockfiles = ["./integration/data/lockfile/hello-rust"]
+
+[servers.seal-npm]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/seal/package-lock.json"]
+
+[servers.seal-pip]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/seal/requirements.txt"]
+
+[servers.seal-gomod]
+type = "pseudo"
+lockfiles = ["./integration/data/lockfile/seal/go.mod"]
