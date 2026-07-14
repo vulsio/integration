@@ -1,0 +1,29 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_paloalto",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_paloalto": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/o:paloaltonetworks:pan-os:7.1.0",
+            "cpe:/o:paloaltonetworks:pan-os:8.1.0",
+            "cpe:/o:paloaltonetworks:pan-os:9.0.0",
+            "cpe:/o:paloaltonetworks:pan-os:9.1.0",
+            "cpe:/o:paloaltonetworks:pan-os:10.1.0",
+            "cpe:/o:paloaltonetworks:pan-os:10.2.0",
+            "cpe:/o:paloaltonetworks:pan-os:11.0.0",
+            "cpe:/a:paloaltonetworks:globalprotect_app:5.1.0",
+            "cpe:/a:paloaltonetworks:cortex_xdr_agent:7.5.0"
+          ]
+        }
+      }
+    }
+  }
+}

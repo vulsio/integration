@@ -1,0 +1,26 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_cisco",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_cisco": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/o:cisco:ios:15.1",
+            "cpe:/o:cisco:ios:15.2",
+            "cpe:/o:cisco:ios_xe:16.3.1",
+            "cpe:/o:cisco:ios_xe:17.3.1",
+            "cpe:/a:cisco:adaptive_security_appliance_software:9.8.1",
+            "cpe:/a:cisco:adaptive_security_appliance_software:9.12.4"
+          ]
+        }
+      }
+    }
+  }
+}

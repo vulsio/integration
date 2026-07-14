@@ -1,0 +1,29 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_fortinet",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_fortinet": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/o:fortinet:fortios:7.0.0",
+            "cpe:/o:fortinet:fortios:6.4.0",
+            "cpe:/o:fortinet:fortios:6.0.0",
+            "cpe:/o:fortinet:fortios:5.6.0",
+            "cpe:/a:fortinet:fortiproxy:7.0.0",
+            "cpe:/a:fortinet:fortiweb:6.3.0",
+            "cpe:/a:fortinet:fortimanager:7.0.0",
+            "cpe:/a:fortinet:fortianalyzer:7.0.0",
+            "cpe:/a:fortinet:forticlient:6.0.0"
+          ]
+        }
+      }
+    }
+  }
+}

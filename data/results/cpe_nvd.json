@@ -1,0 +1,28 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_nvd",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_nvd": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/a:openssl:openssl:1.0.2k",
+            "cpe:/a:openssl:openssl:1.1.1w",
+            "cpe:/a:rubyonrails:rails:3.0.1",
+            "cpe:/a:apache:tomcat:7.0.27",
+            "cpe:/a:apache:http_server:2.4.49",
+            "cpe:/a:php:php:7.0.0",
+            "cpe:/a:apache:struts:2.5.10",
+            "cpe:/a:wordpress:wordpress:5.0"
+          ]
+        }
+      }
+    }
+  }
+}
