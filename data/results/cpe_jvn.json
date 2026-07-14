@@ -1,0 +1,30 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_jvn",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_jvn": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/a:hitachi_abb_power_grids:afs660:1.0.0",
+            "cpe:/o:nec:aterm_wg2600hp2_firmware",
+            "cpe:/a:cybozu:garoon",
+            "cpe:/a:cybozu:office",
+            "cpe:/a:sixapart:movable_type",
+            "cpe:/a:justsystems:ichitaro",
+            "cpe:/a:weseek:growi",
+            "cpe:/a:fujielectric:v-server",
+            "cpe:/a:basercms:basercms",
+            "cpe:/a:ec-cube:ec-cube"
+          ]
+        }
+      }
+    }
+  }
+}

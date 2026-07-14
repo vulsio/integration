@@ -1,0 +1,21 @@
+{
+  "jsonVersion": 4,
+  "serverName": "cpe_kernel",
+  "family": "pseudo",
+  "release": "",
+  "scannedAt": "2026-01-01T00:00:00Z",
+  "scannedCves": {},
+  "packages": {},
+  "config": {
+    "scan": {
+      "servers": {
+        "cpe_kernel": {
+          "type": "pseudo",
+          "cpeNames": [
+            "cpe:/o:linux:linux_kernel:6.1"
+          ]
+        }
+      }
+    }
+  }
+}
