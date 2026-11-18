@@ -53,10 +53,10 @@
     "packages": {
         "Leap-release": {
             "name": "Leap-release",
-            "version": "16.0",
-            "release": "lp160.260.2",
-            "newVersion": "16.0",
-            "newRelease": "lp160.260.2",
+            "version": "16.0+leap",
+            "release": "lp160.264.1",
+            "newVersion": "16.0+leap",
+            "newRelease": "lp160.264.1",
             "arch": "x86_64",
             "repository": "",
             "modularitylabel": ""
@@ -3772,7 +3772,7 @@
     "SrcPackages": {
         "Leap-release": {
             "name": "Leap-release",
-            "version": "16.0-lp160.260.2",
+            "version": "16.0+leap-lp160.264.1",
             "arch": "src",
             "binaryNames": [
                 "Leap-release"
